@@ -1,0 +1,176 @@
+{
+  "country": "Italy",
+  "parties": [
+    {
+      "party_name": "Associative Movement of Italians Abroad",
+      "wikidata_id": "Q1811588",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Brothers of Italy",
+      "wikidata_id": "Q1757843",
+      "ep_ids": [
+        "3823",
+        "3890"
+      ],
+      "ep_matched_label": "Fratelli d'Italia+Fratelli d'Italia - AN",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Democratic Centre",
+      "wikidata_id": "Q1952211",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Democratic Party",
+      "wikidata_id": "Q47729",
+      "ep_ids": [
+        "2592",
+        "2771",
+        "4085",
+        "5270",
+        "6675"
+      ],
+      "ep_matched_label": "PD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Five Star Movement",
+      "wikidata_id": "Q47817",
+      "ep_ids": [
+        "4083",
+        "5268",
+        "6674"
+      ],
+      "ep_matched_label": "M5S",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Forza Italia",
+      "wikidata_id": "Q14924303",
+      "ep_ids": [
+        "638",
+        "1465",
+        "3842",
+        "4077",
+        "5262",
+        "6744"
+      ],
+      "ep_matched_label": "FI+Forza Italia",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Free and Equal",
+      "wikidata_id": "Q44929224",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Italian Democratic Socialists",
+      "wikidata_id": "Q1549174",
+      "ep_ids": [
+        "930",
+        "1452"
+      ],
+      "ep_matched_label": "SDI",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Italy Alive",
+      "wikidata_id": "Q67785862",
+      "ep_ids": [
+        "6093",
+        "6885"
+      ],
+      "ep_matched_label": "Italia Viva",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Italy of Values",
+      "wikidata_id": "Q47768",
+      "ep_ids": [
+        "1051",
+        "1463",
+        "2249",
+        "2485",
+        "2984"
+      ],
+      "ep_matched_label": "IdV",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Lega Nord",
+      "wikidata_id": "Q47750",
+      "ep_ids": [
+        "662",
+        "1461",
+        "2767",
+        "4082",
+        "5267",
+        "5576",
+        "6870"
+      ],
+      "ep_matched_label": "L+LN",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "More Europe",
+      "wikidata_id": "Q47090559",
+      "ep_ids": [
+        "5080",
+        "5513"
+      ],
+      "ep_matched_label": "+Europa ",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "South American Union of Italian Emigrants",
+      "wikidata_id": "Q5485233",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "South Tyrolean People's Party",
+      "wikidata_id": "Q606620",
+      "ep_ids": [
+        "743",
+        "1451",
+        "2779",
+        "4087",
+        "5272",
+        "6676"
+      ],
+      "ep_matched_label": "SVP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Together",
+      "wikidata_id": "Q46624077",
+      "ep_ids": [
+        "6435",
+        "6908"
+      ],
+      "ep_matched_label": "insieme",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Union of the Centre",
+      "wikidata_id": "Q47781",
+      "ep_ids": [
+        "1214",
+        "1449",
+        "2780",
+        "4084",
+        "5269"
+      ],
+      "ep_matched_label": "UDC",
+      "match_method": "exact_alias_via_wikidata_alias"
+    }
+  ]
+}

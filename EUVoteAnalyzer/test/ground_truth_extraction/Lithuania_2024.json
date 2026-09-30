@@ -1,0 +1,76 @@
+{
+  "country": "Lithuania",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2024_Lithuanian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Lithuania data stops at 2020). Sourced from Wikipedia infobox, cross-checked by summing to the 141-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Lithuanian Social Democratic Party",
+      "seats": 52,
+      "in_government": true,
+      "wikidata_id": "Q4362",
+      "abbreviation": "LSDP"
+    },
+    {
+      "party_name": "Homeland Union",
+      "seats": 28,
+      "in_government": false,
+      "wikidata_id": "Q81556",
+      "abbreviation": "TS–LKD"
+    },
+    {
+      "party_name": "Dawn of Nemunas",
+      "seats": 20,
+      "in_government": true,
+      "wikidata_id": "Q124472979",
+      "abbreviation": "PPNA"
+    },
+    {
+      "party_name": "Union of Democrats \"For Lithuania\"",
+      "seats": 14,
+      "in_government": true,
+      "wikidata_id": "Q110966457",
+      "abbreviation": "DSVL"
+    },
+    {
+      "party_name": "Liberal Movement",
+      "seats": 12,
+      "in_government": false,
+      "wikidata_id": "Q1466907",
+      "abbreviation": "LS"
+    },
+    {
+      "party_name": "Lithuanian Farmers and Greens Union",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q285817",
+      "abbreviation": "LVŽS"
+    },
+    {
+      "party_name": "Electoral Action of Poles in Lithuania",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q1357218",
+      "abbreviation": "LLRA-KŠS"
+    },
+    {
+      "party_name": "National Alliance",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q97216079",
+      "abbreviation": "NS"
+    },
+    {
+      "party_name": "Center-Right Union",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q17457805",
+      "abbreviation": "PLT"
+    }
+  ],
+  "note": "Paluckas government = LSDP + DSVL + Dawn of Nemunas (PPNA), announced 11 November 2024; PPNA's inclusion was controversial due to its founder's past antisemitic remarks. wikidata_id for 'PLT' (Artūras Zuokas's list, 1 seat) not searched/confirmed (needs_review)."
+}

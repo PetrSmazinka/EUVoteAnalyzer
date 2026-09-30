@@ -1,0 +1,208 @@
+{
+  "country": "Denmark",
+  "parties": [
+    {
+      "party_name": "Citizens' Party",
+      "wikidata_id": "Q131933143",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Conservative People's Party",
+      "wikidata_id": "Q902619",
+      "ep_ids": [
+        "594",
+        "1381",
+        "2696",
+        "4016",
+        "5203",
+        "6779"
+      ],
+      "ep_matched_label": "C",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Danish People's Party",
+      "wikidata_id": "Q507170",
+      "ep_ids": [
+        "955",
+        "1377",
+        "2700",
+        "4019",
+        "5206",
+        "6662"
+      ],
+      "ep_matched_label": "O",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Danish Social Liberal Party",
+      "wikidata_id": "Q916161",
+      "ep_ids": [
+        "589",
+        "926",
+        "1382",
+        "4015",
+        "5202",
+        "6778"
+      ],
+      "ep_matched_label": "B+R.V.",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Denmark Democrats - Inger Støjberg",
+      "wikidata_id": "Q112677506",
+      "ep_ids": [
+        "6512",
+        "6637"
+      ],
+      "ep_matched_label": "Æ",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Green Left",
+      "wikidata_id": "Q615603",
+      "ep_ids": [
+        "916"
+      ],
+      "ep_matched_label": "SF",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Inuit Ataqatigiit",
+      "wikidata_id": "Q1128374",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Javnaðarflokkurin",
+      "wikidata_id": "Q856027",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Liberal Alliance",
+      "wikidata_id": "Q478180",
+      "ep_ids": [
+        "6516",
+        "6852"
+      ],
+      "ep_matched_label": "I",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Moderate Party",
+      "wikidata_id": "Q107110050",
+      "ep_ids": [
+        "6460",
+        "6948"
+      ],
+      "ep_matched_label": "M",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Naleraq",
+      "wikidata_id": "Q16856492",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Nye Borgerlige",
+      "wikidata_id": "Q23014672",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Red-Green Alliance",
+      "wikidata_id": "Q25785",
+      "ep_ids": [
+        "5525",
+        "6863"
+      ],
+      "ep_matched_label": "Enhedslisten",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Sambandsflokkurin",
+      "wikidata_id": "Q932400",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Siumut",
+      "wikidata_id": "Q571175",
+      "ep_ids": [
+        "747"
+      ],
+      "ep_matched_label": "Siumut",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democrats",
+      "wikidata_id": "Q212101",
+      "ep_ids": [
+        "917"
+      ],
+      "ep_matched_label": "S",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Liberals",
+      "wikidata_id": "Q916161",
+      "ep_ids": [
+        "589",
+        "926",
+        "1382",
+        "4015",
+        "5202",
+        "6778"
+      ],
+      "ep_matched_label": "B+R.V.",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Socialist People's Party",
+      "wikidata_id": "Q615603",
+      "ep_ids": [
+        "916"
+      ],
+      "ep_matched_label": "SF",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "The Alternative",
+      "wikidata_id": "Q18042964",
+      "ep_ids": [
+        "573",
+        "1384",
+        "2694",
+        "4014",
+        "5201",
+        "6777"
+      ],
+      "ep_matched_label": "A",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Venstre",
+      "wikidata_id": "Q217321",
+      "ep_ids": [
+        "783",
+        "922",
+        "1376",
+        "2701",
+        "4020",
+        "5207",
+        "6663"
+      ],
+      "ep_matched_label": "V+Venstre",
+      "match_method": "manual_alliance_merge"
+    }
+  ]
+}

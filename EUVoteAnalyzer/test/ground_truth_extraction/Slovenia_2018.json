@@ -1,0 +1,90 @@
+{
+  "country": "Slovenia",
+  "election_year": 2018,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Slovenian_parliamentary_election,_2018",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/svn/2018-06-03/ and https://parlgov.fly.dev/data/cabinets/svn/2018-08-17/ (Šarec cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Slovenian Democratic Party",
+      "seats": 25,
+      "in_government": false,
+      "wikidata_id": "Q526294",
+      "abbreviation": "SDS"
+    },
+    {
+      "party_name": "List of Marjan Šarec",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q53678274",
+      "abbreviation": "LMŠ"
+    },
+    {
+      "party_name": "Social Democrats",
+      "seats": 10,
+      "in_government": true,
+      "wikidata_id": "Q917211",
+      "abbreviation": "SD"
+    },
+    {
+      "party_name": "Modern Centre Party",
+      "seats": 10,
+      "in_government": true,
+      "wikidata_id": "Q17118212",
+      "abbreviation": "SMC"
+    },
+    {
+      "party_name": "The Left",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q25553804",
+      "abbreviation": "Levica"
+    },
+    {
+      "party_name": "New Slovenia",
+      "seats": 7,
+      "in_government": false,
+      "wikidata_id": "Q1258564",
+      "abbreviation": "NSi"
+    },
+    {
+      "party_name": "Alliance of Alenka Bratušek",
+      "seats": 5,
+      "in_government": true,
+      "wikidata_id": "Q17061458",
+      "abbreviation": "ZaAB"
+    },
+    {
+      "party_name": "Democratic Party of Pensioners of Slovenia",
+      "seats": 5,
+      "in_government": true,
+      "wikidata_id": "Q1113577",
+      "abbreviation": "DeSUS"
+    },
+    {
+      "party_name": "Slovenian National Party",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q1049922",
+      "abbreviation": "SNS"
+    },
+    {
+      "party_name": "Italian national community",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": null,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Hungarian national community",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": null,
+      "abbreviation": null
+    }
+  ],
+  "note": "Šarec cabinet (confirmed via ParlGov cabinet-parties) = LMŠ + SD + SMC + ZaAB + DeSUS. The Left (Levica) supported the government via a cooperation agreement but held no cabinet seats, so in_government=false. wikidata_id for 'The Left' (Q25553804) is labelled as a North Macedonian party in the search snippet but its description on wikidata.org lists Slovenia's Levica among its scope - needs_review to confirm this is the correct item and not a mislabeled multi-country disambiguation."
+}

@@ -1,0 +1,48 @@
+{
+  "country": "Estonia",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2019_Estonian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/est/2019-03-03/ and https://parlgov.fly.dev/data/cabinets/est/2019-04-29/ (Ratas II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Estonian Reform Party",
+      "seats": 34,
+      "in_government": false,
+      "wikidata_id": "Q738947",
+      "abbreviation": "Reform"
+    },
+    {
+      "party_name": "Estonian Centre Party",
+      "seats": 26,
+      "in_government": true,
+      "wikidata_id": "Q928652",
+      "abbreviation": "Centre"
+    },
+    {
+      "party_name": "Conservative People's Party of Estonia",
+      "seats": 19,
+      "in_government": true,
+      "wikidata_id": "Q794028",
+      "abbreviation": "EKRE"
+    },
+    {
+      "party_name": "Pro Patria",
+      "seats": 12,
+      "in_government": true,
+      "wikidata_id": "Q163347",
+      "abbreviation": "Isamaa"
+    },
+    {
+      "party_name": "Social Democratic Party",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q913551",
+      "abbreviation": "SDE"
+    }
+  ],
+  "note": "Reform Party won the most seats but went into opposition; the Ratas II government (Centre + EKRE + Isamaa) formed instead. Two subsequent reshuffles (Kallas I in 2021, Kallas II in 2022) occurred during this same parliamentary term but are not the government formed 'immediately after' this election."
+}

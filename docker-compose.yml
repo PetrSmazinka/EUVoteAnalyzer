@@ -1,0 +1,73 @@
+services:
+  mariadb_test:
+    image: mariadb:latest
+    container_name: mariadb_test
+    restart: always
+    command: 
+      - --innodb_buffer_pool_size=4G 
+      - --innodb_log_file_size=512M
+      - --innodb_flush_log_at_trx_commit=2
+    environment:
+      MYSQL_ROOT_PASSWORD: zastupko
+      MYSQL_DATABASE: ep
+      MYSQL_USER: zastupko
+      MYSQL_PASSWORD: zastupko
+    ports:
+      - "3331:3306"
+    volumes:
+      - mariadb_test_data:/var/lib/mysql
+    networks:
+      - zastupko_network      
+  mariadb_eu:
+    image: mariadb:latest
+    container_name: mariadb_eu
+    restart: always
+    mem_limit: 6g
+    command:
+      - --innodb_buffer_pool_size=4G
+      - --innodb_buffer_pool_instances=4
+      - --innodb_log_file_size=1G
+      - --innodb_flush_log_at_trx_commit=2
+      - --innodb_read_io_threads=8
+      - --innodb_write_io_threads=8
+      - --innodb_stats_on_metadata=0
+      - --max_heap_table_size=1G
+      - --tmp_table_size=1G
+    environment:
+      MYSQL_ROOT_PASSWORD: zastupko
+      MYSQL_DATABASE: ep
+      MYSQL_USER: zastupko
+      MYSQL_PASSWORD: zastupko
+    ports:
+      - "3330:3306"
+    volumes:
+      - mariadb_eu_data:/var/lib/mysql
+    networks:
+      - zastupko_network      
+  phpmyadmin_eu:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin_eu
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOSTS: mariadb_eu, mariadb_test
+    networks:
+      - zastupko_network
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: eu_vote_web
+    restart: always
+    ports:
+      - "8082:80"
+    volumes:
+      - ./web:/var/www/html
+    networks:
+      - zastupko_network
+volumes:
+  mariadb_test_data:
+  mariadb_eu_data:
+networks:
+  zastupko_network:

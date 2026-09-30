@@ -1,0 +1,183 @@
+{
+  "country": "Belgium",
+  "parties": [
+    {
+      "party_name": "Christian Democratic and Flemish",
+      "wikidata_id": "Q750673",
+      "ep_ids": [
+        "1062",
+        "2972",
+        "3987",
+        "5174",
+        "6755"
+      ],
+      "ep_matched_label": "CD&V",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "DéFI",
+      "wikidata_id": "Q1470087",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "ambiguous",
+      "ambiguous_candidates": [
+        "PRL/FDF",
+        "FDF-RW"
+      ]
+    },
+    {
+      "party_name": "Ecolo",
+      "wikidata_id": "Q655611",
+      "ep_ids": [
+        "826",
+        "920",
+        "1328",
+        "2667",
+        "3989",
+        "5176",
+        "6757"
+      ],
+      "ep_matched_label": "ECOLO",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Groen",
+      "wikidata_id": "Q513521",
+      "ep_ids": [
+        "1221",
+        "1327",
+        "2668",
+        "3982",
+        "5169",
+        "6750"
+      ],
+      "ep_matched_label": "GROEN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Humanist Democratic Centre",
+      "wikidata_id": "Q113903993",
+      "ep_ids": [
+        "1220",
+        "1330",
+        "2675",
+        "3991",
+        "5178",
+        "6759"
+      ],
+      "ep_matched_label": "CDH",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Les Engagés",
+      "wikidata_id": "Q840814",
+      "ep_ids": [
+        "6414",
+        "6903"
+      ],
+      "ep_matched_label": "LesEng",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "New Flemish Alliance",
+      "wikidata_id": "Q28982",
+      "ep_ids": [
+        "2974",
+        "3986",
+        "5173",
+        "6754"
+      ],
+      "ep_matched_label": "N-VA",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Open VLD",
+      "wikidata_id": "Q1160192",
+      "ep_ids": [
+        "2605",
+        "2670",
+        "3984",
+        "5171",
+        "6752"
+      ],
+      "ep_matched_label": "Open VLD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Open Vld",
+      "wikidata_id": "Q1160192",
+      "ep_ids": [
+        "2605",
+        "2670",
+        "3984",
+        "5171",
+        "6752"
+      ],
+      "ep_matched_label": "Open VLD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Reformist Movement",
+      "wikidata_id": "Q533384",
+      "ep_ids": [
+        "1520",
+        "2669",
+        "3988",
+        "5175",
+        "6756"
+      ],
+      "ep_matched_label": "MR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Socialist Party",
+      "wikidata_id": "Q645787",
+      "ep_ids": [
+        "883",
+        "1323",
+        "2671",
+        "3990",
+        "5177",
+        "6758"
+      ],
+      "ep_matched_label": "PS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Vlaams Belang",
+      "wikidata_id": "Q682990",
+      "ep_ids": [
+        "1563",
+        "2674",
+        "3983",
+        "5170",
+        "6751"
+      ],
+      "ep_matched_label": "Vlaams Belang",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Vooruit",
+      "wikidata_id": "Q939354",
+      "ep_ids": [
+        "2973",
+        "3985",
+        "5172",
+        "6454",
+        "6753",
+        "6912"
+      ],
+      "ep_matched_label": "SP.A+Vooruit",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Workers' Party of Belgium",
+      "wikidata_id": "Q925616",
+      "ep_ids": [
+        "5518"
+      ],
+      "ep_matched_label": "PTB",
+      "match_method": "token_containment"
+    }
+  ]
+}

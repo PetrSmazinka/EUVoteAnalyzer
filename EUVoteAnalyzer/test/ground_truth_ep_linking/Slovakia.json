@@ -1,0 +1,115 @@
+{
+  "country": "Slovakia",
+  "parties": [
+    {
+      "party_name": "Christian Democratic Movement",
+      "wikidata_id": "Q904070",
+      "ep_ids": [
+        "1188",
+        "1406",
+        "2851",
+        "4158",
+        "5343",
+        "6722"
+      ],
+      "ep_matched_label": "KDH",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Direction – Social Democracy",
+      "wikidata_id": "Q821929",
+      "ep_ids": [
+        "2247",
+        "2854",
+        "4159",
+        "5344",
+        "6723"
+      ],
+      "ep_matched_label": "SMER-SD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "For the People",
+      "wikidata_id": "Q64729826",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Freedom and Solidarity",
+      "wikidata_id": "Q220847",
+      "ep_ids": [
+        "4244",
+        "5384",
+        "6809"
+      ],
+      "ep_matched_label": "SaS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Ordinary People and Independent Personalities",
+      "wikidata_id": "Q372043",
+      "ep_ids": [
+        "5556",
+        "6782"
+      ],
+      "ep_matched_label": "OĽaNO",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "OĽaNO and Friends",
+      "wikidata_id": "Q372043",
+      "ep_ids": [
+        "5556",
+        "6782"
+      ],
+      "ep_matched_label": "OĽaNO",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "People's Party Our Slovakia",
+      "wikidata_id": "Q2532168",
+      "ep_ids": [
+        "5718",
+        "6789"
+      ],
+      "ep_matched_label": "L'SNS",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Progressive Slovakia",
+      "wikidata_id": "Q48844389",
+      "ep_ids": [
+        "5587",
+        "6874"
+      ],
+      "ep_matched_label": "PS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Slovak National Party",
+      "wikidata_id": "Q221480",
+      "ep_ids": [
+        "2853"
+      ],
+      "ep_matched_label": "SNS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Voice – Social Democracy",
+      "wikidata_id": "Q96754424",
+      "ep_ids": [
+        "7010"
+      ],
+      "ep_matched_label": "Hlas–SD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "We Are Family",
+      "wikidata_id": "Q23025082",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

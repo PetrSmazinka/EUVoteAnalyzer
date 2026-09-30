@@ -1,0 +1,62 @@
+{
+  "country": "Latvia",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Latvian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/lva/2022-10-01/ and https://parlgov.fly.dev/data/cabinets/lva/2022-12-14/ (Kariņš II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "New Unity",
+      "seats": 26,
+      "in_government": true,
+      "wikidata_id": "Q98104169",
+      "abbreviation": "JV"
+    },
+    {
+      "party_name": "Union of Greens and Farmers",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q167928",
+      "abbreviation": "ZZS"
+    },
+    {
+      "party_name": "United List",
+      "seats": 15,
+      "in_government": true,
+      "wikidata_id": "Q113163582",
+      "abbreviation": "AS"
+    },
+    {
+      "party_name": "National Alliance",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q1576026",
+      "abbreviation": "NA"
+    },
+    {
+      "party_name": "For Stability!",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q112227296",
+      "abbreviation": "ST!"
+    },
+    {
+      "party_name": "The Progressives",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q28966907",
+      "abbreviation": "PRO"
+    },
+    {
+      "party_name": "Latvia First",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q108096403",
+      "abbreviation": "LPV"
+    }
+  ],
+  "note": "Kariņš II government (confirmed via ParlGov cabinet-parties) = New Unity + National Alliance + United List (an alliance of the Latvian Green Party, Latvian Association of Regions and Liepāja Party)."
+}

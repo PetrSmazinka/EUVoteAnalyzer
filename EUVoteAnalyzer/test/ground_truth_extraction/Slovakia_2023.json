@@ -1,0 +1,62 @@
+{
+  "country": "Slovakia",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Slovak_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Slovakia data stops at 2020). Sourced from Wikipedia infobox, cross-checked against the House of Commons Library research briefing on the 2023 election and government formation.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Direction – Social Democracy",
+      "seats": 42,
+      "in_government": true,
+      "wikidata_id": "Q821929",
+      "abbreviation": "Smer-SD"
+    },
+    {
+      "party_name": "Progressive Slovakia",
+      "seats": 32,
+      "in_government": false,
+      "wikidata_id": "Q48844389",
+      "abbreviation": "PS"
+    },
+    {
+      "party_name": "Voice – Social Democracy",
+      "seats": 27,
+      "in_government": true,
+      "wikidata_id": "Q96754424",
+      "abbreviation": "Hlas-SD"
+    },
+    {
+      "party_name": "OĽaNO and Friends",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q372043",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Christian Democratic Movement",
+      "seats": 12,
+      "in_government": false,
+      "wikidata_id": "Q904070",
+      "abbreviation": "KDH"
+    },
+    {
+      "party_name": "Freedom and Solidarity",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q220847",
+      "abbreviation": "SaS"
+    },
+    {
+      "party_name": "Slovak National Party",
+      "seats": 10,
+      "in_government": true,
+      "wikidata_id": "Q221480",
+      "abbreviation": "SNS"
+    }
+  ],
+  "note": "Fico IV government = Smer-SD + Hlas-SD + SNS, sworn in 25 October 2023. 'OĽaNO and Friends' is the 2023 electoral-list name for the same OĽaNO party (wikidata Q372043) used in the 2020 file."
+}

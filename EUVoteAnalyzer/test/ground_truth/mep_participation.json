@@ -1,0 +1,18 @@
+[
+  {"ck_clen":  1, "jmeno": "Alice",  "prijmeni": "Müller",   "obcanstvi": "DEU", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  2, "jmeno": "Boris",  "prijmeni": "Müller",   "obcanstvi": "DEU", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  3, "jmeno": "Clara",  "prijmeni": "Schmidt",  "obcanstvi": "DEU", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  4, "jmeno": "David",  "prijmeni": "Schmidt",  "obcanstvi": "DEU", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  5, "jmeno": "Emma",   "prijmeni": "Dupont",   "obcanstvi": "FRA", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  6, "jmeno": "Felix",  "prijmeni": "Dupont",   "obcanstvi": "FRA", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  7, "jmeno": "Gina",   "prijmeni": "Martin",   "obcanstvi": "FRA", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  8, "jmeno": "Hugo",   "prijmeni": "Martin",   "obcanstvi": "FRA", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen":  9, "jmeno": "Irena",  "prijmeni": "Nowak",    "obcanstvi": "POL", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 10, "jmeno": "Jan",    "prijmeni": "Nowak",    "obcanstvi": "POL", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 11, "jmeno": "Katja",  "prijmeni": "Kowalski", "obcanstvi": "POL", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 12, "jmeno": "Lukas",  "prijmeni": "Kowalski", "obcanstvi": "POL", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 13, "jmeno": "Marie",  "prijmeni": "Novak",    "obcanstvi": "CZE", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 14, "jmeno": "Nikola", "prijmeni": "Novak",    "obcanstvi": "CZE", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 15, "jmeno": "Ondrej", "prijmeni": "Horak",    "obcanstvi": "CZE", "pritomen": 1, "celkem": 1, "participace": 1.0},
+  {"ck_clen": 16, "jmeno": "Petra",  "prijmeni": "Horak",    "obcanstvi": "CZE", "pritomen": 1, "celkem": 1, "participace": 1.0}
+]

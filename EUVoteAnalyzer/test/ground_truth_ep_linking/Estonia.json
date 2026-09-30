@@ -1,0 +1,75 @@
+{
+  "country": "Estonia",
+  "parties": [
+    {
+      "party_name": "Conservative People's Party of Estonia",
+      "wikidata_id": "Q794028",
+      "ep_ids": [
+        "5519",
+        "6877"
+      ],
+      "ep_matched_label": "EKRE",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Estonia 200",
+      "wikidata_id": "Q56249403",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Estonian Centre Party",
+      "wikidata_id": "Q928652",
+      "ep_ids": [
+        "1140",
+        "1366",
+        "2704",
+        "4211",
+        "5353",
+        "6792"
+      ],
+      "ep_matched_label": "K+KE",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Estonian Reform Party",
+      "wikidata_id": "Q738947",
+      "ep_ids": [
+        "1137",
+        "1369",
+        "2702",
+        "4021",
+        "5208",
+        "6664"
+      ],
+      "ep_matched_label": "ER",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Pro Patria",
+      "wikidata_id": "Q163347",
+      "ep_ids": [
+        "5058",
+        "5495",
+        "6849"
+      ],
+      "ep_matched_label": "PP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democratic Party",
+      "wikidata_id": "Q913551",
+      "ep_ids": [
+        "1299",
+        "1364",
+        "2705",
+        "4023",
+        "5210",
+        "6665"
+      ],
+      "ep_matched_label": "SDE",
+      "match_method": "exact_alias"
+    }
+  ]
+}

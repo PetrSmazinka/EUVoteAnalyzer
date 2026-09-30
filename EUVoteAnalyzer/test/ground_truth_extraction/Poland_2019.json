@@ -1,0 +1,83 @@
+{
+  "country": "Poland",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2019_Polish_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/pol/2019-10-13/ and https://parlgov.fly.dev/data/cabinets/pol/2019-11-15/ (Morawiecki II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API; verified 2026-09-14 with direct item fetches, notably distinguishing alliance items from party items)"
+  },
+  "parties": [
+    {
+      "party_name": "Law and Justice",
+      "seats": 235,
+      "in_government": true,
+      "wikidata_id": "Q156874",
+      "abbreviation": "PiS"
+    },
+    {
+      "party_name": "Civic Coalition",
+      "seats": 134,
+      "in_government": false,
+      "wikidata_id": "Q1021144",
+      "abbreviation": "PO"
+    },
+    {
+      "party_name": "Democratic Left Alliance",
+      "seats": 24,
+      "in_government": false,
+      "wikidata_id": "Q953174",
+      "abbreviation": "SLD"
+    },
+    {
+      "party_name": "Spring",
+      "seats": 19,
+      "in_government": false,
+      "wikidata_id": "Q61452057",
+      "abbreviation": "Wiosna"
+    },
+    {
+      "party_name": "Polish People's Party",
+      "seats": 20,
+      "in_government": false,
+      "wikidata_id": "Q218477",
+      "abbreviation": "PSL"
+    },
+    {
+      "party_name": "Kukiz'15",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q20740347",
+      "abbreviation": "K'15"
+    },
+    {
+      "party_name": "Left Together",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q21006495",
+      "abbreviation": "Razem"
+    },
+    {
+      "party_name": "Confederation",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q61568052",
+      "abbreviation": "KORWIN"
+    },
+    {
+      "party_name": "National Movement",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q16597751",
+      "abbreviation": "RN"
+    },
+    {
+      "party_name": "German Minority Electoral Committee",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q491791",
+      "abbreviation": "MN"
+    }
+  ],
+  "note": "Morawiecki II government (confirmed via ParlGov cabinet-parties) = PiS alone. PiS's 235 seats and PO's 134 seats are reported as single blocs per ParlGov (which does not break out the small allied micro-parties Solidarna Polska/Porozumienie within PiS's list, or the Greens/Nowoczesna within PO's list) - this matches near-universal reporting convention for these two blocs. SLD (24), Wiosna (19) and Lewica Razem (6) are ParlGov's individual-seat breakdown of the 'Lewica' alliance (49 seats combined) - re-verified directly against the raw ParlGov election page (parlgov.fly.dev), which lists WIO=19 and LR=6 as sub-rows of the SLD coalition row, confirming these are correct and not swapped with an earlier Wikipedia-derived guess of SLD=23/Wiosna=15. PSL (20) and Kukiz'15 (6) are the breakdown of the 'Polish Coalition' (26 seats combined, plus 3 independents/1 other not separately itemized here); KORWIN (5) and National Movement (5) are the breakdown of 'Confederation' (11 seats combined, plus 1 one-seat entry not separately itemized). Party row 'Civic Coalition (PO)' was corrected on 2026-09-14 to use the Wikidata item for the KO electoral alliance (Q1021144, 'Civic Coalition', description 'liberal electoral alliance in Poland') instead of the previously-used Civic Platform party item (Q156868, description 'political party in Poland') - correct because this row's 134 seats represent the whole alliance, not just PO's own MPs."
+}

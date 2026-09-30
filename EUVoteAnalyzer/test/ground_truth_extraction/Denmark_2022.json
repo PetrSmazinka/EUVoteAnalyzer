@@ -1,0 +1,125 @@
+{
+  "country": "Denmark",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Danish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/dnk/2022-11-01/ and https://parlgov.fly.dev/data/cabinets/dnk/2022-12-15/ (Frederiksen II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democrats",
+      "seats": 50,
+      "in_government": true,
+      "wikidata_id": "Q212101",
+      "abbreviation": "S"
+    },
+    {
+      "party_name": "Venstre",
+      "seats": 23,
+      "in_government": true,
+      "wikidata_id": "Q217321",
+      "abbreviation": "V"
+    },
+    {
+      "party_name": "Moderate Party",
+      "seats": 16,
+      "in_government": true,
+      "wikidata_id": "Q107110050",
+      "abbreviation": "M"
+    },
+    {
+      "party_name": "Socialist People's Party",
+      "seats": 15,
+      "in_government": false,
+      "wikidata_id": "Q615603",
+      "abbreviation": "SF"
+    },
+    {
+      "party_name": "Denmark Democrats - Inger Støjberg",
+      "seats": 14,
+      "in_government": false,
+      "wikidata_id": "Q112677506",
+      "abbreviation": "AE"
+    },
+    {
+      "party_name": "Liberal Alliance",
+      "seats": 14,
+      "in_government": false,
+      "wikidata_id": "Q478180",
+      "abbreviation": "I"
+    },
+    {
+      "party_name": "Conservative People's Party",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q902619",
+      "abbreviation": "C"
+    },
+    {
+      "party_name": "Red-Green Alliance",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q25785",
+      "abbreviation": "Ø"
+    },
+    {
+      "party_name": "Danish Social Liberal Party",
+      "seats": 7,
+      "in_government": false,
+      "wikidata_id": "Q916161",
+      "abbreviation": "RV"
+    },
+    {
+      "party_name": "Nye Borgerlige",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q23014672",
+      "abbreviation": "NB"
+    },
+    {
+      "party_name": "The Alternative",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q18042964",
+      "abbreviation": "Å"
+    },
+    {
+      "party_name": "Danish People's Party",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q507170",
+      "abbreviation": "DF"
+    },
+    {
+      "party_name": "Inuit Ataqatigiit",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1128374",
+      "abbreviation": "IA"
+    },
+    {
+      "party_name": "Siumut",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q571175",
+      "abbreviation": "SIU"
+    },
+    {
+      "party_name": "Sambandsflokkurin",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q932400",
+      "abbreviation": "SP"
+    },
+    {
+      "party_name": "Javnaðarflokkurin",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q856027",
+      "abbreviation": "JF"
+    }
+  ],
+  "note": "Total 179 seats includes 2 Greenland + 2 Faroe Islands representatives. Government (Frederiksen II / 'SVM government') confirmed via ParlGov cabinet-parties data as Social Democrats + Venstre + Moderates only."
+}

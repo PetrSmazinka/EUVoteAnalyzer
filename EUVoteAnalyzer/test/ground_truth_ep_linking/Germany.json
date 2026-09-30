@@ -1,0 +1,101 @@
+{
+  "country": "Germany",
+  "parties": [
+    {
+      "party_name": "Alliance 90/The Greens",
+      "wikidata_id": "Q49766",
+      "ep_ids": [
+        "848",
+        "1373",
+        "2656",
+        "4010",
+        "5197",
+        "6773"
+      ],
+      "ep_matched_label": "GRÜNE.",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Alternative for Germany",
+      "wikidata_id": "Q6721203",
+      "ep_ids": [
+        "4228",
+        "5369",
+        "6802"
+      ],
+      "ep_matched_label": "AfD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Christian Democratic Union",
+      "wikidata_id": "Q49762",
+      "ep_ids": [
+        "605",
+        "622",
+        "1374",
+        "1375",
+        "2652",
+        "2661",
+        "4008",
+        "4013",
+        "5195",
+        "5200",
+        "6771",
+        "6776"
+      ],
+      "ep_matched_label": "CDU+CSU",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Free Democratic Party",
+      "wikidata_id": "Q13124",
+      "ep_ids": [
+        "925",
+        "1518",
+        "2663",
+        "4011",
+        "5198",
+        "6774"
+      ],
+      "ep_matched_label": "FDP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democratic Party of Germany",
+      "wikidata_id": "Q49768",
+      "ep_ids": [
+        "741",
+        "1371",
+        "2664",
+        "4009",
+        "5196",
+        "6772"
+      ],
+      "ep_matched_label": "SPD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "South Schleswig Voters' Association",
+      "wikidata_id": "Q161545",
+      "ep_ids": [
+        "6510",
+        "6636"
+      ],
+      "ep_matched_label": "SSW",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "The Left",
+      "wikidata_id": "Q49764",
+      "ep_ids": [
+        "2504",
+        "2662",
+        "4012",
+        "5199",
+        "6775"
+      ],
+      "ep_matched_label": "DIE LINKE.",
+      "match_method": "exact_alias"
+    }
+  ]
+}

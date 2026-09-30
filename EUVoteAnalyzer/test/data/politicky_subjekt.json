@@ -1,0 +1,14 @@
+[
+  {"id": 1,  "zkratka": "EPP",  "barva": "#003399", "typ": "POLITICAL_GROUP"},
+  {"id": 2,  "zkratka": "S&D",  "barva": "#FF0000", "typ": "POLITICAL_GROUP"},
+  {"id": 3,  "zkratka": "RE",   "barva": "#FFD700", "typ": "POLITICAL_GROUP"},
+  {"id": 4,  "zkratka": "GR",   "barva": "#009900", "typ": "POLITICAL_GROUP"},
+  {"id": 5,  "zkratka": "NDU",  "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 6,  "zkratka": "SDP",  "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 7,  "zkratka": "EMA",  "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 8,  "zkratka": "PSF",  "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 9,  "zkratka": "PO",   "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 10, "zkratka": "PSL",  "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 11, "zkratka": "ODS",  "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"},
+  {"id": 12, "zkratka": "CSSD", "barva": null,      "typ": "NATIONAL_POLITICAL_GROUP"}
+]

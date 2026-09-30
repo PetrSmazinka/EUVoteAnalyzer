@@ -1,0 +1,11 @@
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
+
+<Files "api.php">
+    Require all granted
+</Files>
+
+<Files "data.php">
+    Require all granted
+</Files>

@@ -1,0 +1,95 @@
+{
+  "country": "Czechia",
+  "parties": [
+    {
+      "party_name": "ANO 2011",
+      "wikidata_id": "Q10728124",
+      "ep_ids": [
+        "4213",
+        "5355",
+        "6794"
+      ],
+      "ep_matched_label": "ANO 2011",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Christian and Democratic Union – Czechoslovak People's Party",
+      "wikidata_id": "Q1142687",
+      "ep_ids": [
+        "1166",
+        "1338",
+        "2687",
+        "4007",
+        "5194",
+        "6770"
+      ],
+      "ep_matched_label": "KDU-ČSL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Civic Democratic Party",
+      "wikidata_id": "Q828099",
+      "ep_ids": [
+        "1167",
+        "1336",
+        "2691",
+        "4004",
+        "5191",
+        "6768"
+      ],
+      "ep_matched_label": "ODS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Czech Pirate Party",
+      "wikidata_id": "Q341085",
+      "ep_ids": [
+        "5524",
+        "6862"
+      ],
+      "ep_matched_label": "PIR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Freedom and Direct Democracy",
+      "wikidata_id": "Q20058756",
+      "ep_ids": [
+        "5526",
+        "6864"
+      ],
+      "ep_matched_label": "SPD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Mayors and Independents",
+      "wikidata_id": "Q1586610",
+      "ep_ids": [
+        "4930",
+        "5458",
+        "6835"
+      ],
+      "ep_matched_label": "STAN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Motorists for Themselves",
+      "wikidata_id": "Q29789623",
+      "ep_ids": [
+        "7034"
+      ],
+      "ep_matched_label": "AUTO",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "TOP 09",
+      "wikidata_id": "Q651129",
+      "ep_ids": [
+        "4212",
+        "5354",
+        "6793"
+      ],
+      "ep_matched_label": "TOP09/STAN",
+      "match_method": "exact_alias"
+    }
+  ]
+}

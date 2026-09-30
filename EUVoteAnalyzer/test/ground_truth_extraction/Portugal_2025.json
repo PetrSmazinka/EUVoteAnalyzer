@@ -1,0 +1,76 @@
+{
+  "country": "Portugal",
+  "election_year": 2025,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2025_Portuguese_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Portugal data stops at Jan 2022). Sourced from Wikipedia infobox, cross-checked by summing to the 230-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Democratic Alliance",
+      "seats": 91,
+      "in_government": true,
+      "wikidata_id": "Q124334159",
+      "abbreviation": "AD"
+    },
+    {
+      "party_name": "Chega",
+      "seats": 60,
+      "in_government": false,
+      "wikidata_id": "Q63645885",
+      "abbreviation": "CH"
+    },
+    {
+      "party_name": "Socialist Party",
+      "seats": 58,
+      "in_government": false,
+      "wikidata_id": "Q847263",
+      "abbreviation": "PS"
+    },
+    {
+      "party_name": "Liberal Initiative",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q46122950",
+      "abbreviation": "IL"
+    },
+    {
+      "party_name": "LIVRE",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q16947563",
+      "abbreviation": "L"
+    },
+    {
+      "party_name": "Unitary Democratic Coalition",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q572998",
+      "abbreviation": "CDU"
+    },
+    {
+      "party_name": "Left Bloc",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q884840",
+      "abbreviation": "BE"
+    },
+    {
+      "party_name": "People Animals Nature",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q2054840",
+      "abbreviation": "PAN"
+    },
+    {
+      "party_name": "Juntos Pelo Povo, Azores",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q19694667",
+      "abbreviation": "JPP"
+    }
+  ],
+  "note": "This was a snap election triggered by the collapse of the 2024 AD government over a March 2025 confidence vote linked to a conflict-of-interest controversy involving the PM's family business. AD again fell short of a majority (91/230, 116 needed); Montenegro formed another AD-only minority government. wikidata_id for the AD coalition (Q124334159, originally documented as the '2024' Democratic Alliance) is reused here on the assumption it is the same continuing coalition entity for the 2025 election - needs_review to confirm wikidata treats it as a single continuing item across both elections rather than creating a separate 2025 item."
+}

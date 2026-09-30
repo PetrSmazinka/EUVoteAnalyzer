@@ -1,0 +1,62 @@
+{
+  "country": "Luxembourg",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Luxembourg_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Luxembourg data stops at 2018). Sourced from Wikipedia infobox, cross-checked against the official election results site (elections.public.lu).",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Christian Social People's Party",
+      "seats": 21,
+      "in_government": true,
+      "wikidata_id": "Q1344670",
+      "abbreviation": "CSV"
+    },
+    {
+      "party_name": "Democratic Party",
+      "seats": 14,
+      "in_government": true,
+      "wikidata_id": "Q1029792",
+      "abbreviation": "DP"
+    },
+    {
+      "party_name": "Luxembourg Socialist Workers' Party",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q1070311",
+      "abbreviation": "LSAP"
+    },
+    {
+      "party_name": "Alternative Democratic Reform Party",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q339280",
+      "abbreviation": "ADR"
+    },
+    {
+      "party_name": "The Greens",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q767761",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Pirate Party Luxembourg",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q3079953",
+      "abbreviation": "PPL"
+    },
+    {
+      "party_name": "The Left",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q1270494",
+      "abbreviation": "déi Lénk"
+    }
+  ],
+  "note": "CSV and DP formed the governing coalition (Frieden-Bettel government), sworn in 17 November 2023, ending LSAP's continuous participation in government since 2013."
+}

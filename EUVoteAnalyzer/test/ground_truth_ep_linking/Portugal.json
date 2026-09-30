@@ -1,0 +1,100 @@
+{
+  "country": "Portugal",
+  "parties": [
+    {
+      "party_name": "Chega",
+      "wikidata_id": "Q63645885",
+      "ep_ids": [
+        "6526",
+        "6927"
+      ],
+      "ep_matched_label": "Chega",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Democratic Alliance",
+      "wikidata_id": "Q124334159",
+      "ep_ids": [
+        "6525",
+        "6640"
+      ],
+      "ep_matched_label": "AD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Juntos Pelo Povo, Azores",
+      "wikidata_id": "Q19694667",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "LIVRE",
+      "wikidata_id": "Q16947563",
+      "ep_ids": [
+        "6528",
+        "6642"
+      ],
+      "ep_matched_label": "L",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Left Bloc",
+      "wikidata_id": "Q884840",
+      "ep_ids": [
+        "4133",
+        "5318",
+        "6707"
+      ],
+      "ep_matched_label": "BE",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Liberal Initiative",
+      "wikidata_id": "Q46122950",
+      "ep_ids": [
+        "6527",
+        "6641"
+      ],
+      "ep_matched_label": "IL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "People Animals Nature",
+      "wikidata_id": "Q2054840",
+      "ep_ids": [
+        "5532",
+        "6866"
+      ],
+      "ep_matched_label": "PAN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Socialist Party",
+      "wikidata_id": "Q847263",
+      "ep_ids": [
+        "886",
+        "1393",
+        "2829",
+        "4132",
+        "5317",
+        "6706"
+      ],
+      "ep_matched_label": "PS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Unitary Democratic Coalition",
+      "wikidata_id": "Q572998",
+      "ep_ids": [
+        "1054",
+        "1548",
+        "2653",
+        "6550",
+        "6654"
+      ],
+      "ep_matched_label": "CDU",
+      "match_method": "exact_alias"
+    }
+  ]
+}

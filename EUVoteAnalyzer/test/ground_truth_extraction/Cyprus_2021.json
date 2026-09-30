@@ -1,0 +1,62 @@
+{
+  "country": "Cyprus",
+  "election_year": 2021,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2021_Cypriot_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/cyp/2021-05-30/ and https://parlgov.fly.dev/data/cabinets/cyp/2021-05-30/ (Anastasiades V cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Democratic Rally",
+      "seats": 17,
+      "in_government": true,
+      "wikidata_id": "Q644973",
+      "abbreviation": "DISY"
+    },
+    {
+      "party_name": "Progressive Party of Working People",
+      "seats": 15,
+      "in_government": false,
+      "wikidata_id": "Q212158",
+      "abbreviation": "AKEL"
+    },
+    {
+      "party_name": "Democratic Party",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q816863",
+      "abbreviation": "DIKO"
+    },
+    {
+      "party_name": "National People's Front",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q2748384",
+      "abbreviation": "ELAM"
+    },
+    {
+      "party_name": "Movement for Social Democracy",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q259800",
+      "abbreviation": "EDEK"
+    },
+    {
+      "party_name": "Democratic Alignment",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q60785287",
+      "abbreviation": "DIPA"
+    },
+    {
+      "party_name": "Movement of Ecologists – Citizens' Cooperation",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q1650110",
+      "abbreviation": "KOSP"
+    }
+  ],
+  "note": "Cyprus has a presidential system; ParlGov's 'Anastasiades V' cabinet formed the same day as the election lists only DISY as a cabinet party (a DISY-backed technocratic cabinet appointed by the president, who is elected separately). Other parties are treated as not 'in government' since they held no cabinet posts. Corrected party naming vs. prior version: the ecologist party's official abbreviation is KOSP not KOP (Wikidata Q1650110, en.wikipedia.org/wiki/Movement_of_Ecologists_%E2%80%93_Citizens%27_Cooperation), and ELAM's standard English translation is 'National People's Front' (both this and 'National Popular Front' appear as Wikidata aliases, Q2748384, but the former is used consistently with the Cyprus_2026.json file)."
+}

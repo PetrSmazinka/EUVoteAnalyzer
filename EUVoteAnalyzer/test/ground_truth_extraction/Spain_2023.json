@@ -1,0 +1,90 @@
+{
+  "country": "Spain",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Spanish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Spain data stops at Nov 2019). Sourced from Wikipedia infobox, cross-checked by summing to the 350-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "People's Party",
+      "seats": 137,
+      "in_government": false,
+      "wikidata_id": "Q185088",
+      "abbreviation": "PP"
+    },
+    {
+      "party_name": "Spanish Socialist Workers' Party",
+      "seats": 121,
+      "in_government": true,
+      "wikidata_id": "Q138198",
+      "abbreviation": "PSOE"
+    },
+    {
+      "party_name": "Vox",
+      "seats": 33,
+      "in_government": false,
+      "wikidata_id": "Q15630787",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Sumar",
+      "seats": 31,
+      "in_government": true,
+      "wikidata_id": "Q112098527",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Republican Left of Catalonia",
+      "seats": 7,
+      "in_government": false,
+      "wikidata_id": "Q150068",
+      "abbreviation": "ERC"
+    },
+    {
+      "party_name": "Together for Catalonia",
+      "seats": 7,
+      "in_government": false,
+      "wikidata_id": "Q43228047",
+      "abbreviation": "Junts"
+    },
+    {
+      "party_name": "Euskal Herria Bildu",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q1029761",
+      "abbreviation": "EH Bildu"
+    },
+    {
+      "party_name": "Basque Nationalist Party",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q43093",
+      "abbreviation": "EAJ/PNV"
+    },
+    {
+      "party_name": "Galician Nationalist Bloc",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q885433",
+      "abbreviation": "BNG"
+    },
+    {
+      "party_name": "Canarian Coalition",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1104327",
+      "abbreviation": "CC"
+    },
+    {
+      "party_name": "Navarrese People's Union",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1432791",
+      "abbreviation": "UPN"
+    }
+  ],
+  "note": "Sums to 350 of 350 seats, including the Navarrese People's Union (UPN) regional seat, confirmed and added on a later pass. PSOE governed in coalition with Sumar (Sánchez re-elected 16 Nov 2023); Junts, ERC, PNV, EH Bildu, BNG and CC supported the investiture vote via external agreements but held no cabinet seats, so in_government=false for all of them. 'Sumar' wikidata_id (Q112098527, 'Sumar (electoral platform)') found via web search after the wikidata.org wbsearchentities label search failed to surface it (it returned only unrelated items for the bare word 'Sumar')."
+}

@@ -1,0 +1,69 @@
+{
+  "country": "Sweden",
+  "election_year": 2018,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Swedish_general_election,_2018",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/swe/2018-09-09/ and https://parlgov.fly.dev/data/cabinets/swe/2019-01-18/ (Löfven III cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democrats",
+      "seats": 100,
+      "in_government": true,
+      "wikidata_id": "Q105112",
+      "abbreviation": "SAP"
+    },
+    {
+      "party_name": "Moderate Party",
+      "seats": 70,
+      "in_government": false,
+      "wikidata_id": "Q110843",
+      "abbreviation": "M"
+    },
+    {
+      "party_name": "Sweden Democrats",
+      "seats": 62,
+      "in_government": false,
+      "wikidata_id": "Q504069",
+      "abbreviation": "SD"
+    },
+    {
+      "party_name": "Centre Party",
+      "seats": 31,
+      "in_government": false,
+      "wikidata_id": "Q110832",
+      "abbreviation": "C"
+    },
+    {
+      "party_name": "Left Party",
+      "seats": 28,
+      "in_government": false,
+      "wikidata_id": "Q110837",
+      "abbreviation": "V"
+    },
+    {
+      "party_name": "Christian Democrats",
+      "seats": 22,
+      "in_government": false,
+      "wikidata_id": "Q213654",
+      "abbreviation": "KD"
+    },
+    {
+      "party_name": "Liberals",
+      "seats": 20,
+      "in_government": false,
+      "wikidata_id": "Q110857",
+      "abbreviation": "L"
+    },
+    {
+      "party_name": "Green Party",
+      "seats": 16,
+      "in_government": true,
+      "wikidata_id": "Q213451",
+      "abbreviation": "MP"
+    }
+  ],
+  "note": "It took over four months to form a government after this election. The resulting Löfven III cabinet (18 Jan 2019), confirmed via ParlGov cabinet-parties, consisted of only Social Democrats + Green Party. The Centre Party and Liberals supported it under the 'January Agreement' (policy concessions in exchange for confidence-and-supply) but held no cabinet seats, so in_government=false for both, despite their pivotal support role."
+}

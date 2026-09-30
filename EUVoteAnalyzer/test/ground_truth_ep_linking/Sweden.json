@@ -1,0 +1,111 @@
+{
+  "country": "Sweden",
+  "parties": [
+    {
+      "party_name": "Centre Party",
+      "wikidata_id": "Q110832",
+      "ep_ids": [
+        "595",
+        "1437",
+        "2837",
+        "4147",
+        "5332",
+        "6716"
+      ],
+      "ep_matched_label": "C",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Christian Democrats",
+      "wikidata_id": "Q213654",
+      "ep_ids": [
+        "936",
+        "1435",
+        "2841",
+        "4145",
+        "5330",
+        "6714"
+      ],
+      "ep_matched_label": "KD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Green Party",
+      "wikidata_id": "Q213451",
+      "ep_ids": [
+        "672",
+        "1433",
+        "2843",
+        "4148",
+        "5333",
+        "6717"
+      ],
+      "ep_matched_label": "MP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Left Party",
+      "wikidata_id": "Q110837",
+      "ep_ids": [
+        "784",
+        "1431",
+        "2845",
+        "4150",
+        "5335",
+        "6718"
+      ],
+      "ep_matched_label": "V",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Liberals",
+      "wikidata_id": "Q110857",
+      "ep_ids": [
+        "838",
+        "1436",
+        "2839",
+        "4146",
+        "5331",
+        "6715"
+      ],
+      "ep_matched_label": "FP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Moderate Party",
+      "wikidata_id": "Q110843",
+      "ep_ids": [
+        "670",
+        "1434",
+        "2842",
+        "4144",
+        "5329",
+        "6713"
+      ],
+      "ep_matched_label": "M",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democrats",
+      "wikidata_id": "Q105112",
+      "ep_ids": [
+        "731",
+        "1432",
+        "2844",
+        "4143"
+      ],
+      "ep_matched_label": "SAP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Sweden Democrats",
+      "wikidata_id": "Q504069",
+      "ep_ids": [
+        "5393",
+        "6810"
+      ],
+      "ep_matched_label": "SD",
+      "match_method": "exact_alias"
+    }
+  ]
+}

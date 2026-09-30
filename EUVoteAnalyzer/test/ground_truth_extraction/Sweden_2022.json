@@ -1,0 +1,69 @@
+{
+  "country": "Sweden",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Swedish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/swe/2022-09-11/ and https://parlgov.fly.dev/data/cabinets/swe/2022-10-17/ (Kristersson cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democrats",
+      "seats": 107,
+      "in_government": false,
+      "wikidata_id": "Q105112",
+      "abbreviation": "SAP"
+    },
+    {
+      "party_name": "Sweden Democrats",
+      "seats": 73,
+      "in_government": false,
+      "wikidata_id": "Q504069",
+      "abbreviation": "SD"
+    },
+    {
+      "party_name": "Moderate Party",
+      "seats": 68,
+      "in_government": true,
+      "wikidata_id": "Q110843",
+      "abbreviation": "M"
+    },
+    {
+      "party_name": "Left Party",
+      "seats": 24,
+      "in_government": false,
+      "wikidata_id": "Q110837",
+      "abbreviation": "V"
+    },
+    {
+      "party_name": "Centre Party",
+      "seats": 24,
+      "in_government": false,
+      "wikidata_id": "Q110832",
+      "abbreviation": "C"
+    },
+    {
+      "party_name": "Christian Democrats",
+      "seats": 19,
+      "in_government": true,
+      "wikidata_id": "Q213654",
+      "abbreviation": "KD"
+    },
+    {
+      "party_name": "Green Party",
+      "seats": 18,
+      "in_government": false,
+      "wikidata_id": "Q213451",
+      "abbreviation": "MP"
+    },
+    {
+      "party_name": "Liberals",
+      "seats": 16,
+      "in_government": true,
+      "wikidata_id": "Q110857",
+      "abbreviation": "L"
+    }
+  ],
+  "note": "Kristersson cabinet (confirmed via ParlGov cabinet-parties) = Moderate Party + Christian Democrats + Liberals only. Sweden Democrats, despite being the second-largest party and a key partner under the 'Tidö Agreement', held no cabinet seats and supported the government from outside - in_government=false per a strict 'entered the cabinet' reading, though this quasi-governing role is worth flagging."
+}

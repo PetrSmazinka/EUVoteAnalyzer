@@ -1,0 +1,76 @@
+{
+  "country": "Ireland",
+  "election_year": 2020,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2020_Irish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/irl/2020-02-08/ and https://parlgov.fly.dev/data/cabinets/irl/2020-06-27/ (Martin cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Fianna Fáil",
+      "seats": 38,
+      "in_government": true,
+      "wikidata_id": "Q216517",
+      "abbreviation": "FF"
+    },
+    {
+      "party_name": "Sinn Féin",
+      "seats": 37,
+      "in_government": false,
+      "wikidata_id": "Q76382",
+      "abbreviation": "SF"
+    },
+    {
+      "party_name": "Fine Gael",
+      "seats": 35,
+      "in_government": true,
+      "wikidata_id": "Q247135",
+      "abbreviation": "FG"
+    },
+    {
+      "party_name": "Green Party",
+      "seats": 12,
+      "in_government": true,
+      "wikidata_id": "Q831015",
+      "abbreviation": "Green"
+    },
+    {
+      "party_name": "Labour Party",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q503614",
+      "abbreviation": "Lab"
+    },
+    {
+      "party_name": "Social Democrats",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q20682633",
+      "abbreviation": "DS"
+    },
+    {
+      "party_name": "Solidarity–People Before Profit",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q21218940",
+      "abbreviation": "S–PBP"
+    },
+    {
+      "party_name": "Aontú",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q61090509",
+      "abbreviation": "A"
+    },
+    {
+      "party_name": "Independents 4 Change",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q17100320",
+      "abbreviation": "IC"
+    }
+  ],
+  "note": "A caretaker Varadkar II cabinet held over immediately after the Feb 2020 election during a prolonged formation period; the actual new government (Martin cabinet: Fianna Fáil + Fine Gael + Green Party) was not formed until 27 June 2020, confirmed via ParlGov cabinet-parties data. wikidata_id for Green Party (Ireland) is Q831015, verified via direct wikidata.org search distinguishing it from the German Greens (Q49766) and Northern Ireland Green Party (Q1096979)."
+}

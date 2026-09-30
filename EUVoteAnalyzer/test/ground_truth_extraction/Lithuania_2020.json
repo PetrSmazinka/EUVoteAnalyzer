@@ -1,0 +1,91 @@
+{
+  "country": "Lithuania",
+  "election_year": 2020,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2020_Lithuanian_parliamentary_election",
+  "source_verified_at": "2026-09-22",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/ltu/2020-10-11/ and https://parlgov.fly.dev/data/cabinets/ltu/2020-11-24/ (Šimonytė cabinet)",
+    "wikidata_ids": "https://www.wikidata.org"
+  },
+  "parties": [
+    {
+      "party_name": "Homeland Union",
+      "seats": 50,
+      "in_government": true,
+      "wikidata_id": "Q81556",
+      "abbreviation": "TS-LK"
+    },
+    {
+      "party_name": "Lithuanian Peasant Union",
+      "seats": 32,
+      "in_government": false,
+      "wikidata_id": "Q285817",
+      "abbreviation": "LVLS"
+    },
+    {
+      "party_name": "Lithuanian Social Democratic Party",
+      "seats": 13,
+      "in_government": false,
+      "wikidata_id": "Q4362",
+      "abbreviation": "LSDP"
+    },
+    {
+      "party_name": "Liberals Movement of the Republic of Lithuania",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q1466907",
+      "abbreviation": "LRLS"
+    },
+    {
+      "party_name": "Freedom Party",
+      "seats": 11,
+      "in_government": true,
+      "wikidata_id": "Q64252730",
+      "abbreviation": "LP"
+    },
+    {
+      "party_name": "Labour Party",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q1142007",
+      "abbreviation": "DP"
+    },
+    {
+      "party_name": "no party affiliation",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": null,
+      "abbreviation": "none"
+    },
+    {
+      "party_name": "Election Action of Lithuania's Poles",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q1357218",
+      "abbreviation": "LLRA"
+    },
+    {
+      "party_name": "Social Democratic Labour Party of Lithuania",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q51077566",
+      "abbreviation": "LSDDP"
+    },
+    {
+      "party_name": "Lithuanian Freedom Union (Liberals)",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q100938242",
+      "abbreviation": "LLS"
+    },
+    {
+      "party_name": "Lithuanian Green Party",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q15977776",
+      "abbreviation": "LZP"
+    }
+  ],
+  "note": "Šimonytė cabinet = Homeland Union (TS-LK) + Liberals Movement (LRLS) + Freedom Party (LP). Názvy, zkratky a počty mandátů přesně odpovídají kódům v ParlGov.",
+  "needs_review": false
+}

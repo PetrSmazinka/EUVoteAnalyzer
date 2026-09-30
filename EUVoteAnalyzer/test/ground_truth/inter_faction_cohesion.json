@@ -1,0 +1,32 @@
+[
+  {
+    "subj1_id": 2, "subj1_zkratka": "S&D", "subj1_barva": "#FF0000",
+    "subj2_id": 4, "subj2_zkratka": "GR",  "subj2_barva": "#009900",
+    "agreement": 1.0, "agreed_votes": 2, "total_votes": 2
+  },
+  {
+    "subj1_id": 1, "subj1_zkratka": "EPP", "subj1_barva": "#003399",
+    "subj2_id": 3, "subj2_zkratka": "RE",  "subj2_barva": "#FFD700",
+    "agreement": 0.5, "agreed_votes": 1, "total_votes": 2
+  },
+  {
+    "subj1_id": 2, "subj1_zkratka": "S&D", "subj1_barva": "#FF0000",
+    "subj2_id": 3, "subj2_zkratka": "RE",  "subj2_barva": "#FFD700",
+    "agreement": 0.5, "agreed_votes": 1, "total_votes": 2
+  },
+  {
+    "subj1_id": 3, "subj1_zkratka": "RE",  "subj1_barva": "#FFD700",
+    "subj2_id": 4, "subj2_zkratka": "GR",  "subj2_barva": "#009900",
+    "agreement": 0.5, "agreed_votes": 1, "total_votes": 2
+  },
+  {
+    "subj1_id": 1, "subj1_zkratka": "EPP", "subj1_barva": "#003399",
+    "subj2_id": 2, "subj2_zkratka": "S&D", "subj2_barva": "#FF0000",
+    "agreement": 0.0, "agreed_votes": 0, "total_votes": 2
+  },
+  {
+    "subj1_id": 1, "subj1_zkratka": "EPP", "subj1_barva": "#003399",
+    "subj2_id": 4, "subj2_zkratka": "GR",  "subj2_barva": "#009900",
+    "agreement": 0.0, "agreed_votes": 0, "total_votes": 2
+  }
+]

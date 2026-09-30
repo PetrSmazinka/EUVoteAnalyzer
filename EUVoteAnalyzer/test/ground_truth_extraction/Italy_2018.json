@@ -1,0 +1,111 @@
+{
+  "country": "Italy",
+  "election_year": 2018,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2018_Italian_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/ita/2018-03-04/ and https://parlgov.fly.dev/data/cabinets/ita/2018-06-01/ (Conte I cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Five Star Movement",
+      "seats": 227,
+      "in_government": true,
+      "wikidata_id": "Q47817",
+      "abbreviation": "M5S"
+    },
+    {
+      "party_name": "Lega Nord",
+      "seats": 124,
+      "in_government": true,
+      "wikidata_id": "Q47750",
+      "abbreviation": "Lega"
+    },
+    {
+      "party_name": "Forza Italia",
+      "seats": 106,
+      "in_government": false,
+      "wikidata_id": "Q14924303",
+      "abbreviation": "FI"
+    },
+    {
+      "party_name": "Democratic Party",
+      "seats": 112,
+      "in_government": false,
+      "wikidata_id": "Q47729",
+      "abbreviation": "PD"
+    },
+    {
+      "party_name": "Brothers of Italy",
+      "seats": 31,
+      "in_government": false,
+      "wikidata_id": "Q1757843",
+      "abbreviation": "FdI"
+    },
+    {
+      "party_name": "Free and Equal",
+      "seats": 14,
+      "in_government": false,
+      "wikidata_id": "Q44929224",
+      "abbreviation": "LeU"
+    },
+    {
+      "party_name": "Union of the Centre",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q47781",
+      "abbreviation": "UC"
+    },
+    {
+      "party_name": "South Tyrolean People's Party",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q606620",
+      "abbreviation": "SVP"
+    },
+    {
+      "party_name": "More Europe",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q47090559",
+      "abbreviation": "+Europa"
+    },
+    {
+      "party_name": "Italy of Values",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q47768",
+      "abbreviation": "IdV"
+    },
+    {
+      "party_name": "Associative Movement of Italians Abroad",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1811588",
+      "abbreviation": "AIE"
+    },
+    {
+      "party_name": "South American Union of Italian Emigrants",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q5485233",
+      "abbreviation": "USEI"
+    },
+    {
+      "party_name": "Democratic Centre",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1952211",
+      "abbreviation": "CD"
+    },
+    {
+      "party_name": "Together",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q46624077",
+      "abbreviation": null
+    }
+  ],
+  "note": "Seats per ParlGov, which breaks the pre-election centre-right (Lega/Forza Italia/FdI/UC) and centre-left (PD/SVP/+Europa/IdV/CD/one-seat) coalitions down to individual constituent-party seat counts. Conte I government (confirmed via ParlGov cabinet-parties) = M5S + Lega only; Forza Italia and Fratelli d'Italia, despite contesting as part of the pre-election centre-right coalition, did NOT enter the Conte I cabinet. CORRECTION (2026-09-14): the prior version was missing a party and had one wikidata_id gap, both now fixed: (1) added 'Together' (Insieme/IEI - Italian Socialist Party + Federation of the Greens + Civic Area, 190,601 votes, 1 seat), which ParlGov lists under an unnamed generic 'one-seat' row (party id 2302, description 'parties that won one seat ... and less than one percent vote share') - identified via cross-referencing the vote count (190,601) against the English Wikipedia results table, confirmed wikidata_id Q46624077 (label 'Together', Italian electoral list, inception 14 Dec 2017, dissolved 2 Dec 2018) directly on wikidata.org; without it seats summed to 629 instead of 630. (2) 'Democratic Centre' (CD, 1 seat) resolved to wikidata_id Q1952211 ('Democratic Centre'/'Centro Democratico', political party in Italy, inception 28 Dec 2012 - matches Bruno Tabacci's party), confirmed directly on wikidata.org, disambiguated from Q25406692 (Ecuador), Q15909095/Q28483994/Q55471857 (Spain/Colombia variants), Q15456227 (a later 2019 parliamentary-group rebrand) and other same-named items. Also note: ParlGov's 'IdV' (Italy of Values) row (2 seats, 178,107 votes) actually represents the joint 'Popular Civic List' (AP+CpE+IdV+UpT+IP, led by Beatrice Lorenzin) per Wikipedia's results table - ParlGov's own choice of label, kept as-is per the 'follow ParlGov's granularity' convention used throughout this file, wikidata_id Q47768 is for IdV specifically not the joint list. Seats now sum to 630/630."
+}

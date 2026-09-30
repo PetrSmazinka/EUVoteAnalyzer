@@ -1,0 +1,118 @@
+{
+  "country": "Netherlands",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Dutch_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Netherlands data stops at 2021). Sourced from Wikipedia infobox, cross-checked by summing to the 150-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Party for Freedom",
+      "seats": 37,
+      "in_government": true,
+      "wikidata_id": "Q332739",
+      "abbreviation": "PVV"
+    },
+    {
+      "party_name": "GroenLinks-PvdA",
+      "seats": 25,
+      "in_government": false,
+      "wikidata_id": "Q110853869",
+      "abbreviation": null
+    },
+    {
+      "party_name": "People's Party for Freedom and Democracy",
+      "seats": 24,
+      "in_government": true,
+      "wikidata_id": "Q239333",
+      "abbreviation": "VVD"
+    },
+    {
+      "party_name": "New Social Contract",
+      "seats": 20,
+      "in_government": true,
+      "wikidata_id": "Q121705847",
+      "abbreviation": "NSC"
+    },
+    {
+      "party_name": "Democrats 66",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q747910",
+      "abbreviation": "D66"
+    },
+    {
+      "party_name": "Farmer–Citizen Movement",
+      "seats": 7,
+      "in_government": true,
+      "wikidata_id": "Q101083924",
+      "abbreviation": "BBB"
+    },
+    {
+      "party_name": "Christian Democratic Appeal",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q273749",
+      "abbreviation": "CDA"
+    },
+    {
+      "party_name": "Socialist Party",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q849580",
+      "abbreviation": "SP"
+    },
+    {
+      "party_name": "Denk",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q28147283",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Party for the Animals",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q663535",
+      "abbreviation": "PvdD"
+    },
+    {
+      "party_name": "Forum for Democracy",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q28163962",
+      "abbreviation": "FvD"
+    },
+    {
+      "party_name": "Reformed Political Party",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q60172",
+      "abbreviation": "SGP"
+    },
+    {
+      "party_name": "Christian Union",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q239539",
+      "abbreviation": "CU"
+    },
+    {
+      "party_name": "Volt Netherlands",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q105412880",
+      "abbreviation": "Volt"
+    },
+    {
+      "party_name": "JA21",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q104244010",
+      "abbreviation": null
+    }
+  ],
+  "note": "Schoof cabinet (PVV + VVD + NSC + BBB, with independent/extra-parliamentary PM Dick Schoof) sworn in July 2024 after a record ~7-month formation; this was the shortest-lived Dutch cabinet in decades, collapsing in 2025 and triggering the Oct 2025 snap election in Netherlands_2025.json."
+}

@@ -1,0 +1,97 @@
+{
+  "country": "Croatia",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2024_Croatian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Croatia data stops at 2020). Sourced from Wikipedia infobox, cross-checked against news coverage of the 17 May 2024 government formation (The New Voice of Ukraine, PBS NewsHour).",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Croatian Democratic Union",
+      "seats": 61,
+      "in_government": true,
+      "wikidata_id": "Q738439",
+      "abbreviation": "HDZ"
+    },
+    {
+      "party_name": "Rivers of Justice",
+      "seats": 42,
+      "in_government": false,
+      "wikidata_id": "Q96785149",
+      "abbreviation": "SDP-led coalition"
+    },
+    {
+      "party_name": "Homeland Movement",
+      "seats": 14,
+      "in_government": true,
+      "wikidata_id": "Q86756923",
+      "abbreviation": "DP"
+    },
+    {
+      "party_name": "Bridge",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q16116415",
+      "abbreviation": "Most-HS"
+    },
+    {
+      "party_name": "We Can!",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q96099072",
+      "abbreviation": "Možemo!"
+    },
+    {
+      "party_name": "Independent Democratic Serb Party",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q1261401",
+      "abbreviation": "SDSS"
+    },
+    {
+      "party_name": "Istrian Democratic Assembly",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q1261390",
+      "abbreviation": "IDS–PGS"
+    },
+    {
+      "party_name": "Independent Platform of the North",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q125584906",
+      "abbreviation": "NPS"
+    },
+    {
+      "party_name": "Focus–Republic",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q107121702",
+      "abbreviation": "Fokus"
+    },
+    {
+      "party_name": "Democratic Union of Hungarians and Others in Croatia",
+      "seats": 1,
+      "in_government": true,
+      "wikidata_id": "Q1251824",
+      "abbreviation": "DZMH"
+    },
+    {
+      "party_name": "Kali Sara",
+      "seats": 1,
+      "in_government": true,
+      "wikidata_id": "Q96371811",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Bošnjaci zajedno!",
+      "seats": 1,
+      "in_government": true,
+      "wikidata_id": "Q125784006",
+      "abbreviation": "Bosniak minority"
+    }
+  ],
+  "note": "Government formed 17 May 2024 = HDZ + Homeland Movement, with confidence-and-supply support from HSLS/HNS/HDS/HSU (small parties folded into the HDZ-led coalition list rather than contesting separately, so not itemized here) and from minority MPs DZMH, Kali Sara and Bošnjaci zajedno! (marked in_government=true reflecting their support role, though this is a minority government and their formal cabinet membership vs. confidence-and-supply status was not fully disestablished from available sources - needs_review). SDSS's role in the 2024 coalition is unclear from sources checked (unlike 2020, it was not named among the explicit support parties), so in_government=false here pending further verification. Several small/regional wikidata_ids were not found via search and left null."
+}

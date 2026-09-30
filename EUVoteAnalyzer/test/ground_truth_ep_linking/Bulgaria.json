@@ -1,0 +1,102 @@
+{
+  "country": "Bulgaria",
+  "parties": [
+    {
+      "party_name": "Alliance for Rights and Freedoms",
+      "wikidata_id": "Q130313846",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "BSP – United Left",
+      "wikidata_id": "Q971439",
+      "ep_ids": [
+        "3994",
+        "5181",
+        "6762"
+      ],
+      "ep_matched_label": "BSP",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "DPS – A New Beginning",
+      "wikidata_id": "Q130305932",
+      "ep_ids": [
+        "1933",
+        "2678",
+        "3995",
+        "5182",
+        "6763"
+      ],
+      "ep_matched_label": "DPS",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "GERB-SDS",
+      "wikidata_id": "Q115817806",
+      "ep_ids": [
+        "2493",
+        "2679",
+        "3993",
+        "5180",
+        "5584",
+        "6761",
+        "6783"
+      ],
+      "ep_matched_label": "GERB+SDS",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "MECh",
+      "wikidata_id": "Q126688908",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "PP–DB",
+      "wikidata_id": "Q116769868",
+      "ep_ids": [
+        "6540",
+        "6932"
+      ],
+      "ep_matched_label": "PP-DB",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Progressive Bulgaria",
+      "wikidata_id": "Q138546752",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Revival",
+      "wikidata_id": "Q28943121",
+      "ep_ids": [
+        "6537",
+        "6648"
+      ],
+      "ep_matched_label": "Revival",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "There Are Such People",
+      "wikidata_id": "Q98098908",
+      "ep_ids": [
+        "6539",
+        "6931"
+      ],
+      "ep_matched_label": "ITN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Velichie",
+      "wikidata_id": "Q126478515",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

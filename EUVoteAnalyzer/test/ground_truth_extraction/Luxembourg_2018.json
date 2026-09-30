@@ -1,0 +1,62 @@
+{
+  "country": "Luxembourg",
+  "election_year": 2018,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Luxembourg_general_election,_2018",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/lux/2018-10-14/ and https://parlgov.fly.dev/data/cabinets/lux/2018-12-05/ (Bettel II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Christian Social People's Party",
+      "seats": 21,
+      "in_government": false,
+      "wikidata_id": "Q1344670",
+      "abbreviation": "CSV"
+    },
+    {
+      "party_name": "Democratic Party",
+      "seats": 12,
+      "in_government": true,
+      "wikidata_id": "Q1029792",
+      "abbreviation": "DP"
+    },
+    {
+      "party_name": "Luxembourg Socialist Workers' Party",
+      "seats": 10,
+      "in_government": true,
+      "wikidata_id": "Q1070311",
+      "abbreviation": "LSAP"
+    },
+    {
+      "party_name": "The Greens",
+      "seats": 9,
+      "in_government": true,
+      "wikidata_id": "Q767761",
+      "abbreviation": "DG"
+    },
+    {
+      "party_name": "Alternative Democratic Reform Party",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q339280",
+      "abbreviation": "ADR"
+    },
+    {
+      "party_name": "Pirate Party Luxembourg",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q3079953",
+      "abbreviation": "PPL"
+    },
+    {
+      "party_name": "The Left",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q1270494",
+      "abbreviation": "déi Lénk"
+    }
+  ],
+  "note": "Bettel II government ('Gambia coalition' continuation: DP + LSAP + Greens) confirmed via ParlGov cabinet-parties. Despite CSV winning the most seats, it remained in opposition."
+}

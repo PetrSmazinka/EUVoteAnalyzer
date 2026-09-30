@@ -1,0 +1,69 @@
+{
+  "country": "Czechia",
+  "election_year": 2025,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2025_Czech_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Czechia data stops at 2021). Sourced from Wikipedia infobox/results table, cross-checked against Denik.cz (denik.cz/volby/volby-do-poslanecke-snemovny-2025/vysledky/strany/spolu-ods-kdu-csl-top-09) for the SPOLU internal seat breakdown, and LSE EUROPP blog / OSW Centre for Eastern Studies coverage of the October 2025 result and December 2025 government formation.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "ANO 2011",
+      "seats": 80,
+      "in_government": true,
+      "wikidata_id": "Q10728124",
+      "abbreviation": "ANO"
+    },
+    {
+      "party_name": "Civic Democratic Party",
+      "seats": 27,
+      "in_government": false,
+      "wikidata_id": "Q828099",
+      "abbreviation": "ODS"
+    },
+    {
+      "party_name": "Mayors and Independents",
+      "seats": 22,
+      "in_government": false,
+      "wikidata_id": "Q1586610",
+      "abbreviation": "STAN"
+    },
+    {
+      "party_name": "Czech Pirate Party",
+      "seats": 18,
+      "in_government": false,
+      "wikidata_id": "Q341085",
+      "abbreviation": "Piráti"
+    },
+    {
+      "party_name": "Christian and Democratic Union – Czechoslovak People's Party",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q1142687",
+      "abbreviation": "KDU-ČSL"
+    },
+    {
+      "party_name": "Freedom and Direct Democracy",
+      "seats": 15,
+      "in_government": true,
+      "wikidata_id": "Q20058756",
+      "abbreviation": "SPD"
+    },
+    {
+      "party_name": "Motorists for Themselves",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q29789623",
+      "abbreviation": "AUTO"
+    },
+    {
+      "party_name": "TOP 09",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q651129",
+      "abbreviation": null
+    }
+  ],
+  "note": "Corrected vs. prior version: a per-party breakdown of the SPOLU alliance's 52 combined seats IS available from good sources (Wikipedia's own results table, and Denik.cz's dedicated SPOLU results page) - ODS 27, KDU-ČSL 16, TOP 09 9 (27+16+9=52) - so, consistent with how Czechia_2021.json handles SPOLU/PirStan, the three constituent parties are broken out individually here rather than left as one combined row with a null wikidata_id. Babiš III government (ANO + SPD + Motorists/AUTO) formally nominated 9 December 2025 after a coalition agreement signed 3 November 2025; SPOLU's three parties, STAN and the Pirates are all in opposition. Seats sum to 200/200."
+}

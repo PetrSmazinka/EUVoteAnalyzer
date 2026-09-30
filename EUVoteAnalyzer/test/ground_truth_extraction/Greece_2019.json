@@ -1,0 +1,55 @@
+{
+  "country": "Greece",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2019_Greek_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/grc/2019-07-07/ and https://parlgov.fly.dev/data/cabinets/grc/2019-07-08/ (Mitsotakis I cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "New Democracy",
+      "seats": 158,
+      "in_government": true,
+      "wikidata_id": "Q223153",
+      "abbreviation": "ND"
+    },
+    {
+      "party_name": "Coalition of the Radical Left",
+      "seats": 86,
+      "in_government": false,
+      "wikidata_id": "Q222897",
+      "abbreviation": "SYRIZA"
+    },
+    {
+      "party_name": "Panhellenic Socialist Movement",
+      "seats": 22,
+      "in_government": false,
+      "wikidata_id": "Q203934",
+      "abbreviation": "PASOK"
+    },
+    {
+      "party_name": "Communist Party of Greece",
+      "seats": 15,
+      "in_government": false,
+      "wikidata_id": "Q192406",
+      "abbreviation": "KKE"
+    },
+    {
+      "party_name": "Greek Solution",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q50736163",
+      "abbreviation": "EL"
+    },
+    {
+      "party_name": "MeRA25",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q61046702",
+      "abbreviation": "MeRA25"
+    }
+  ],
+  "note": "New Democracy formed a single-party majority government (Mitsotakis I), confirmed via ParlGov cabinet-parties."
+}

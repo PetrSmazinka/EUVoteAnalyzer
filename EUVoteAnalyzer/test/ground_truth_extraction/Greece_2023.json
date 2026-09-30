@@ -1,0 +1,69 @@
+{
+  "country": "Greece",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/June_2023_Greek_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/grc/2023-06-25/ and https://parlgov.fly.dev/data/cabinets/grc/2023-06-26/ (Mitsotakis II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "New Democracy",
+      "seats": 158,
+      "in_government": true,
+      "wikidata_id": "Q223153",
+      "abbreviation": "ND"
+    },
+    {
+      "party_name": "Coalition of the Radical Left",
+      "seats": 47,
+      "in_government": false,
+      "wikidata_id": "Q222897",
+      "abbreviation": "SYRIZA"
+    },
+    {
+      "party_name": "Panhellenic Socialist Movement",
+      "seats": 32,
+      "in_government": false,
+      "wikidata_id": "Q203934",
+      "abbreviation": "PASOK"
+    },
+    {
+      "party_name": "Communist Party of Greece",
+      "seats": 21,
+      "in_government": false,
+      "wikidata_id": "Q192406",
+      "abbreviation": "KKE"
+    },
+    {
+      "party_name": "Spartans (political party)",
+      "seats": 12,
+      "in_government": false,
+      "wikidata_id": "Q119458066",
+      "abbreviation": "Spartans"
+    },
+    {
+      "party_name": "Greek Solution",
+      "seats": 12,
+      "in_government": false,
+      "wikidata_id": "Q50736163",
+      "abbreviation": "EL"
+    },
+    {
+      "party_name": "Democratic Patriotic Movement",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q118559247",
+      "abbreviation": "Niki"
+    },
+    {
+      "party_name": "Course of Freedom",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q24204945",
+      "abbreviation": "PE"
+    }
+  ],
+  "note": "Greece held two 2023 elections (21 May, inconclusive under proportional rules, and 25 June, decisive under the reinforced-proportionality/bonus-seat law); this file covers the 25 June election, matching the existing dataset's 'Greece_2023' naming and being the one that actually produced the government. New Democracy formed a single-party majority government again (Mitsotakis II), confirmed via ParlGov cabinet-parties. wikidata_id left null only for 'Popular Unity | Course of Freedom' - a further search under 'Popular Unity' returned no exact/unambiguous match for this specific Greek electoral alliance."
+}

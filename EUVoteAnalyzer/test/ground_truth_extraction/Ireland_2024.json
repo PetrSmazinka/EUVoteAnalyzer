@@ -1,0 +1,83 @@
+{
+  "country": "Ireland",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2024_Irish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Ireland data stops at 2020). Sourced from Wikipedia infobox, cross-checked by summing to the 174-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Fianna Fáil",
+      "seats": 48,
+      "in_government": true,
+      "wikidata_id": "Q216517",
+      "abbreviation": "FF"
+    },
+    {
+      "party_name": "Sinn Féin",
+      "seats": 39,
+      "in_government": false,
+      "wikidata_id": "Q76382",
+      "abbreviation": "SF"
+    },
+    {
+      "party_name": "Fine Gael",
+      "seats": 38,
+      "in_government": true,
+      "wikidata_id": "Q247135",
+      "abbreviation": "FG"
+    },
+    {
+      "party_name": "Labour Party",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q503614",
+      "abbreviation": "Lab"
+    },
+    {
+      "party_name": "Social Democrats",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q20682633",
+      "abbreviation": "DS"
+    },
+    {
+      "party_name": "Independent Ireland",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q124516371",
+      "abbreviation": "II"
+    },
+    {
+      "party_name": "Solidarity–People Before Profit",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q21218940",
+      "abbreviation": "S–PBP"
+    },
+    {
+      "party_name": "Aontú",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q61090509",
+      "abbreviation": "A"
+    },
+    {
+      "party_name": "Green Party",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q831015",
+      "abbreviation": "Green"
+    },
+    {
+      "party_name": "100% Redress",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q124408604",
+      "abbreviation": null
+    }
+  ],
+  "note": "Coalition government (Fianna Fáil + Fine Gael + independents) agreed 15 January 2025; Micheál Martin (Fianna Fáil) became Taoiseach 23 January 2025. Several independent TDs (16 total, not a registered party) also joined or support the government but are excluded here as they are not a 'party' per the task's scope. Green Party collapsed from 12 seats (2020) to 1."
+}

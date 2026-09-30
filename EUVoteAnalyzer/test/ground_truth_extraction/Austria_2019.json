@@ -1,0 +1,53 @@
+{
+  "country": "Austria",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2019_Austrian_legislative_election",
+  "source_verified_at": "2026-09-06",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/aut/2019-09-29/",
+    "wikidata_ids": [
+      "http://www.wikidata.org/entity/Q186867",
+      "http://www.wikidata.org/entity/Q179111",
+      "http://www.wikidata.org/entity/Q131692",
+      "http://www.wikidata.org/entity/Q193178",
+      "http://www.wikidata.org/entity/Q13564543"
+    ]
+  },
+  "parties": [
+    {
+      "party_name": "Austrian People's Party",
+      "seats": 71,
+      "wikidata_id": "Q186867",
+      "in_government": true,
+      "abbreviation": "ÖVP"
+    },
+    {
+      "party_name": "Social Democratic Party of Austria",
+      "seats": 40,
+      "wikidata_id": "Q179111",
+      "in_government": false,
+      "abbreviation": "SPÖ"
+    },
+    {
+      "party_name": "Freedom Party of Austria",
+      "seats": 31,
+      "wikidata_id": "Q131692",
+      "in_government": false,
+      "abbreviation": "FPÖ"
+    },
+    {
+      "party_name": "The Greens",
+      "seats": 26,
+      "wikidata_id": "Q193178",
+      "in_government": true,
+      "abbreviation": "GRÜNE"
+    },
+    {
+      "party_name": "NEOS",
+      "seats": 15,
+      "wikidata_id": "Q13564543",
+      "in_government": false,
+      "abbreviation": "NEOS"
+    }
+  ]
+}

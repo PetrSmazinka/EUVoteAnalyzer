@@ -1,0 +1,13 @@
+.vscode/
+.env
+.venv/
+venv/
+web/data/
+cache/
+logs/
+results/
+dumps/
+output/
+__pycache__
+*.sql.gz
+export_data.sql

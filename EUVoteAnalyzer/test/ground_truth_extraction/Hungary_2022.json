@@ -1,0 +1,76 @@
+{
+  "country": "Hungary",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Hungarian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/hun/2022-04-03/ and https://parlgov.fly.dev/data/cabinets/hun/2022-05-16/ (Orbán V cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Fidesz",
+      "seats": 117,
+      "in_government": true,
+      "wikidata_id": "Q387006",
+      "abbreviation": "Fidesz"
+    },
+    {
+      "party_name": "Christian Democratic People's Party",
+      "seats": 18,
+      "in_government": true,
+      "wikidata_id": "Q277879",
+      "abbreviation": "KDNP"
+    },
+    {
+      "party_name": "Democratic Coalition",
+      "seats": 15,
+      "in_government": false,
+      "wikidata_id": "Q847504",
+      "abbreviation": "DK"
+    },
+    {
+      "party_name": "Hungarian Socialist Party",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q753223",
+      "abbreviation": "MSZP"
+    },
+    {
+      "party_name": "Jobbik",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q633442",
+      "abbreviation": "Jobbik"
+    },
+    {
+      "party_name": "Momentum Movement",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q28563736",
+      "abbreviation": "Momentum"
+    },
+    {
+      "party_name": "Our Homeland Movement",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q55443054",
+      "abbreviation": "Mi Hazánk"
+    },
+    {
+      "party_name": "Dialogue for Hungary",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q15177537",
+      "abbreviation": "PM"
+    },
+    {
+      "party_name": "Politics Can Be Different",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q54801",
+      "abbreviation": "LMP"
+    }
+  ],
+  "note": "DK, MSZP, Jobbik, Momentum, PM and LMP ran as a joint opposition list ('United for Hungary'); ParlGov gives each constituent party's own individual seat count (used here), which sums to their reported combined total. Fidesz+KDNP formed a joint list too but ParlGov breaks out their individual seats (117 and 18)."
+}

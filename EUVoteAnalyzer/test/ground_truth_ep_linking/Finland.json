@@ -1,0 +1,125 @@
+{
+  "country": "Finland",
+  "parties": [
+    {
+      "party_name": "Centre Party",
+      "wikidata_id": "Q506591",
+      "ep_ids": [
+        "647",
+        "1429",
+        "2715",
+        "4036",
+        "5223",
+        "6725"
+      ],
+      "ep_matched_label": "KESK",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Christian Democrats",
+      "wikidata_id": "Q1138982",
+      "ep_ids": [
+        "2928",
+        "6523",
+        "6952"
+      ],
+      "ep_matched_label": "KD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Finns Party",
+      "wikidata_id": "Q634277",
+      "ep_ids": [
+        "2930",
+        "4031",
+        "5218",
+        "6670"
+      ],
+      "ep_matched_label": "Perus",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Green League",
+      "wikidata_id": "Q196695",
+      "ep_ids": [
+        "789",
+        "1423",
+        "2720",
+        "4033",
+        "5220",
+        "6671"
+      ],
+      "ep_matched_label": "VIHR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Left Alliance",
+      "wikidata_id": "Q385927",
+      "ep_ids": [
+        "787",
+        "1424",
+        "4216",
+        "5357",
+        "6795"
+      ],
+      "ep_matched_label": "VAS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Movement Now",
+      "wikidata_id": "Q52157683",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "National Coalition Party",
+      "wikidata_id": "Q304191",
+      "ep_ids": [
+        "650",
+        "1428",
+        "2716",
+        "4037",
+        "5224",
+        "6726"
+      ],
+      "ep_matched_label": "KOK",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Social Democratic Party of Finland",
+      "wikidata_id": "Q499029",
+      "ep_ids": [
+        "733",
+        "1427",
+        "2717",
+        "4034",
+        "5221",
+        "6672"
+      ],
+      "ep_matched_label": "SDP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Swedish People's Party of Finland",
+      "wikidata_id": "Q845537",
+      "ep_ids": [
+        "736",
+        "1426",
+        "3473",
+        "4035",
+        "5222",
+        "6673"
+      ],
+      "ep_matched_label": "SFP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Åland Coalition",
+      "wikidata_id": "Q11903314",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

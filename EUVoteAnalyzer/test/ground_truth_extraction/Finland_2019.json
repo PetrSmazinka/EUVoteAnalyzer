@@ -1,0 +1,83 @@
+{
+  "country": "Finland",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2019_Finnish_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/fin/2019-04-14/ and cabinets Rinne (2019-06-06) / Marin (2019-12-10)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democratic Party of Finland",
+      "seats": 40,
+      "in_government": true,
+      "wikidata_id": "Q499029",
+      "abbreviation": "SDP"
+    },
+    {
+      "party_name": "Finns Party",
+      "seats": 39,
+      "in_government": false,
+      "wikidata_id": "Q634277",
+      "abbreviation": "PS"
+    },
+    {
+      "party_name": "National Coalition Party",
+      "seats": 38,
+      "in_government": false,
+      "wikidata_id": "Q304191",
+      "abbreviation": "NCP"
+    },
+    {
+      "party_name": "Centre Party",
+      "seats": 31,
+      "in_government": true,
+      "wikidata_id": "Q506591",
+      "abbreviation": "KESK"
+    },
+    {
+      "party_name": "Green League",
+      "seats": 20,
+      "in_government": true,
+      "wikidata_id": "Q196695",
+      "abbreviation": "Vihr"
+    },
+    {
+      "party_name": "Left Alliance",
+      "seats": 16,
+      "in_government": true,
+      "wikidata_id": "Q385927",
+      "abbreviation": "VAS"
+    },
+    {
+      "party_name": "Swedish People's Party of Finland",
+      "seats": 9,
+      "in_government": true,
+      "wikidata_id": "Q845537",
+      "abbreviation": "SFP"
+    },
+    {
+      "party_name": "Christian Democrats",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q1138982",
+      "abbreviation": "KD"
+    },
+    {
+      "party_name": "Movement Now",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q52157683",
+      "abbreviation": "MN"
+    },
+    {
+      "party_name": "Åland Coalition",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q11903314",
+      "abbreviation": "Å"
+    }
+  ],
+  "note": "The government formed immediately after this election (Rinne cabinet, June 2019: SDP+Centre+Greens+Left Alliance+Swedish People's Party) was replaced by the Marin cabinet in December 2019 with the identical 5-party coalition (only the PM changed after Rinne resigned); in_government reflects this unchanged coalition membership."
+}

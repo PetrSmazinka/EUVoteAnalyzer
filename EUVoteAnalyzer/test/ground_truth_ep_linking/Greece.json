@@ -1,0 +1,101 @@
+{
+  "country": "Greece",
+  "parties": [
+    {
+      "party_name": "Coalition of the Radical Left",
+      "wikidata_id": "Q222897",
+      "ep_ids": [
+        "2752",
+        "4056",
+        "5242",
+        "6731"
+      ],
+      "ep_matched_label": "SYRIZA",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Communist Party of Greece",
+      "wikidata_id": "Q192406",
+      "ep_ids": [
+        "648",
+        "1472",
+        "2748",
+        "4059",
+        "5245",
+        "6733"
+      ],
+      "ep_matched_label": "KKE",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Course of Freedom",
+      "wikidata_id": "Q24204945",
+      "ep_ids": [
+        "7012"
+      ],
+      "ep_matched_label": "Plefsi Eleftherias",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Democratic Patriotic Movement",
+      "wikidata_id": "Q118559247",
+      "ep_ids": [
+        "7011"
+      ],
+      "ep_matched_label": "NIKI",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Greek Solution",
+      "wikidata_id": "Q50736163",
+      "ep_ids": [
+        "5534",
+        "6781"
+      ],
+      "ep_matched_label": "EL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "MeRA25",
+      "wikidata_id": "Q61046702",
+      "ep_ids": [
+        "4923",
+        "5454"
+      ],
+      "ep_matched_label": "M25",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "New Democracy",
+      "wikidata_id": "Q223153",
+      "ep_ids": [
+        "683",
+        "1471",
+        "2750",
+        "4055",
+        "5241",
+        "6730"
+      ],
+      "ep_matched_label": "N.D.",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Panhellenic Socialist Movement",
+      "wikidata_id": "Q203934",
+      "ep_ids": [
+        "688",
+        "1470",
+        "2751"
+      ],
+      "ep_matched_label": "PASOK",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Spartans (political party)",
+      "wikidata_id": "Q119458066",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

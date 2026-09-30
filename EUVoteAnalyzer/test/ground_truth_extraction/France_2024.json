@@ -1,0 +1,41 @@
+{
+  "country": "France",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2024_French_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's France data stops at 2022). Sourced from Wikipedia infobox, cross-checked against France24 first/second-round coverage.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "New Popular Front",
+      "seats": 180,
+      "in_government": false,
+      "wikidata_id": "Q126487286",
+      "abbreviation": "NFP"
+    },
+    {
+      "party_name": "Ensemble",
+      "seats": 159,
+      "in_government": true,
+      "wikidata_id": "Q109929254",
+      "abbreviation": null
+    },
+    {
+      "party_name": "National Rally",
+      "seats": 142,
+      "in_government": false,
+      "wikidata_id": "Q205150",
+      "abbreviation": "RN"
+    },
+    {
+      "party_name": "The Republicans",
+      "seats": 39,
+      "in_government": true,
+      "wikidata_id": "Q20012759",
+      "abbreviation": "LR"
+    }
+  ],
+  "note": "No bloc reached the 289-seat majority threshold, producing a hung parliament. Michel Barnier (LR) was appointed PM on 5 September 2024, forming a minority government reliant on Ensemble support (and tolerated by some LR-adjacent votes); both LR and Ensemble are marked in_government=true since Barnier's cabinet drew ministers from both. The government fell to a no-confidence vote on 4 December 2024. A remaining ~57 of 577 seats (Wikipedia reports 'divers droite'/'divers gauche'/regionalist/'divers centre'/misc categories) are not individually identifiable parties and are omitted here rather than guessed."
+}

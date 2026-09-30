@@ -1,0 +1,70 @@
+body { background: #f0f2f5; font-family: 'Segoe UI', system-ui, sans-serif; }
+
+.header-bar {
+    background: linear-gradient(135deg, #003399 0%, #0050cc 100%);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.header-bar h1 { font-size: 1.4rem; margin: 0; letter-spacing: 0.03em; }
+
+.nav-tabs .nav-link { color: #444; font-weight: 500; }
+.nav-tabs .nav-link.active { color: #003399; font-weight: 700; border-bottom: 3px solid #003399; }
+
+.card { border: none; box-shadow: 0 1px 4px rgba(0,0,0,0.1); border-radius: 8px; }
+.card-header { background: white; border-bottom: 1px solid #eee; font-size: 0.95rem; border-radius: 8px 8px 0 0 !important; }
+
+.chart-wrap { position: relative; }
+
+.heatmap-cell {
+    width: 72px; min-width: 72px;
+    height: 56px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    cursor: default;
+}
+.heatmap-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.party-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+#loading-overlay {
+    position: fixed; inset: 0;
+    background: rgba(255,255,255,0.85);
+    z-index: 9999;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: 1rem;
+    font-size: 1.1rem; color: #003399;
+}
+.spinner-border { width: 3rem; height: 3rem; border-width: 4px; }
+
+.stat-badge {
+    background: #e8f0fe;
+    color: #1a56d6;
+    border-radius: 20px;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.header-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 4px;
+}

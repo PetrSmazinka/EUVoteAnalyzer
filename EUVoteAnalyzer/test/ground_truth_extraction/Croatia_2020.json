@@ -1,0 +1,98 @@
+{
+  "country": "Croatia",
+  "election_year": 2020,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2020_Croatian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/hrv/2020-07-05/ and https://parlgov.fly.dev/data/cabinets/hrv/2020-07-23/ (Plenković III cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Croatian Democratic Union",
+      "seats": 66,
+      "in_government": true,
+      "wikidata_id": "Q738439",
+      "abbreviation": "HDZ"
+    },
+    {
+      "party_name": "Social Democratic Party of Croatia",
+      "seats": 41,
+      "in_government": false,
+      "wikidata_id": "Q830323",
+      "abbreviation": "SDP"
+    },
+    {
+      "party_name": "Homeland Movement",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q86756923",
+      "abbreviation": "DP"
+    },
+    {
+      "party_name": "Bridge",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q16116415",
+      "abbreviation": "Most"
+    },
+    {
+      "party_name": "We Can!",
+      "seats": 7,
+      "in_government": false,
+      "wikidata_id": "Q96099072",
+      "abbreviation": "Možemo!"
+    },
+    {
+      "party_name": "Independent Democratic Serb Party",
+      "seats": 3,
+      "in_government": true,
+      "wikidata_id": "Q1261401",
+      "abbreviation": "SDSS"
+    },
+    {
+      "party_name": "Pametno–IP–Fokus coalition",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q30324660",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Democratic Union of Hungarians and Others in Croatia",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1251824",
+      "abbreviation": "DZMH"
+    },
+    {
+      "party_name": "Kali Sara",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q96371811",
+      "abbreviation": null
+    },
+    {
+      "party_name": "UARH",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": null,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Croatian People's Party – Liberal Democrats",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1255803",
+      "abbreviation": "HNS-LD"
+    },
+    {
+      "party_name": "People's Party – Reformists",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q18166661",
+      "abbreviation": "NS-R"
+    }
+  ],
+  "note": "Plenković III government (HDZ + SDSS) confirmed via ParlGov cabinet-parties. The 'Pametno-IP-Fokus' coalition (led by Dalija Orešković) merged into a single party called 'Centre' (Centar) on 16 November 2020, after this election; wikidata_id given (Q30324660) is for that successor entity, used here as the closest match since no separate wikidata item for the pre-merger three-way coalition was found. Croatia reserves 8 of 151 seats for national-minority representatives; besides SDSS (Serb minority, 3 seats), 2 further reserved seats went to independents (not individually attributable to a party and omitted here) and wikidata_id could not be found for DZMH or Kali Sara or UARH via search.",
+  "needs_review": true
+}

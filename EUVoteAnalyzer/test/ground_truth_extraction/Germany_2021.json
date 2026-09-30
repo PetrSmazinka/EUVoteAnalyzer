@@ -1,0 +1,62 @@
+{
+  "country": "Germany",
+  "election_year": 2021,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2021_German_federal_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/deu/2021-09-26/ and https://parlgov.fly.dev/data/cabinets/deu/2021-12-08/ (Scholz cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democratic Party of Germany",
+      "seats": 206,
+      "in_government": true,
+      "wikidata_id": "Q49768",
+      "abbreviation": "SPD"
+    },
+    {
+      "party_name": "Christian Democratic Union",
+      "seats": 197,
+      "in_government": false,
+      "wikidata_id": "Q49762",
+      "abbreviation": "CDU/CSU"
+    },
+    {
+      "party_name": "Alliance 90/The Greens",
+      "seats": 118,
+      "in_government": true,
+      "wikidata_id": "Q49766",
+      "abbreviation": "Grüne"
+    },
+    {
+      "party_name": "Free Democratic Party",
+      "seats": 92,
+      "in_government": true,
+      "wikidata_id": "Q13124",
+      "abbreviation": "FDP"
+    },
+    {
+      "party_name": "Alternative for Germany",
+      "seats": 83,
+      "in_government": false,
+      "wikidata_id": "Q6721203",
+      "abbreviation": "AfD"
+    },
+    {
+      "party_name": "The Left",
+      "seats": 39,
+      "in_government": false,
+      "wikidata_id": "Q49764",
+      "abbreviation": "Die Linke"
+    },
+    {
+      "party_name": "South Schleswig Voters' Association",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q161545",
+      "abbreviation": "SSW"
+    }
+  ],
+  "note": "Scholz cabinet (confirmed via ParlGov cabinet-parties) = SPD + Greens + FDP ('traffic light' coalition). CDU/CSU reported as one combined bloc (152 CDU + 45 CSU per ParlGov, sharing one Bundestag caucus) matching universal convention; wikidata_id given is for the CDU (Q49762), the senior partner - CSU itself is Q49763."
+}

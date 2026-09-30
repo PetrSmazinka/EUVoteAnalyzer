@@ -1,0 +1,98 @@
+{
+  "country": "Cyprus",
+  "parties": [
+    {
+      "party_name": "ALMA – Citizens for Cyprus",
+      "wikidata_id": "Q139552238",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Democratic Alignment",
+      "wikidata_id": "Q60785287",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Democratic Party",
+      "wikidata_id": "Q816863",
+      "ep_ids": [
+        "1181",
+        "1307",
+        "2683",
+        "4002",
+        "5189",
+        "6766"
+      ],
+      "ep_matched_label": "DI.KO.",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Democratic Rally",
+      "wikidata_id": "Q644973",
+      "ep_ids": [
+        "1178",
+        "1310",
+        "2684",
+        "4000",
+        "5187",
+        "6764"
+      ],
+      "ep_matched_label": "DI.SY.",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Direct Democracy Cyprus",
+      "wikidata_id": "Q138026801",
+      "ep_ids": [
+        "7992"
+      ],
+      "ep_matched_label": "Direct Democracy Cyprus",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Movement for Social Democracy",
+      "wikidata_id": "Q259800",
+      "ep_ids": [
+        "2950",
+        "4003",
+        "5190",
+        "6767"
+      ],
+      "ep_matched_label": "K.S. EDEK",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Movement of Ecologists – Citizens' Cooperation",
+      "wikidata_id": "Q1650110",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "National People's Front",
+      "wikidata_id": "Q2748384",
+      "ep_ids": [
+        "6511",
+        "6924"
+      ],
+      "ep_matched_label": "ELAM",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Progressive Party of Working People",
+      "wikidata_id": "Q212158",
+      "ep_ids": [
+        "1304",
+        "2682",
+        "4001",
+        "5188",
+        "6765"
+      ],
+      "ep_matched_label": "AKEL-ARISTERA-ND",
+      "match_method": "token_containment"
+    }
+  ]
+}

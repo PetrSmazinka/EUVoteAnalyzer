@@ -1,0 +1,186 @@
+{
+  "country": "Lithuania",
+  "parties": [
+    {
+      "party_name": "Center-Right Union",
+      "wikidata_id": "Q17457805",
+      "ep_ids": [
+        "1293",
+        "1358"
+      ],
+      "ep_matched_label": "LCS",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Dawn of Nemunas",
+      "wikidata_id": "Q124472979",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Election Action of Lithuania's Poles",
+      "wikidata_id": "Q1357218",
+      "ep_ids": [
+        "2932",
+        "4094",
+        "5279",
+        "6679"
+      ],
+      "ep_matched_label": "LLRA",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Electoral Action of Poles in Lithuania",
+      "wikidata_id": "Q1357218",
+      "ep_ids": [
+        "2932",
+        "4094",
+        "5279",
+        "6679"
+      ],
+      "ep_matched_label": "LLRA",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Freedom Party",
+      "wikidata_id": "Q64252730",
+      "ep_ids": [
+        "6549",
+        "6653"
+      ],
+      "ep_matched_label": "LP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Homeland Union",
+      "wikidata_id": "Q81556",
+      "ep_ids": [
+        "1296",
+        "1353"
+      ],
+      "ep_matched_label": "TS",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Labour Party",
+      "wikidata_id": "Q1142007",
+      "ep_ids": [
+        "1522",
+        "2782",
+        "4092"
+      ],
+      "ep_matched_label": "DP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Liberal Movement",
+      "wikidata_id": "Q1466907",
+      "ep_ids": [
+        "6547",
+        "6652"
+      ],
+      "ep_matched_label": "LS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Liberals Movement of the Republic of Lithuania",
+      "wikidata_id": "Q1466907",
+      "ep_ids": [
+        "2250",
+        "2785",
+        "4090",
+        "5275",
+        "6677"
+      ],
+      "ep_matched_label": "LRLS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Lithuanian Farmers and Greens Union",
+      "wikidata_id": "Q285817",
+      "ep_ids": [
+        "4097",
+        "5282",
+        "6680"
+      ],
+      "ep_matched_label": "LVZS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Lithuanian Freedom Union (Liberals)",
+      "wikidata_id": "Q100938242",
+      "ep_ids": [
+        "1184"
+      ],
+      "ep_matched_label": "LLS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Lithuanian Green Party",
+      "wikidata_id": "Q15977776",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Lithuanian Peasant Union",
+      "wikidata_id": "Q285817",
+      "ep_ids": [
+        "2340"
+      ],
+      "ep_matched_label": "LVLS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Lithuanian Social Democratic Party",
+      "wikidata_id": "Q4362",
+      "ep_ids": [
+        "1211",
+        "1355",
+        "2786",
+        "4222",
+        "5363",
+        "6797"
+      ],
+      "ep_matched_label": "LSDP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "National Alliance",
+      "wikidata_id": "Q97216079",
+      "ep_ids": [
+        "1170"
+      ],
+      "ep_matched_label": "NS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democratic Labour Party of Lithuania",
+      "wikidata_id": "Q51077566",
+      "ep_ids": [
+        "6545",
+        "6650"
+      ],
+      "ep_matched_label": "LRP",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Union of Democrats \"For Lithuania\"",
+      "wikidata_id": "Q110966457",
+      "ep_ids": [
+        "6553",
+        "6656"
+      ],
+      "ep_matched_label": "DSVL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "no party affiliation",
+      "wikidata_id": null,
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

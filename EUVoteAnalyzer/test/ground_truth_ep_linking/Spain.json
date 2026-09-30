@@ -1,0 +1,179 @@
+{
+  "country": "Spain",
+  "parties": [
+    {
+      "party_name": "Basque Nationalist Party",
+      "wikidata_id": "Q43093",
+      "ep_ids": [
+        "871",
+        "1482",
+        "2711",
+        "4882",
+        "5426",
+        "6820"
+      ],
+      "ep_matched_label": "PNV",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Canarian Coalition",
+      "wikidata_id": "Q1104327",
+      "ep_ids": [
+        "941"
+      ],
+      "ep_matched_label": "CC",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Citizens",
+      "wikidata_id": "Q1393123",
+      "ep_ids": [
+        "4263",
+        "5401",
+        "6813"
+      ],
+      "ep_matched_label": "CS",
+      "match_method": "manual_resolved"
+    },
+    {
+      "party_name": "Compromís",
+      "wikidata_id": "Q927193",
+      "ep_ids": [
+        "4260",
+        "5400",
+        "7025"
+      ],
+      "ep_matched_label": "COMPROMIS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Euskal Herria Bildu",
+      "wikidata_id": "Q1029761",
+      "ep_ids": [
+        "4259",
+        "5399",
+        "6812"
+      ],
+      "ep_matched_label": "EH BILDU",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Galician Nationalist Bloc",
+      "wikidata_id": "Q885433",
+      "ep_ids": [
+        "944",
+        "3742",
+        "5046",
+        "5488",
+        "6844"
+      ],
+      "ep_matched_label": "BNG",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Navarre Suma",
+      "wikidata_id": "Q62060692",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Navarrese People's Union",
+      "wikidata_id": "Q1432791",
+      "ep_ids": [
+        "1560"
+      ],
+      "ep_matched_label": "UPN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "People's Party",
+      "wikidata_id": "Q185088",
+      "ep_ids": [
+        "873",
+        "1481",
+        "2712",
+        "4024",
+        "5211",
+        "6666"
+      ],
+      "ep_matched_label": "PP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Popular Unity Candidacy",
+      "wikidata_id": "Q130761",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Republican Left of Catalonia",
+      "wikidata_id": "Q150068",
+      "ep_ids": [
+        "1059",
+        "3527",
+        "4030",
+        "5217",
+        "6669"
+      ],
+      "ep_matched_label": "ERC",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Spanish Socialist Workers' Party",
+      "wikidata_id": "Q138198",
+      "ep_ids": [
+        "896",
+        "1478",
+        "2714",
+        "4025",
+        "5212",
+        "6667"
+      ],
+      "ep_matched_label": "PSOE",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Sumar",
+      "wikidata_id": "Q112098527",
+      "ep_ids": [
+        "6522",
+        "6949"
+      ],
+      "ep_matched_label": "SMR",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Together for Catalonia",
+      "wikidata_id": "Q43228047",
+      "ep_ids": [
+        "6100"
+      ],
+      "ep_matched_label": "JxCat-Junts",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Unidas Podemos",
+      "wikidata_id": "Q62426028",
+      "ep_ids": [
+        "4255",
+        "5395",
+        "6811"
+      ],
+      "ep_matched_label": "PODEMOS",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Vox",
+      "wikidata_id": "Q15630787",
+      "ep_ids": [
+        "3894",
+        "5577",
+        "6871"
+      ],
+      "ep_matched_label": "VOX",
+      "match_method": "exact_alias"
+    }
+  ]
+}

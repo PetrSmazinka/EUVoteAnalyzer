@@ -1,0 +1,103 @@
+{
+  "country": "Romania",
+  "parties": [
+    {
+      "party_name": "Alliance for the Union of Romanians",
+      "wikidata_id": "Q97193048",
+      "ep_ids": [
+        "6500",
+        "6915"
+      ],
+      "ep_matched_label": "AUR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Democratic Alliance of Hungarians in Romania",
+      "wikidata_id": "Q266582",
+      "ep_ids": [
+        "1928",
+        "2836",
+        "4140",
+        "5325",
+        "6711"
+      ],
+      "ep_matched_label": "UDMR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "National Liberal Party",
+      "wikidata_id": "Q686228",
+      "ep_ids": [
+        "1925",
+        "2833",
+        "4138",
+        "5323",
+        "6709"
+      ],
+      "ep_matched_label": "PNL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "National minorities",
+      "wikidata_id": "Q1904908",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Party of Young People",
+      "wikidata_id": "Q130612277",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "S.O.S. Romania Party",
+      "wikidata_id": "Q113470144",
+      "ep_ids": [
+        "6531",
+        "6645"
+      ],
+      "ep_matched_label": "SOS RO",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Save Romania Union",
+      "wikidata_id": "Q27108508",
+      "ep_ids": [
+        "5580",
+        "6872"
+      ],
+      "ep_matched_label": "USR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Save Romania Union (USR) / Liberty, Unity and Solidarity Party (PLUS) alliance",
+      "wikidata_id": "Q27108508",
+      "ep_ids": [
+        "5071",
+        "5504",
+        "5531",
+        "5580",
+        "6857",
+        "6865",
+        "6872"
+      ],
+      "ep_matched_label": "PLUS+USR+USR-PLUS",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Social Democratic Party",
+      "wikidata_id": "Q752435",
+      "ep_ids": [
+        "1926",
+        "3544",
+        "4135",
+        "5320",
+        "6708"
+      ],
+      "ep_matched_label": "PSD",
+      "match_method": "exact_alias"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "country": "Malta",
+  "parties": [
+    {
+      "party_name": "Malta Labour Party",
+      "wikidata_id": "Q684886",
+      "ep_ids": [
+        "4110",
+        "5295",
+        "6689"
+      ],
+      "ep_matched_label": "PL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Nationalist Party",
+      "wikidata_id": "Q594056",
+      "ep_ids": [
+        "1138",
+        "1343",
+        "2800",
+        "4111",
+        "5296",
+        "6690"
+      ],
+      "ep_matched_label": "PN",
+      "match_method": "exact_alias"
+    }
+  ]
+}

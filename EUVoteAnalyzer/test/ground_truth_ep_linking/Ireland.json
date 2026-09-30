@@ -1,0 +1,119 @@
+{
+  "country": "Ireland",
+  "parties": [
+    {
+      "party_name": "100% Redress",
+      "wikidata_id": "Q124408604",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Aontú",
+      "wikidata_id": "Q61090509",
+      "ep_ids": [
+        "7016"
+      ],
+      "ep_matched_label": "Aontú",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Fianna Fáil",
+      "wikidata_id": "Q216517",
+      "ep_ids": [
+        "832",
+        "1363",
+        "2757",
+        "4073",
+        "5258",
+        "6741"
+      ],
+      "ep_matched_label": "FF",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Fine Gael",
+      "wikidata_id": "Q247135",
+      "ep_ids": [
+        "833",
+        "1362",
+        "2758",
+        "4074",
+        "5259",
+        "6742"
+      ],
+      "ep_matched_label": "FG",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Green Party",
+      "wikidata_id": "Q831015",
+      "ep_ids": [
+        "846",
+        "5260",
+        "6743"
+      ],
+      "ep_matched_label": "GP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Independent Ireland",
+      "wikidata_id": "Q124516371",
+      "ep_ids": [
+        "855",
+        "1360",
+        "3893",
+        "4070",
+        "5255",
+        "6739"
+      ],
+      "ep_matched_label": "Ind.",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Independents 4 Change",
+      "wikidata_id": "Q17100320",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Labour Party",
+      "wikidata_id": "Q503614",
+      "ep_ids": [
+        "666",
+        "1359",
+        "2760",
+        "7022"
+      ],
+      "ep_matched_label": "LABOUR+Lab.",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "Sinn Féin",
+      "wikidata_id": "Q76382",
+      "ep_ids": [
+        "1517",
+        "4071",
+        "5256",
+        "6740"
+      ],
+      "ep_matched_label": "SF",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democrats",
+      "wikidata_id": "Q20682633",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Solidarity–People Before Profit",
+      "wikidata_id": "Q21218940",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

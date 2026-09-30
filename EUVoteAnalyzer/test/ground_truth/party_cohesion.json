@@ -1,0 +1,6 @@
+[
+  {"id": 3, "zkratka": "RE",  "barva": "#FFD700", "ai": 81.25, "sessions": 1},
+  {"id": 1, "zkratka": "EPP", "barva": "#003399", "ai": 43.75, "sessions": 1},
+  {"id": 2, "zkratka": "S&D", "barva": "#FF0000", "ai": 43.75, "sessions": 1},
+  {"id": 4, "zkratka": "GR",  "barva": "#009900", "ai": 25.0,  "sessions": 1}
+]

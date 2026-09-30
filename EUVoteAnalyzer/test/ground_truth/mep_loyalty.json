@@ -1,0 +1,18 @@
+[
+  {"ck_clen":  1, "jmeno": "Alice",  "prijmeni": "Müller",   "obcanstvi": "DEU", "ck_subjekt": 1, "zkratka": "EPP", "barva": "#003399", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  2, "jmeno": "Boris",  "prijmeni": "Müller",   "obcanstvi": "DEU", "ck_subjekt": 3, "zkratka": "RE",  "barva": "#FFD700", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  3, "jmeno": "Clara",  "prijmeni": "Schmidt",  "obcanstvi": "DEU", "ck_subjekt": 2, "zkratka": "S&D", "barva": "#FF0000", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  4, "jmeno": "David",  "prijmeni": "Schmidt",  "obcanstvi": "DEU", "ck_subjekt": 4, "zkratka": "GR",  "barva": "#009900", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  5, "jmeno": "Emma",   "prijmeni": "Dupont",   "obcanstvi": "FRA", "ck_subjekt": 1, "zkratka": "EPP", "barva": "#003399", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  6, "jmeno": "Felix",  "prijmeni": "Dupont",   "obcanstvi": "FRA", "ck_subjekt": 3, "zkratka": "RE",  "barva": "#FFD700", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  7, "jmeno": "Gina",   "prijmeni": "Martin",   "obcanstvi": "FRA", "ck_subjekt": 2, "zkratka": "S&D", "barva": "#FF0000", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  8, "jmeno": "Hugo",   "prijmeni": "Martin",   "obcanstvi": "FRA", "ck_subjekt": 4, "zkratka": "GR",  "barva": "#009900", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen":  9, "jmeno": "Irena",  "prijmeni": "Nowak",    "obcanstvi": "POL", "ck_subjekt": 1, "zkratka": "EPP", "barva": "#003399", "total": 2, "loyal_votes": 1, "loyalty": 0.5},
+  {"ck_clen": 10, "jmeno": "Jan",    "prijmeni": "Nowak",    "obcanstvi": "POL", "ck_subjekt": 3, "zkratka": "RE",  "barva": "#FFD700", "total": 2, "loyal_votes": 1, "loyalty": 0.5},
+  {"ck_clen": 11, "jmeno": "Katja",  "prijmeni": "Kowalski", "obcanstvi": "POL", "ck_subjekt": 2, "zkratka": "S&D", "barva": "#FF0000", "total": 2, "loyal_votes": 1, "loyalty": 0.5},
+  {"ck_clen": 12, "jmeno": "Lukas",  "prijmeni": "Kowalski", "obcanstvi": "POL", "ck_subjekt": 4, "zkratka": "GR",  "barva": "#009900", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen": 13, "jmeno": "Marie",  "prijmeni": "Novak",    "obcanstvi": "CZE", "ck_subjekt": 1, "zkratka": "EPP", "barva": "#003399", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen": 14, "jmeno": "Nikola", "prijmeni": "Novak",    "obcanstvi": "CZE", "ck_subjekt": 3, "zkratka": "RE",  "barva": "#FFD700", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen": 15, "jmeno": "Ondrej", "prijmeni": "Horak",    "obcanstvi": "CZE", "ck_subjekt": 2, "zkratka": "S&D", "barva": "#FF0000", "total": 2, "loyal_votes": 2, "loyalty": 1.0},
+  {"ck_clen": 16, "jmeno": "Petra",  "prijmeni": "Horak",    "obcanstvi": "CZE", "ck_subjekt": 4, "zkratka": "GR",  "barva": "#009900", "total": 2, "loyal_votes": 2, "loyalty": 1.0}
+]

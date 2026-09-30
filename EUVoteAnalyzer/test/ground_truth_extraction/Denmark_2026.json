@@ -1,0 +1,125 @@
+{
+  "country": "Denmark",
+  "election_year": 2026,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Danish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Denmark data stops at 2022). Sourced from Wikipedia infobox, cross-checked against thedanishparliament.dk official results pages.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democrats",
+      "seats": 38,
+      "in_government": true,
+      "wikidata_id": "Q212101",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Green Left",
+      "seats": 20,
+      "in_government": true,
+      "wikidata_id": "Q615603",
+      "abbreviation": "SF"
+    },
+    {
+      "party_name": "Venstre",
+      "seats": 18,
+      "in_government": false,
+      "wikidata_id": "Q217321",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Liberal Alliance",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q478180",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Danish People's Party",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q507170",
+      "abbreviation": "DF"
+    },
+    {
+      "party_name": "Moderate Party",
+      "seats": 14,
+      "in_government": true,
+      "wikidata_id": "Q107110050",
+      "abbreviation": "M"
+    },
+    {
+      "party_name": "Conservative People's Party",
+      "seats": 13,
+      "in_government": false,
+      "wikidata_id": "Q902619",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Red-Green Alliance",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q25785",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Social Liberals",
+      "seats": 10,
+      "in_government": true,
+      "wikidata_id": "Q916161",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Denmark Democrats - Inger Støjberg",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q112677506",
+      "abbreviation": "Denmark Democrats"
+    },
+    {
+      "party_name": "The Alternative",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q18042964",
+      "abbreviation": "Å"
+    },
+    {
+      "party_name": "Citizens' Party",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q131933143",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Javnaðarflokkurin",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q856027",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Sambandsflokkurin",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q932400",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Inuit Ataqatigiit",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q1128374",
+      "abbreviation": "IA"
+    },
+    {
+      "party_name": "Naleraq",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q16856492",
+      "abbreviation": null
+    }
+  ],
+  "note": "Held 24 March 2026, well before this dataset's 2026-09-14 cutoff. Per the Wikipedia infobox, the resulting coalition comprises Social Democrats + Green Left + Moderates + Social Liberals, 'with support from' the Red-Green Alliance and The Alternative (confidence-and-supply, not cabinet membership), so those two are marked in_government=false. No ParlGov cabinet-parties record exists yet to independently confirm this composition (needs_review)."
+}

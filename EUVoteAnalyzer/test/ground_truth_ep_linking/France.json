@@ -1,0 +1,66 @@
+{
+  "country": "France",
+  "parties": [
+    {
+      "party_name": "Ensemble",
+      "wikidata_id": "Q109929254",
+      "ep_ids": [
+        "6441",
+        "6920"
+      ],
+      "ep_matched_label": "LEE",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "NUPES",
+      "wikidata_id": "Q111799189",
+      "ep_ids": [
+        "776"
+      ],
+      "ep_matched_label": "UP",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "National Rally",
+      "wikidata_id": "Q205150",
+      "ep_ids": [
+        "5057",
+        "5494",
+        "6848"
+      ],
+      "ep_matched_label": "RN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "New Popular Front",
+      "wikidata_id": "Q126487286",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "The Republicans",
+      "wikidata_id": "Q20012759",
+      "ep_ids": [
+        "4907",
+        "5441",
+        "6827"
+      ],
+      "ep_matched_label": "Les Républicains",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Union of Democrats and Independents",
+      "wikidata_id": "Q82892",
+      "ep_ids": [
+        "765",
+        "3818",
+        "4276",
+        "5407",
+        "7017"
+      ],
+      "ep_matched_label": "UDI",
+      "match_method": "exact_alias"
+    }
+  ]
+}

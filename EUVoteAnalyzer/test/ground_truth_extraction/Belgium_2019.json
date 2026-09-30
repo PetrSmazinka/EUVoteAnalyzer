@@ -1,0 +1,96 @@
+{
+  "country": "Belgium",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2019_Belgian_federal_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/bel/2019-05-26/, cross-checked against Wikipedia infobox and official Belgian federal election results.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "New Flemish Alliance",
+      "seats": 25,
+      "wikidata_id": "Q28982",
+      "in_government": false,
+      "abbreviation": "N-VA"
+    },
+    {
+      "party_name": "Vlaams Belang",
+      "seats": 18,
+      "wikidata_id": "Q682990",
+      "in_government": false,
+      "abbreviation": "VB"
+    },
+    {
+      "party_name": "Socialist Party",
+      "seats": 20,
+      "wikidata_id": "Q645787",
+      "in_government": true,
+      "abbreviation": "PS"
+    },
+    {
+      "party_name": "Christian Democratic and Flemish",
+      "seats": 12,
+      "wikidata_id": "Q750673",
+      "in_government": true,
+      "abbreviation": "CD&V"
+    },
+    {
+      "party_name": "Workers' Party of Belgium",
+      "seats": 12,
+      "wikidata_id": "Q925616",
+      "in_government": false,
+      "abbreviation": "PTB-PVDA"
+    },
+    {
+      "party_name": "Open VLD",
+      "seats": 12,
+      "wikidata_id": "Q1160192",
+      "in_government": true,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Reformist Movement",
+      "seats": 14,
+      "wikidata_id": "Q533384",
+      "in_government": true,
+      "abbreviation": "MR"
+    },
+    {
+      "party_name": "Vooruit",
+      "seats": 9,
+      "wikidata_id": "Q939354",
+      "in_government": true,
+      "abbreviation": "SP.A"
+    },
+    {
+      "party_name": "Ecolo",
+      "seats": 13,
+      "wikidata_id": "Q655611",
+      "in_government": true,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Groen",
+      "seats": 8,
+      "wikidata_id": "Q513521",
+      "in_government": true,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Humanist Democratic Centre",
+      "seats": 5,
+      "wikidata_id": "Q113903993",
+      "in_government": false,
+      "abbreviation": "CDH"
+    },
+    {
+      "party_name": "DéFI",
+      "seats": 2,
+      "wikidata_id": "Q1470087",
+      "in_government": false,
+      "abbreviation": "FDF"
+    }
+  ]
+}

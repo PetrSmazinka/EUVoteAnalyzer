@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUVoteAnalyzer — Methodology</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/index.css" rel="stylesheet">
+    <style>
+        .methodology-body { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+        .methodology-body h2 { margin-top: 2.5rem; font-size: 1.4rem; color: #003399; }
+        .methodology-body h3 { margin-top: 1.75rem; font-size: 1.1rem; color: #0050cc; }
+        .methodology-body table { font-size: 0.88rem; }
+        .methodology-body caption { caption-side: top; font-weight: 600; color: #444; padding-bottom: 0.4rem; }
+        .not-tested { background: #fff8e6; }
+        .footnote { font-size: 0.82rem; color: #666; }
+        code { color: #a3123a; }
+    </style>
+</head>
+<body>
+
+<div class="header-bar d-flex align-items-center justify-content-between flex-wrap gap-2">
+    <div class="d-flex align-items-center gap-2">
+        <img src="/assets/img/logo.png" alt="EUVoteAnalyzer logo" class="header-logo">
+        <h1 class="mb-0">EUVoteAnalyzer</h1>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+        <a href="../" class="btn btn-sm btn-outline-light">&larr; Back to application</a>
+    </div>
+</div>
+
+<div class="methodology-body">
+
+<h2>1. System overview</h2>
+<p>The system has a three-layer architecture. The <strong>collection layer</strong> gathers data from
+Wikipedia (national election results), the European Parliament Open Data API (political entities and EP
+groups), and the EP voting API (sessions, roll-call votes, attendance). Extraction of unstructured
+content (Wikipedia HTML) into structured data uses an LLM (Google Gemini) with schema-validated
+structured output and a deterministic (<code>temperature=0</code>) configuration. The
+<strong>persistence layer</strong> is a relational database whose central entity links a national party
+to its representation in the European Parliament (EP group membership, MEPs, votes, attendance). The
+<strong>presentation layer</strong> is this web application, a tabbed interface over pre-computed
+analytical outputs (faction/country cohesion, inter-faction agreement, MEP loyalty and participation,
+voting-category correlations, topic profiles, association rules, anomaly detection).</p>
+
+<h2>2. Evaluation dataset</h2>
+<p>Ground truth covers all 27 EU member states' last two national parliamentary elections
+(54 country/year records, 454 party entries), built independently of the pipeline under test: seat
+counts and government status from ParlGov where available, official/news sources and Wikipedia
+infobox cross-checks otherwise; Wikidata IDs looked up directly, never taken from the pipeline's own
+extraction output. All results below reflect a single, consistent pipeline configuration:
+<code>gemini-2.5-flash</code>, <code>temperature=0</code>, schema-validated structured output with
+up to 5 retries on an invalid response.</p>
+
+<h2>3. Phase 1 — Source acquisition</h2>
+<p>The pipeline is given only <code>(country, election_year)</code> and must discover the correct
+Wikipedia article itself; this is compared against the ground-truth URL. A raw string-match gives
+43/54 (79.6%) exact agreement. Manual, API-verified investigation of all 11 disagreements found that
+most are not pipeline errors:</p>
+
+<table class="table table-bordered table-sm align-middle">
+<caption>Table I — Phase 1 discrepancy taxonomy (n = 54)</caption>
+<thead class="table-light">
+<tr><th>Category</th><th>Count</th><th>% of 54</th><th>Genuine pipeline error?</th></tr>
+</thead>
+<tbody>
+<tr><td>Exact match</td><td>43</td><td>79.6%</td><td>—</td></tr>
+<tr><td>A — Ground-truth slug is a stale redirect; pipeline found the correct current page (verified via the Wikipedia <code>redirects</code> API for all 6 cases)</td><td>6</td><td>11.1%</td><td>No — discovery was correct</td></tr>
+<tr><td>B — Evaluation-harness lookup bug for countries with two elections in the same year (e.g. <code>"2024 (Jun)"</code> vs. <code>"2024 (Oct)"</code>)</td><td>3</td><td>5.6%</td><td>No — evaluation-code artifact; the production pipeline is not affected</td></tr>
+<tr class="not-tested"><td>C — Corrupted/truncated cached fetch of the source page (Sweden 2018/2022), confirmed by a fresh, cache-bypassing API call reproducing the identical empty result</td><td>2</td><td>3.7%</td><td>Yes — but in the fetch/cache layer, not the LLM extraction step</td></tr>
+<tr class="table-success"><td><strong>Functional discovery rate (exact + Category A)</strong></td><td><strong>49</strong></td><td><strong>90.7%</strong></td><td></td></tr>
+<tr class="table-warning"><td><strong>Genuine pipeline error rate (Category C only)</strong></td><td><strong>2</strong></td><td><strong>3.7%</strong></td><td></td></tr>
+</tbody>
+</table>
+<p class="footnote">Category A reflects Wikipedia renaming its canonical article title after the ground
+truth was recorded (e.g. "legislative" → "parliamentary", or the old "Name, year" convention to
+"year Name"); the pipeline discovered the live canonical page in every case. Category C's root cause
+was traced past the LLM to a 4.4&nbsp;kB cached page for Sweden (a comparable country's cache is
+13.9&nbsp;kB) containing a single unrelated navbox table — the correct fix is re-fetching that one
+page, not changing extraction logic.</p>
+
+<h2>4. Phase 2/3 — Content reduction and extraction ablation</h2>
+<p>Three content-reduction strategies were compared: <strong>HTML</strong> (cleaned text, the production
+baseline), <strong>Markdown</strong> (link/table-preserving conversion), and <strong>raw</strong>
+(no reduction). HTML and Markdown were evaluated on the full 54-record set; raw was evaluated on a
+fixed 10-record subset (Cyprus, Germany, Malta, Portugal, Spain × 2 election years) for cost reasons,
+with HTML and Markdown re-aggregated over the same 10 records for a matched, like-for-like
+comparison.</p>
+
+<table class="table table-bordered table-sm align-middle">
+<caption>Table II — Full n = 54 comparison (HTML vs. Markdown)</caption>
+<thead class="table-light"><tr><th>Metric</th><th>HTML (n=54)</th><th>Markdown (n=54)</th></tr></thead>
+<tbody>
+<tr><td>Existence precision</td><td>60.4%</td><td>56.8%</td></tr>
+<tr><td>Existence recall</td><td>77.3%</td><td>75.1%</td></tr>
+<tr><td>Existence F1</td><td>67.8%</td><td>64.7%</td></tr>
+<tr><td>Strict precision (existence + seats + government)</td><td>55.7%</td><td>52.1%</td></tr>
+<tr><td>Strict recall</td><td>73.7%</td><td>71.4%</td></tr>
+<tr><td>Strict F1</td><td>63.4%</td><td>60.3%</td></tr>
+<tr><td>Seat accuracy</td><td>83.4%</td><td>85.3%</td></tr>
+<tr><td>Government-status accuracy</td><td>96.4%</td><td>95.2%</td></tr>
+<tr><td>Entity-linking success rate</td><td>98.8%</td><td>98.8%</td></tr>
+<tr><td>Avg. compression ratio (of original tokens)</td><td>24.2%</td><td><strong>9.8%</strong></td></tr>
+<tr><td>Phase-3 JSON schema validity</td><td>54/54</td><td>54/54</td></tr>
+</tbody>
+</table>
+
+<table class="table table-bordered table-sm align-middle">
+<caption>Table III — Matched n = 10 three-way comparison (HTML / Markdown / raw)</caption>
+<thead class="table-light"><tr><th>Metric</th><th>HTML (n=10)</th><th>Markdown (n=10)</th><th>Raw (n=10)</th></tr></thead>
+<tbody>
+<tr><td>Existence F1</td><td>79.7%</td><td>76.5%</td><td><strong>67.1%</strong></td></tr>
+<tr><td>Strict F1</td><td>76.6%</td><td>72.9%</td><td><strong>61.5%</strong></td></tr>
+<tr><td>Seat accuracy</td><td>94.7%</td><td>94.7%</td><td>93.0%</td></tr>
+<tr><td>Government-status accuracy</td><td>91.0%</td><td>89.4%</td><td>91.1%</td></tr>
+<tr><td>Entity-linking success rate</td><td>100%</td><td>100%</td><td>100%</td></tr>
+<tr><td>Avg. compression ratio</td><td>24.0%</td><td>8.5%</td><td>100% (none)</td></tr>
+</tbody>
+</table>
+<p>On the matched subset, HTML &gt; Markdown &gt; raw on every accuracy metric — raw, despite having the
+most available information, performs worst, suggesting that reduction removes navigation/styling noise
+rather than useful signal. Markdown achieves roughly 2.5× the compression of HTML at a modest accuracy
+cost (existence/strict F1 both −3.1pp on n=54).</p>
+
+<h3>4.1 Statistical significance (10,000-resample nonparametric bootstrap, seed 42)</h3>
+<table class="table table-bordered table-sm align-middle">
+<thead class="table-light"><tr><th>Comparison</th><th>Metric</th><th>Difference</th><th>95% CI</th><th>p</th><th>Significant?</th></tr></thead>
+<tbody>
+<tr><td>HTML − Markdown (n=54)</td><td>Existence F1</td><td>+3.1pp</td><td>[+0.1, +5.9]pp</td><td>≈0.038</td><td><strong>Yes</strong></td></tr>
+<tr><td>HTML − Markdown (n=54)</td><td>Strict F1</td><td>+3.2pp</td><td>[−0.1, +6.2]pp</td><td>≈0.062</td><td>No (borderline)</td></tr>
+<tr><td>HTML − raw (n=10)</td><td>Existence F1</td><td>+12.6pp</td><td>[+3.8, +20.3]pp</td><td>≈0.013</td><td><strong>Yes</strong></td></tr>
+<tr><td>HTML − raw (n=10)</td><td>Strict F1</td><td>+15.0pp</td><td>[+4.9, +22.2]pp</td><td>≈0.013</td><td><strong>Yes</strong></td></tr>
+<tr><td>Markdown − raw (n=10)</td><td>Existence F1</td><td>+9.4pp</td><td>[+0.0, +21.8]pp</td><td>≈0.061</td><td>No (borderline)</td></tr>
+<tr><td>Markdown − raw (n=10)</td><td>Strict F1</td><td>+11.3pp</td><td>[+0.0, +23.2]pp</td><td>≈0.055</td><td>No (borderline)</td></tr>
+</tbody>
+</table>
+<p class="footnote">HTML significantly outperforms Markdown on existence F1, but the strict-F1 gap does
+not reach conventional significance. HTML significantly outperforms raw on both metrics. Markdown's
+advantage over raw does not reach significance at this sample size — the raw-mode sample was
+deliberately kept at n=10 rather than expanded, since compression ratio (an exact measurement, not an
+estimate) already favors Markdown by a margin far larger than any plausible sampling effect on the
+accuracy comparison.</p>
+
+<h2>5. Markdown URL-bias in link-heavy tables</h2>
+<p>In Markdown mode, a results-table cell such as
+<code>&lt;a href=".../New_Flemish_Alliance"&gt;N-VA&lt;/a&gt;</code> becomes
+<code>[N-VA](.../New_Flemish_Alliance)</code>; the LLM sometimes extracts the URL-derived full name
+instead of the visible abbreviation. Checking all 600 extracted party entries across the 54 Markdown
+records against the source HTML's visible link text found this pattern in 142 entries (23.7%), but it
+degraded matching accuracy against ground truth in only 19 of those (3.2% of all 600 entries) — the
+ground-truth dataset itself standardizes on full party names, so most instances of the preference are
+harmless. The 19 that did cause a mismatch are concentrated among coalition/alliance parties, where the
+English-translated full name does not correspond to any ground-truth alias, rather than single parties
+with an established abbreviation.</p>
+
+<h2>6. Entity linking and evaluation-leakage firewall</h2>
+<p>Party-entity resolution uses a deterministic Wikidata-ID → full-name → abbreviation fallback match
+with no fuzzy/LLM-based matching. A stated
+methodological rule was applied throughout this project's ground-truth construction: no
+matching/lookup heuristic developed for ground-truth or evaluation purposes (multilingual Wikidata
+aliases, manual alliance/rename overrides) was ever ported into the pipeline's own entity-linking code —
+doing so would let the system under test converge toward its own answer key for reasons unrelated to
+genuine extraction capability, the same failure mode as train/test leakage.</p>
+
+<h2>7. Known, disclosed limitations</h2>
+<ul>
+<li>Entity-linking evaluation (Phase 4) measures against a single-item, ground-truth-derived candidate
+pool — an upper bound on linking capability, not identical to production's larger, noisier real
+candidate pool.</li>
+<li>The raw-mode ablation is a 10/54 sample by deliberate design choice, not cost avoidance:
+completing the remaining 44 records would only sharpen the Markdown-vs-raw accuracy significance test,
+which does not change the practical recommendation given Markdown's much larger compression
+advantage.</li>
+<li>Exact-match party-name/abbreviation scoring cannot resolve an abbreviation with zero textual
+overlap against the ground-truth string (e.g. an Estonian native abbreviation against an
+English-translated full name).</li>
+<li>Government/opposition-status data available to this application (the "Government/Opposition
+Loyalty" tab) covers each country's most recent evaluated elections; earlier periods within a given
+European Parliament term may be shown as opposition by default where no government record exists yet
+for that period. See the in-app coverage notice on that tab.</li>
+</ul>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "country": "Bulgaria",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/October_2024_Bulgarian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov. Sourced from Wikipedia infobox (October 2024 election), cross-checked by summing to the total seat count.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "GERB-SDS",
+      "seats": 66,
+      "wikidata_id": "Q115817806",
+      "in_government": true,
+      "abbreviation": "GERB–SDS"
+    },
+    {
+      "party_name": "PP–DB",
+      "seats": 36,
+      "wikidata_id": "Q116769868",
+      "in_government": false,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Revival",
+      "seats": 33,
+      "wikidata_id": "Q28943121",
+      "in_government": false,
+      "abbreviation": null
+    },
+    {
+      "party_name": "DPS – A New Beginning",
+      "seats": 29,
+      "wikidata_id": "Q130305932",
+      "in_government": false,
+      "abbreviation": "DPS–NN"
+    },
+    {
+      "party_name": "BSP – United Left",
+      "seats": 19,
+      "wikidata_id": "Q971439",
+      "in_government": true,
+      "abbreviation": "BSP–OL"
+    },
+    {
+      "party_name": "Alliance for Rights and Freedoms",
+      "seats": 19,
+      "wikidata_id": "Q130313846",
+      "in_government": false,
+      "abbreviation": "APS"
+    },
+    {
+      "party_name": "There Are Such People",
+      "seats": 17,
+      "wikidata_id": "Q98098908",
+      "in_government": true,
+      "abbreviation": "ITN"
+    },
+    {
+      "party_name": "MECh",
+      "seats": 11,
+      "wikidata_id": "Q126688908",
+      "in_government": false,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Velichie",
+      "seats": 11,
+      "wikidata_id": "Q126478515",
+      "in_government": false,
+      "abbreviation": null
+    }
+  ]
+}

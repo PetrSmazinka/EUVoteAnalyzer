@@ -1,0 +1,81 @@
+{
+  "country": "Luxembourg",
+  "parties": [
+    {
+      "party_name": "Alternative Democratic Reform Party",
+      "wikidata_id": "Q339280",
+      "ep_ids": [
+        "7031"
+      ],
+      "ep_matched_label": "ADR",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Christian Social People's Party",
+      "wikidata_id": "Q1344670",
+      "ep_ids": [
+        "2791",
+        "4100",
+        "5285",
+        "6683"
+      ],
+      "ep_matched_label": "CSV",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Democratic Party",
+      "wikidata_id": "Q1029792",
+      "ep_ids": [
+        "820",
+        "1305",
+        "2789",
+        "4099",
+        "5284",
+        "6682"
+      ],
+      "ep_matched_label": "DP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Luxembourg Socialist Workers' Party",
+      "wikidata_id": "Q1070311",
+      "ep_ids": [
+        "2792",
+        "4098",
+        "5283",
+        "6681"
+      ],
+      "ep_matched_label": "LSAP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Pirate Party Luxembourg",
+      "wikidata_id": "Q3079953",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "The Greens",
+      "wikidata_id": "Q767761",
+      "ep_ids": [
+        "640",
+        "987",
+        "1306",
+        "2790",
+        "4101",
+        "5286",
+        "6684"
+      ],
+      "ep_matched_label": "Déi Gréng+GLEI/GAP",
+      "match_method": "manual_alliance_merge"
+    },
+    {
+      "party_name": "The Left",
+      "wikidata_id": "Q1270494",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

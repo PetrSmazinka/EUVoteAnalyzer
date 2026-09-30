@@ -1,0 +1,118 @@
+{
+  "country": "Netherlands",
+  "election_year": 2025,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2025_Dutch_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Netherlands data stops at 2021). Sourced from Wikipedia infobox, cross-checked by summing to the 150-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Democrats 66",
+      "seats": 26,
+      "in_government": true,
+      "wikidata_id": "Q747910",
+      "abbreviation": "D66"
+    },
+    {
+      "party_name": "Party for Freedom",
+      "seats": 26,
+      "in_government": false,
+      "wikidata_id": "Q332739",
+      "abbreviation": "PVV"
+    },
+    {
+      "party_name": "People's Party for Freedom and Democracy",
+      "seats": 22,
+      "in_government": true,
+      "wikidata_id": "Q239333",
+      "abbreviation": "VVD"
+    },
+    {
+      "party_name": "GroenLinks-PvdA",
+      "seats": 20,
+      "in_government": false,
+      "wikidata_id": "Q110853869",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Christian Democratic Appeal",
+      "seats": 18,
+      "in_government": true,
+      "wikidata_id": "Q273749",
+      "abbreviation": "CDA"
+    },
+    {
+      "party_name": "JA21",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q104244010",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Forum for Democracy",
+      "seats": 7,
+      "in_government": false,
+      "wikidata_id": "Q28163962",
+      "abbreviation": "FvD"
+    },
+    {
+      "party_name": "Farmer–Citizen Movement",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q101083924",
+      "abbreviation": "BBB"
+    },
+    {
+      "party_name": "Denk",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q28147283",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Reformed Political Party",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q60172",
+      "abbreviation": "SGP"
+    },
+    {
+      "party_name": "Party for the Animals",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q663535",
+      "abbreviation": "PvdD"
+    },
+    {
+      "party_name": "Christian Union",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q239539",
+      "abbreviation": "CU"
+    },
+    {
+      "party_name": "Socialist Party",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q849580",
+      "abbreviation": "SP"
+    },
+    {
+      "party_name": "50PLUS",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q59574",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Volt Netherlands",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q105412880",
+      "abbreviation": "Volt"
+    }
+  ],
+  "note": "D66 and PVV tied at 26 seats; D66 became the largest party by raw vote count. Jetten cabinet (D66 + VVD + CDA, a minority government - the Netherlands' first in decades) sworn in 23 Feb 2026 after ~117 days of formation."
+}

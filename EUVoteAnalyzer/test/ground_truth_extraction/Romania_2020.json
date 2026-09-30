@@ -1,0 +1,55 @@
+{
+  "country": "Romania",
+  "election_year": 2020,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2020_Romanian_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/rou/2020-12-06/ and https://parlgov.fly.dev/data/cabinets/rou/2020-12-23/ (Cîțu cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democratic Party",
+      "seats": 110,
+      "in_government": false,
+      "wikidata_id": "Q752435",
+      "abbreviation": "PSD"
+    },
+    {
+      "party_name": "National Liberal Party",
+      "seats": 93,
+      "in_government": true,
+      "wikidata_id": "Q686228",
+      "abbreviation": "PNL"
+    },
+    {
+      "party_name": "Save Romania Union (USR) / Liberty, Unity and Solidarity Party (PLUS) alliance",
+      "seats": 55,
+      "in_government": true,
+      "wikidata_id": "Q27108508",
+      "abbreviation": "USR-PLUS"
+    },
+    {
+      "party_name": "Alliance for the Union of Romanians",
+      "seats": 33,
+      "in_government": false,
+      "wikidata_id": "Q97193048",
+      "abbreviation": "AUR"
+    },
+    {
+      "party_name": "Democratic Alliance of Hungarians in Romania",
+      "seats": 21,
+      "in_government": true,
+      "wikidata_id": "Q266582",
+      "abbreviation": "UDMR"
+    },
+    {
+      "party_name": "National minorities",
+      "seats": 18,
+      "in_government": false,
+      "wikidata_id": "Q1904908",
+      "abbreviation": null
+    }
+  ],
+  "note": "Cîțu government (confirmed via ParlGov cabinet-parties) = PNL + USR-PLUS + UDMR. 'National minorities' is an aggregate of ~18 distinct single-seat ethnic-minority organizations (each electing one reserved-seat representative) rather than one party; wikidata_id (Q1904908) is for the collective 'National Minority parliamentary group' concept, confirmed to exist as its own Wikidata item on a later pass -- in_government=false for this row was not re-verified against that same later pass, worth a spot-check. wikidata_id given for the USR|PLUS row is for USR (Q27108508) - the alliance's larger partner; PLUS itself is Q59820303."
+}

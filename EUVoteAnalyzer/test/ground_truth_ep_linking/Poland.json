@@ -1,0 +1,127 @@
+{
+  "country": "Poland",
+  "parties": [
+    {
+      "party_name": "Civic Coalition",
+      "wikidata_id": "Q1021144",
+      "ep_ids": [
+        "1147",
+        "1418",
+        "2816",
+        "4128",
+        "5313",
+        "6703"
+      ],
+      "ep_matched_label": "PO",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Confederation",
+      "wikidata_id": "Q61568052",
+      "ep_ids": [
+        "4904",
+        "5439"
+      ],
+      "ep_matched_label": "KORWiN",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Democratic Left Alliance",
+      "wikidata_id": "Q953174",
+      "ep_ids": [
+        "1142",
+        "3547",
+        "4237",
+        "5378",
+        "6806"
+      ],
+      "ep_matched_label": "SLD",
+      "match_method": "manual_resolved"
+    },
+    {
+      "party_name": "German Minority Electoral Committee",
+      "wikidata_id": "Q491791",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Kukiz'15",
+      "wikidata_id": "Q20740347",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Law and Justice",
+      "wikidata_id": "Q156874",
+      "ep_ids": [
+        "1151",
+        "1416",
+        "2818",
+        "4126",
+        "5311",
+        "6702"
+      ],
+      "ep_matched_label": "PiS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Left Together",
+      "wikidata_id": "Q21006495",
+      "ep_ids": [
+        "3845"
+      ],
+      "ep_matched_label": "PRJG",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "National Movement",
+      "wikidata_id": "Q16597751",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Polish People's Party",
+      "wikidata_id": "Q218477",
+      "ep_ids": [
+        "1146",
+        "1417",
+        "2817",
+        "4129",
+        "5314",
+        "6704"
+      ],
+      "ep_matched_label": "PSL",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Spring",
+      "wikidata_id": "Q61452057",
+      "ep_ids": [
+        "5521",
+        "6861"
+      ],
+      "ep_matched_label": "Wiosna",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "The Left",
+      "wikidata_id": "Q107418166",
+      "ep_ids": [
+        "6347",
+        "6899"
+      ],
+      "ep_matched_label": "NL",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Third Way",
+      "wikidata_id": "Q118905408",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

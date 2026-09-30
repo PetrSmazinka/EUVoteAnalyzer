@@ -1,0 +1,48 @@
+{
+  "country": "Poland",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Polish_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Poland data stops at 2019). Sourced from Wikipedia infobox, cross-checked by summing to the 460-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Law and Justice",
+      "seats": 194,
+      "in_government": false,
+      "wikidata_id": "Q156874",
+      "abbreviation": "PiS"
+    },
+    {
+      "party_name": "Civic Coalition",
+      "seats": 157,
+      "in_government": true,
+      "wikidata_id": "Q156868",
+      "abbreviation": "KO"
+    },
+    {
+      "party_name": "Third Way",
+      "seats": 65,
+      "in_government": true,
+      "wikidata_id": "Q118905408",
+      "abbreviation": null
+    },
+    {
+      "party_name": "The Left",
+      "seats": 26,
+      "in_government": true,
+      "wikidata_id": "Q107418166",
+      "abbreviation": "Lewica"
+    },
+    {
+      "party_name": "Confederation",
+      "seats": 18,
+      "in_government": false,
+      "wikidata_id": "Q61568052",
+      "abbreviation": null
+    }
+  ],
+  "note": "Third Tusk cabinet (formed Dec 2023) = Civic Coalition + Third Way + The Left. 'Third Way' is an electoral alliance of Poland 2050 (Q100979832) and the Polish People's Party (Q218477); wikidata_id (Q118905408) is for the alliance itself, confirmed to exist as its own Wikidata item on a later pass. 'The Left' 2023 wikidata_id (Q107418166, 'New Left') is the Nowa Lewica party which led the Lewica electoral alliance; the 26 seats reported here are for the alliance as a whole, per the Wikipedia infobox convention, not New Left individually."
+}

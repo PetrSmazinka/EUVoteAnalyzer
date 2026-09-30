@@ -1,0 +1,55 @@
+{
+  "country": "Estonia",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Estonian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/est/2023-03-05/ and https://parlgov.fly.dev/data/cabinets/est/2023-04-17/ (Kallas III cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Estonian Reform Party",
+      "seats": 37,
+      "in_government": true,
+      "wikidata_id": "Q738947",
+      "abbreviation": "Reform"
+    },
+    {
+      "party_name": "Conservative People's Party of Estonia",
+      "seats": 17,
+      "in_government": false,
+      "wikidata_id": "Q794028",
+      "abbreviation": "EKRE"
+    },
+    {
+      "party_name": "Estonian Centre Party",
+      "seats": 16,
+      "in_government": false,
+      "wikidata_id": "Q928652",
+      "abbreviation": "Centre"
+    },
+    {
+      "party_name": "Estonia 200",
+      "seats": 14,
+      "in_government": true,
+      "wikidata_id": "Q56249403",
+      "abbreviation": "E200"
+    },
+    {
+      "party_name": "Social Democratic Party",
+      "seats": 9,
+      "in_government": true,
+      "wikidata_id": "Q913551",
+      "abbreviation": "SDE"
+    },
+    {
+      "party_name": "Pro Patria",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q163347",
+      "abbreviation": "Isamaa"
+    }
+  ],
+  "note": "Government (Kallas III) formed by Reform Party + Estonia 200 + Social Democratic Party, confirmed via ParlGov cabinet-parties data."
+}

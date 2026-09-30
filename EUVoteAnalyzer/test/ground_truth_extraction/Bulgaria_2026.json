@@ -1,0 +1,47 @@
+{
+  "country": "Bulgaria",
+  "election_year": 2026,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov. Sourced from Wikipedia infobox, cross-checked by summing to the total seat count.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "GERB-SDS",
+      "seats": 39,
+      "wikidata_id": "Q115817806",
+      "in_government": false,
+      "abbreviation": "GERB–SDS"
+    },
+    {
+      "party_name": "PP–DB",
+      "seats": 37,
+      "wikidata_id": "Q116769868",
+      "in_government": false,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Revival",
+      "seats": 12,
+      "wikidata_id": "Q28943121",
+      "in_government": false,
+      "abbreviation": null
+    },
+    {
+      "party_name": "DPS – A New Beginning",
+      "seats": 21,
+      "wikidata_id": "Q130305932",
+      "in_government": false,
+      "abbreviation": "DPS–NN"
+    },
+    {
+      "party_name": "Progressive Bulgaria",
+      "seats": 131,
+      "wikidata_id": "Q138546752",
+      "in_government": true,
+      "abbreviation": "PB"
+    }
+  ]
+}

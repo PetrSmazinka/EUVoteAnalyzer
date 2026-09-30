@@ -1,0 +1,69 @@
+{
+  "country": "Austria",
+  "parties": [
+    {
+      "party_name": "Austrian People's Party",
+      "wikidata_id": "Q186867",
+      "ep_ids": [
+        "806",
+        "1315",
+        "2660",
+        "3975",
+        "5162",
+        "6745"
+      ],
+      "ep_matched_label": "ÖVP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Freedom Party of Austria",
+      "wikidata_id": "Q131692",
+      "ep_ids": [
+        "839",
+        "1314",
+        "2654",
+        "3977",
+        "5164",
+        "6747"
+      ],
+      "ep_matched_label": "FPÖ",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "NEOS",
+      "wikidata_id": "Q13564543",
+      "ep_ids": [
+        "3981",
+        "5168",
+        "6749"
+      ],
+      "ep_matched_label": "NEOS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Social Democratic Party of Austria",
+      "wikidata_id": "Q179111",
+      "ep_ids": [
+        "742",
+        "1317",
+        "2659",
+        "3976",
+        "5163",
+        "6746"
+      ],
+      "ep_matched_label": "SPÖ",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "The Greens",
+      "wikidata_id": "Q193178",
+      "ep_ids": [
+        "847",
+        "1318",
+        "2655"
+      ],
+      "ep_matched_label": "GRÜNE",
+      "match_method": "exact_alias"
+    }
+  ]
+}

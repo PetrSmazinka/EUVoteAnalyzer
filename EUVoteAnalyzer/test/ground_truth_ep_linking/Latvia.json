@@ -1,0 +1,112 @@
+{
+  "country": "Latvia",
+  "parties": [
+    {
+      "party_name": "Development/For!",
+      "wikidata_id": "Q57047035",
+      "ep_ids": [
+        "5581",
+        "6791"
+      ],
+      "ep_matched_label": "AP!",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "For Stability!",
+      "wikidata_id": "Q112227296",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Harmony",
+      "wikidata_id": "Q2167704",
+      "ep_ids": [
+        "4104",
+        "5289",
+        "6686"
+      ],
+      "ep_matched_label": "Saskaņa SDP",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Latvia First",
+      "wikidata_id": "Q108096403",
+      "ep_ids": [
+        "6538",
+        "6930"
+      ],
+      "ep_matched_label": "LPV",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "National Alliance",
+      "wikidata_id": "Q1576026",
+      "ep_ids": [
+        "1160",
+        "1348",
+        "2797",
+        "4103",
+        "5288",
+        "6685"
+      ],
+      "ep_matched_label": "TB/LNNK",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "New Conservative Party",
+      "wikidata_id": "Q20575851",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "New Unity",
+      "wikidata_id": "Q98104169",
+      "ep_ids": [
+        "6543",
+        "6649"
+      ],
+      "ep_matched_label": "JV",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "The Progressives",
+      "wikidata_id": "Q28966907",
+      "ep_ids": [
+        "6542",
+        "6933"
+      ],
+      "ep_matched_label": "Progresīvie",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Union of Greens and Farmers",
+      "wikidata_id": "Q167928",
+      "ep_ids": [
+        "1161",
+        "4217",
+        "5358"
+      ],
+      "ep_matched_label": "ZZS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "United List",
+      "wikidata_id": "Q113163582",
+      "ep_ids": [
+        "6552",
+        "6655"
+      ],
+      "ep_matched_label": "AS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Who Owns the State?",
+      "wikidata_id": "Q28023857",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    }
+  ]
+}

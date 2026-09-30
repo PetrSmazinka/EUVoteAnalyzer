@@ -1,0 +1,62 @@
+{
+  "country": "Slovenia",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Slovenian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/svn/2022-04-22/ and https://parlgov.fly.dev/data/cabinets/svn/2022-06-01/ (Golob cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Freedom Movement",
+      "seats": 41,
+      "in_government": true,
+      "wikidata_id": "Q106704283",
+      "abbreviation": "GS"
+    },
+    {
+      "party_name": "Slovenian Democratic Party",
+      "seats": 27,
+      "in_government": false,
+      "wikidata_id": "Q526294",
+      "abbreviation": "SDS"
+    },
+    {
+      "party_name": "New Slovenia",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q1258564",
+      "abbreviation": "NSi"
+    },
+    {
+      "party_name": "Social Democrats",
+      "seats": 7,
+      "in_government": true,
+      "wikidata_id": "Q917211",
+      "abbreviation": "SD"
+    },
+    {
+      "party_name": "The Left",
+      "seats": 5,
+      "in_government": true,
+      "wikidata_id": "Q25553804",
+      "abbreviation": "Levica"
+    },
+    {
+      "party_name": "Italian national community",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": null,
+      "abbreviation": null
+    },
+    {
+      "party_name": "Hungarian national community",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": null,
+      "abbreviation": null
+    }
+  ],
+  "note": "Golob cabinet (confirmed via ParlGov cabinet-parties) = Freedom Movement + Levica + Social Democrats."
+}

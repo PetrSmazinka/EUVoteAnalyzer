@@ -1,0 +1,125 @@
+{
+  "country": "Hungary",
+  "parties": [
+    {
+      "party_name": "Christian Democratic People's Party",
+      "wikidata_id": "Q277879",
+      "ep_ids": [
+        "4873",
+        "5420",
+        "6818"
+      ],
+      "ep_matched_label": "KDNP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Democratic Coalition",
+      "wikidata_id": "Q847504",
+      "ep_ids": [
+        "4164",
+        "5349",
+        "6724"
+      ],
+      "ep_matched_label": "DK",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Dialogue for Hungary",
+      "wikidata_id": "Q15177537",
+      "ep_ids": [
+        "4165"
+      ],
+      "ep_matched_label": "Együtt-PM",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Fidesz",
+      "wikidata_id": "Q387006",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "ambiguous",
+      "ambiguous_candidates": [
+        "FIDESZ-MPSZ",
+        "Fidesz-KDNP"
+      ]
+    },
+    {
+      "party_name": "Fidesz–KDNP",
+      "wikidata_id": "Q50583624",
+      "ep_ids": [
+        "2753",
+        "4068",
+        "5253",
+        "6737"
+      ],
+      "ep_matched_label": "Fidesz-KDNP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Hungarian Socialist Party",
+      "wikidata_id": "Q753223",
+      "ep_ids": [
+        "1149",
+        "1340",
+        "2755",
+        "4066",
+        "5252",
+        "6736"
+      ],
+      "ep_matched_label": "MSZP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Jobbik",
+      "wikidata_id": "Q633442",
+      "ep_ids": [
+        "2938",
+        "4069",
+        "5254",
+        "6738"
+      ],
+      "ep_matched_label": "Jobbik",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Momentum Movement",
+      "wikidata_id": "Q28563736",
+      "ep_ids": [
+        "5527",
+        "6868"
+      ],
+      "ep_matched_label": "MOM",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Our Homeland Movement",
+      "wikidata_id": "Q55443054",
+      "ep_ids": [
+        "6518",
+        "6854"
+      ],
+      "ep_matched_label": "MHM",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Politics Can Be Different",
+      "wikidata_id": "Q54801",
+      "ep_ids": [
+        "4166",
+        "5351"
+      ],
+      "ep_matched_label": "LMP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Respect and Freedom Party",
+      "wikidata_id": "Q125418097",
+      "ep_ids": [
+        "6506",
+        "6847"
+      ],
+      "ep_matched_label": "TISZA",
+      "match_method": "token_containment"
+    }
+  ]
+}

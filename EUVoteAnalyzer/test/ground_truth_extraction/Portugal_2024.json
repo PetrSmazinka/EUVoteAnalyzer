@@ -1,0 +1,69 @@
+{
+  "country": "Portugal",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2024_Portuguese_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Portugal data stops at Jan 2022). Sourced from Wikipedia infobox, cross-checked by summing to the 230-seat total.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Democratic Alliance",
+      "seats": 80,
+      "in_government": true,
+      "wikidata_id": "Q124334159",
+      "abbreviation": "AD"
+    },
+    {
+      "party_name": "Socialist Party",
+      "seats": 78,
+      "in_government": false,
+      "wikidata_id": "Q847263",
+      "abbreviation": "PS"
+    },
+    {
+      "party_name": "Chega",
+      "seats": 50,
+      "in_government": false,
+      "wikidata_id": "Q63645885",
+      "abbreviation": "CH"
+    },
+    {
+      "party_name": "Liberal Initiative",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q46122950",
+      "abbreviation": "IL"
+    },
+    {
+      "party_name": "Left Bloc",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q884840",
+      "abbreviation": "BE"
+    },
+    {
+      "party_name": "Unitary Democratic Coalition",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q572998",
+      "abbreviation": "CDU"
+    },
+    {
+      "party_name": "LIVRE",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q16947563",
+      "abbreviation": "L"
+    },
+    {
+      "party_name": "People Animals Nature",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q2054840",
+      "abbreviation": "PAN"
+    }
+  ],
+  "note": "Democratic Alliance (AD) is a coalition of PSD + CDS-PP + PPM formed for this election; wikidata_id given (Q124334159) is for the 2024 coalition entity specifically. Montenegro formed an AD-only minority government, ruling out any coalition with Chega."
+}

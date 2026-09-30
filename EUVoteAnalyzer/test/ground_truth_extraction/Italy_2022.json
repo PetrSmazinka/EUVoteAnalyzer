@@ -1,0 +1,83 @@
+{
+  "country": "Italy",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Italian_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/ita/2022-09-25/ and https://parlgov.fly.dev/data/cabinets/ita/2022-10-22/ (Meloni cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Brothers of Italy",
+      "seats": 118,
+      "in_government": true,
+      "wikidata_id": "Q1757843",
+      "abbreviation": "FdI"
+    },
+    {
+      "party_name": "Democratic Party",
+      "seats": 69,
+      "in_government": false,
+      "wikidata_id": "Q47729",
+      "abbreviation": "PD"
+    },
+    {
+      "party_name": "Lega Nord",
+      "seats": 66,
+      "in_government": true,
+      "wikidata_id": "Q47750",
+      "abbreviation": "Lega"
+    },
+    {
+      "party_name": "Five Star Movement",
+      "seats": 52,
+      "in_government": false,
+      "wikidata_id": "Q47817",
+      "abbreviation": "M5S"
+    },
+    {
+      "party_name": "Forza Italia",
+      "seats": 44,
+      "in_government": true,
+      "wikidata_id": "Q14924303",
+      "abbreviation": "FI"
+    },
+    {
+      "party_name": "Italy Alive",
+      "seats": 21,
+      "in_government": false,
+      "wikidata_id": "Q67785862",
+      "abbreviation": "IV"
+    },
+    {
+      "party_name": "Italian Democratic Socialists",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q1549174",
+      "abbreviation": "P|SDI"
+    },
+    {
+      "party_name": "Union of the Centre",
+      "seats": 9,
+      "in_government": false,
+      "wikidata_id": "Q47781",
+      "abbreviation": "UC"
+    },
+    {
+      "party_name": "More Europe",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q47090559",
+      "abbreviation": "+Europa"
+    },
+    {
+      "party_name": "South Tyrolean People's Party",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q606620",
+      "abbreviation": "SVP"
+    }
+  ],
+  "note": "Meloni government (confirmed via ParlGov cabinet-parties) = Fratelli d'Italia + Lega + Forza Italia."
+}

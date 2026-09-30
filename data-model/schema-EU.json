@@ -1,0 +1,1041 @@
+{
+    "title": "Schéma DB EP",
+    "description": "Schéma databáze Evropského parlamentu",
+    "type": "object",
+    "properties": {
+        "byl_pritomen": {
+            "_name": "byl_pritomen",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zasedani": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zasedani",
+                            "property": "id"
+                        }
+                    },
+                    "ck_clen": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "clen",
+                            "property": "id"
+                        }
+                    },
+                    "ck_dochazka": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "dochazka",
+                            "property": "id"
+                        }
+                    }
+                }
+            }
+        },
+        "clen": {
+            "_name": "clen",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ep_id": {
+                        "description": "EP API identifier of the MEP",
+                        "type": "int"
+                    },
+                    "jmeno": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "prijmeni": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "pohlavi": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "datum_narozeni": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    },
+                    "foto": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "obcanstvi": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "alias_jmeno": {
+                        "_name": "alias_jmeno",
+                        "_reference": "ck_clen",
+                        "description": "",
+                        "type": "array",
+                        "items": {
+                            "description": "",
+                            "type": "object",
+                            "properties": {
+                                "jmeno": {
+                                    "description": "",
+                                    "type": "string"
+                                },
+                                "prijmeni": {
+                                    "description": "",
+                                    "type": "string"
+                                },
+                                "datum_od": {
+                                    "description": "",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                                },
+                                "datum_do": {
+                                    "description": "",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                                }
+                            }
+                        }
+                    },
+                    "prislusi_k": {
+                        "_name": "prislusi_k",
+                        "_reference": "ck_clen",
+                        "_indexes": {
+                            "idx_pk_datum_od": ["datum_od"]
+                        },
+                        "description": "",
+                        "type": "array",
+                        "items": {
+                            "description": "",
+                            "type": "object",
+                            "properties": {
+                                "ck_zastupitelstvo": {
+                                    "description": "",
+                                    "type": "int",
+                                    "_references": {
+                                        "entity": "zastupitelstvo",
+                                        "property": "poradi"
+                                    }
+                                },
+                                "ck_subjekt": {
+                                    "description": "",
+                                    "type": "int",
+                                    "_references": {
+                                        "entity": "politicky_subjekt",
+                                        "property": "id"
+                                    }
+                                },
+                                "datum_od": {
+                                    "description": "",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                                },
+                                "datum_do": {
+                                    "description": "",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "dochazka": {
+            "_name": "dochazka",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "text": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "dokument": {
+            "_name": "dokument",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "nazev": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ck_typ": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "typ_dokumentu",
+                            "property": "id"
+                        }
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "popis": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fk_parent": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "dokument",
+                            "property": "id"
+                        }
+                    }
+                }
+            }        
+        },
+        "hlasovaci_moznost": {
+            "_name": "hlasovaci_moznost",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "text": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    },
+                    "text_muz": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    },
+                    "text_zena": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    },
+                    "text_univerzalni": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    }
+                }
+            }
+        },
+        "hlasovani": {
+            "_name": "hlasovani",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "url_protokol": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 150
+                    },
+                    "validni": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "proceduralni": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "finalni": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "procedura_dokument": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "dokument",
+                            "property": "id"
+                        }
+                    },
+                    "vysledek_dokument": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "dokument",
+                            "property": "id"
+                        }
+                    },
+                    "hlasovani_typ": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 3
+                    },
+                    "hlasovani_kategorie": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 4
+                    },
+                    "tajne": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "ck_zasedani": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zasedani",
+                            "property": "id"
+                        }
+                    },
+                    "cislo": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 10
+                    },
+                    "cas": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                    },
+                    "predmet": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 5000
+                    },
+                    "ck_vysledek": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "vysledek_hlasovani",
+                            "property": "id"
+                        }
+                    },
+                    "sum_ano": {
+                        "description": "",
+                        "type": "int"
+                    },
+                    "sum_ne": {
+                        "description": "",
+                        "type": "int"
+                    },
+                    "sum_zdrzel_se": {
+                        "description": "",
+                        "type": "int"
+                    },
+                    "sum_nehlasoval": {
+                        "description": "",
+                        "type": "int"
+                    },
+                    "sum_nepritomnost": {
+                        "description": "",
+                        "type": "int"
+                    },
+                    "sum_omluven": {
+                        "description": "",
+                        "type": "int"
+                    },
+                    "hlasovani_clena": {
+                        "_name": "hlasovani_clena",
+                        "_reference": "ck_hlasovani",
+                        "_indexes": {
+                            "idx_hc_vote_member_moznost": [
+                                "ck_hlasovani",
+                                "ck_clen",
+                                "ck_moznost"
+                            ]
+                        },
+                        "description": "",
+                        "type":"array",
+                        "items": {
+                            "description": "",
+                            "type": "object",
+                            "properties": {
+                                "ck_clen": {
+                                    "description": "",
+                                    "type": "int",
+                                    "_references": {
+                                        "entity": "clen",
+                                        "property": "id"
+                                    }
+                                },
+                                "ck_moznost": {
+                                    "description": "",
+                                    "type": "int",
+                                    "_references": {
+                                        "entity": "hlasovaci_moznost",
+                                        "property": "id"
+                                    }
+                                },
+                                "prezencne": {
+                                    "description": "",
+                                    "type": "boolean"
+                                },
+                                "hlasovani_clena_historie": {
+                                    "_name": "hlasovani_clena_historie",
+                                    "_reference": "ck_hlasovani_clena",
+                                    "description": "",
+                                    "type": "array",
+                                    "items": {
+                                        "description": "",
+                                        "type": "object",
+                                        "properties": {
+                                            "ck_moznost": {
+                                                "description": "",
+                                                "type": "int",
+                                                "_references": {
+                                                    "entity": "hlasovaci_moznost",
+                                                    "property": "id"
+                                                }
+                                            },
+                                            "prezencne": {
+                                                "description": "",
+                                                "type": "boolean"
+                                            },
+                                            "autor_zmeny": {
+                                                "description": "",
+                                                "type": "string",
+                                                "maxLength": 30
+                                            },
+                                            "datum_zmeny": {
+                                                "description": "",
+                                                "type": "string",
+                                                "default": "current_timestamp()",
+                                                "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "hlasovani_historie": {
+                        "_name": "hlasovani_historie",
+                        "_reference": "ck_hlasovani",
+                        "description": "",
+                        "type": "array",
+                        "items": {
+                            "description": "",
+                            "type": "object",
+                            "properties": {
+                                "url_protokol": {
+                                    "description": "",
+                                    "type": "string",
+                                    "maxLength": 150
+                                },
+                                "validni": {
+                                    "description": "",
+                                    "type": "boolean"
+                                },
+                                "proceduralni": {
+                                    "description": "",
+                                    "type": "boolean"
+                                },
+                                "tajne": {
+                                    "description": "",
+                                    "type": "boolean"
+                                },
+                                "cislo": {
+                                    "description": "",
+                                    "type": "string",
+                                    "maxLength": 10
+                                },
+                                "cas": {
+                                    "description": "",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                                },
+                                "predmet": {
+                                    "description": "",
+                                    "type": "string",
+                                    "maxLength": 5000
+                                },
+                                "ck_vysledek": {
+                                    "description": "",
+                                    "type": "int",
+                                    "_references": {
+                                        "entity": "vysledek_hlasovani",
+                                        "property": "id"
+                                    }
+                                },
+                                "autor_zmeny": {
+                                    "description": "",
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "datum_zmeny": {
+                                    "description": "",
+                                    "type": "string",
+                                    "default": "current_timestamp()",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "hlasovani_dokument": {
+            "_name": "hlasovani_dokument",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_hlasovani": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "hlasovani",
+                            "property": "id"
+                        }
+                    },
+                    "ck_dokument": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "dokument",
+                            "property": "id"
+                        }
+                    }
+                }
+            }
+        
+        },
+        "koalice": {
+            "_name": "koalice",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zastupitelstvo": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zastupitelstvo",
+                            "property": "poradi"
+                        }
+                    },
+                    "ck_subjekt": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "politicky_subjekt",
+                            "property": "id"
+                        }
+                    }
+                }
+            }
+        },
+        "oblast": {
+            "_name": "oblast",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "text":{
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    }
+                }
+            }
+        },
+        "politicky_subjekt": {
+            "_name": "politicky_subjekt",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "zkratka": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 70
+                    },
+                    "nazev": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 150
+                    },
+                    "barva": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 10
+                    },
+                    "zeme":{
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 3
+                    },
+                    "wiki_id":{
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 20
+                    },
+                    "ep_id":{
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    },
+                    "typ": {
+                        "description": "NATIONAL_POLITICAL_GROUP or POLITICAL_GROUP",
+                        "type": "string",
+                        "maxLength": 30
+                    }
+                }
+            }
+        },
+        "soudrznost_subjektu_zasedani": {
+            "_name": "soudrznost_subjektu_zasedani",
+            "description": "Precomputed party voting cohesion (Hix index) per session",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zasedani": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zasedani",
+                            "property": "id"
+                        }
+                    },
+                    "ck_subjekt": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "politicky_subjekt",
+                            "property": "id"
+                        }
+                    },
+                    "sum_ano": {
+                        "description": "Yes votes cast by party members in this session",
+                        "type": "int"
+                    },
+                    "sum_ne": {
+                        "description": "No votes cast by party members in this session",
+                        "type": "int"
+                    },
+                    "sum_zdrzel_se": {
+                        "description": "Abstain votes cast by party members in this session",
+                        "type": "int"
+                    },
+                    "soudrznost": {
+                        "description": "Hix party cohesion index (0-100)",
+                        "type": "float"
+                    }
+                }
+            }
+        },
+        "statistika_clen": {
+            "_name": "statistika_clen",
+            "description": "",
+            "_indexes": {
+                "idx_sc_term_moznost": ["ck_zastupitelstvo", "ck_moznost"]
+            },
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zastupitelstvo": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zastupitelstvo",
+                            "property": "poradi"
+                        }
+                    },
+                    "ck_clen": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "clen",
+                            "property": "id"
+                        }
+                    },
+                    "ck_subjekt": {
+                        "description": "Party the member belonged to when casting these votes",
+                        "type": "int",
+                        "_references": {
+                            "entity": "politicky_subjekt",
+                            "property": "id"
+                        }
+                    },
+                    "ck_moznost": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "hlasovaci_moznost",
+                            "property": "id"
+                        }
+                    },
+                    "sum": {
+                        "description": "",
+                        "type": "int"
+                    }
+                }
+            }
+        },
+        "statistika_subjekt": {
+            "_name": "statistika_subjekt",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zastupitelstvo": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zastupitelstvo",
+                            "property": "poradi"
+                        }
+                    },
+                    "ck_subjekt": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "politicky_subjekt",
+                            "property": "id"
+                        }
+                    },
+                    "ck_moznost": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "hlasovaci_moznost",
+                            "property": "id"
+                        }
+                    },
+                    "sum": {
+                        "description": "",
+                        "type": "int"
+                    }
+                }
+            }
+        },
+        "typ_dokumentu": {
+            "_name": "typ_dokumentu",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "nazev": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    }
+                }  
+            }
+        },
+        "vedeni": {
+            "_name": "vedeni",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zastupitelstvo": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zastupitelstvo",
+                            "property": "poradi"
+                        }
+                    },
+                    "ck_clen": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "clen",
+                            "property": "id"
+                        }
+                    },
+                    "funkce": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    },
+                    "lidr": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "datum_od": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    },
+                    "datum_do": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    }
+                }
+            }
+        },
+        "vysledek_hlasovani": {
+            "_name": "vysledek_hlasovani",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "text": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 50
+                    }
+                }
+            }
+        },
+        "zasedani": {
+            "_name": "zasedani",
+            "description": "",
+            "_indexes": {
+                "idx_zasedani_term": ["ck_zastupitelstvo"]
+            },
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zastupitelstvo": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zastupitelstvo",
+                            "property": "poradi"
+                        }
+                    },
+                    "cislo": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 20
+                    },
+                    "datum_od":{
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                    },
+                    "datum_do": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                    },
+                    "autor_zmeny": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 30
+                    },
+                    "datum_zmeny": {
+                        "description":"",
+                        "type": "string",
+                        "pattern":"^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$",
+                        "_default": "current_timestamp()"
+                    },
+                    "dochazka": {
+                        "description": "",
+                        "type": "int"
+                    }
+                }
+            }
+        },
+        "zasedani_historie": {
+            "_name": "zasedani_historie",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zasedani": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zasedani",
+                            "property": "id"
+                        }
+                    },
+                    "cislo": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 20
+                    },
+                    "datum_od":{
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    },
+                    "datum_do": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    },
+                    "autor_zmeny": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 30
+                    },
+                    "datum_zmeny": {
+                        "description":"",
+                        "type": "string",
+                        "_default": "current_timestamp()",   
+                        "pattern":"^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                    }
+                }
+            }
+        },
+        "zasedani_zaznam": {
+            "_name": "zasedani_zaznam",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_zasedani": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "zasedani",
+                            "property": "id"
+                        }
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 500
+                    }
+                }
+            }
+        },
+        "zastupitelstvo": {
+            "_name": "zastupitelstvo",
+            "description": "",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "poradi": {
+                        "description": "",
+                        "type": "int",
+                        "_primary": true,
+                        "_generated": true
+                    },
+                    "funkcni_obdobi_od": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    },
+                    "funkcni_obdobi_do": {
+                        "description": "",
+                        "type": "string",
+                        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                    },
+                    "dataset_uplny": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "posledni_zmena": {
+                        "description": "",
+                        "type": "string",
+                        "pattern":"^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$"
+                    }
+                }
+            }
+        },
+        "ukazatele": {
+            "_name": "ukazatele",
+            "description": "Kontextuální data týkající se celého území",
+            "type": "array",
+            "items": {
+                "description": "Konkrétní socioekonomický ukazatel",
+                "type": "object",
+                "properties": {
+                    "nazev": {
+                        "description": "Název socioekonomického ukazatele",
+                        "maxLength": 50,
+                        "type": "string",
+                        "_primary": true
+                    },
+                    "rok": {
+                        "description": "Rok ke kterému se hodnota vztahuje",
+                        "type": "int",
+                        "_primary": true
+                    },
+                    "zeme": {
+                        "description": "Kód, které se ukazatel týká",
+                        "maxLength": 3,
+                        "type": "string",
+                        "_primary": true
+                    },
+                    "hodnota": {
+                        "description": "Hodnota socioekonomického ukazatele",
+                        "type": "float"
+                    },
+                    "predikce": {
+                        "description": "Hodnota socioekonomického ukazatele je predikcí",
+                        "oneOf": [
+                            {"const": false, "description": "Ne"},
+                            {"const": true, "description": "Ano"}
+                        ]
+
+                    }
+                }
+            }
+        },
+        "ve_vlade": {
+            "_name": "ve_vlade",
+            "description": "Periods when a national political party was part of the governing coalition",
+            "type": "array",
+            "items": {
+                "description": "",
+                "type": "object",
+                "properties": {
+                    "ck_subjekt": {
+                        "description": "",
+                        "type": "int",
+                        "_references": {
+                            "entity": "politicky_subjekt",
+                            "property": "id"
+                        }
+                    },
+                    "datum_od": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 20
+                    },
+                    "datum_do": {
+                        "description": "",
+                        "type": "string",
+                        "maxLength": 20
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "country": "Germany",
+  "election_year": 2025,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2025_German_federal_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Germany data stops at 2021). Sourced from the Federal Returning Officer's official final result (bundeswahlleiterin.de) and Wikipedia infobox.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Christian Democratic Union",
+      "seats": 208,
+      "in_government": true,
+      "wikidata_id": "Q49762",
+      "abbreviation": "CDU/CSU"
+    },
+    {
+      "party_name": "Alternative for Germany",
+      "seats": 152,
+      "in_government": false,
+      "wikidata_id": "Q6721203",
+      "abbreviation": "AfD"
+    },
+    {
+      "party_name": "Social Democratic Party of Germany",
+      "seats": 120,
+      "in_government": true,
+      "wikidata_id": "Q49768",
+      "abbreviation": "SPD"
+    },
+    {
+      "party_name": "Alliance 90/The Greens",
+      "seats": 85,
+      "in_government": false,
+      "wikidata_id": "Q49766",
+      "abbreviation": null
+    },
+    {
+      "party_name": "The Left",
+      "seats": 64,
+      "in_government": false,
+      "wikidata_id": "Q49764",
+      "abbreviation": "Die Linke"
+    },
+    {
+      "party_name": "South Schleswig Voters' Association",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q161545",
+      "abbreviation": "SSW"
+    }
+  ],
+  "note": "Merz cabinet (CDU/CSU + SPD grand coalition) confirmed by Merz's election as Chancellor 6 May 2025. Sahra Wagenknecht Alliance (BSW, 4.97%) and FDP (4.3%) both narrowly missed the 5% threshold and won 0 seats, so are excluded."
+}

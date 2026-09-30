@@ -1,0 +1,62 @@
+{
+  "country": "Latvia",
+  "election_year": 2018,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Latvian_parliamentary_election,_2018",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/lva/2018-10-06/ and https://parlgov.fly.dev/data/cabinets/lva/2019-01-23/ (Kariņš I cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Harmony",
+      "seats": 23,
+      "in_government": false,
+      "wikidata_id": "Q2167704",
+      "abbreviation": "Saskaņa"
+    },
+    {
+      "party_name": "Who Owns the State?",
+      "seats": 16,
+      "in_government": true,
+      "wikidata_id": "Q28023857",
+      "abbreviation": "KPV LV"
+    },
+    {
+      "party_name": "New Conservative Party",
+      "seats": 16,
+      "in_government": true,
+      "wikidata_id": "Q20575851",
+      "abbreviation": "JKP"
+    },
+    {
+      "party_name": "Development/For!",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q57047035",
+      "abbreviation": "AP!"
+    },
+    {
+      "party_name": "National Alliance",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q1576026",
+      "abbreviation": "NA"
+    },
+    {
+      "party_name": "Union of Greens and Farmers",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q167928",
+      "abbreviation": "ZZS"
+    },
+    {
+      "party_name": "New Unity",
+      "seats": 8,
+      "in_government": true,
+      "wikidata_id": "Q98104169",
+      "abbreviation": "JV"
+    }
+  ],
+  "note": "The outgoing PM Kariņš (New Unity) formed government over four months after the election; the Kariņš I cabinet (confirmed via ParlGov cabinet-parties) = New Unity + National Alliance + New Conservative Party + KPV LV + Development/For! (5 parties). Harmony and Union of Greens and Farmers, despite finishing 1st and 6th respectively, were excluded from government."
+}

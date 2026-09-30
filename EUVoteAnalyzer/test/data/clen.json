@@ -1,0 +1,18 @@
+[
+  {"id":  1, "jmeno": "Alice",  "prijmeni": "Müller",   "obcanstvi": "DEU"},
+  {"id":  2, "jmeno": "Boris",  "prijmeni": "Müller",   "obcanstvi": "DEU"},
+  {"id":  3, "jmeno": "Clara",  "prijmeni": "Schmidt",  "obcanstvi": "DEU"},
+  {"id":  4, "jmeno": "David",  "prijmeni": "Schmidt",  "obcanstvi": "DEU"},
+  {"id":  5, "jmeno": "Emma",   "prijmeni": "Dupont",   "obcanstvi": "FRA"},
+  {"id":  6, "jmeno": "Felix",  "prijmeni": "Dupont",   "obcanstvi": "FRA"},
+  {"id":  7, "jmeno": "Gina",   "prijmeni": "Martin",   "obcanstvi": "FRA"},
+  {"id":  8, "jmeno": "Hugo",   "prijmeni": "Martin",   "obcanstvi": "FRA"},
+  {"id":  9, "jmeno": "Irena",  "prijmeni": "Nowak",    "obcanstvi": "POL"},
+  {"id": 10, "jmeno": "Jan",    "prijmeni": "Nowak",    "obcanstvi": "POL"},
+  {"id": 11, "jmeno": "Katja",  "prijmeni": "Kowalski", "obcanstvi": "POL"},
+  {"id": 12, "jmeno": "Lukas",  "prijmeni": "Kowalski", "obcanstvi": "POL"},
+  {"id": 13, "jmeno": "Marie",  "prijmeni": "Novak",    "obcanstvi": "CZE"},
+  {"id": 14, "jmeno": "Nikola", "prijmeni": "Novak",    "obcanstvi": "CZE"},
+  {"id": 15, "jmeno": "Ondrej", "prijmeni": "Horak",    "obcanstvi": "CZE"},
+  {"id": 16, "jmeno": "Petra",  "prijmeni": "Horak",    "obcanstvi": "CZE"}
+]

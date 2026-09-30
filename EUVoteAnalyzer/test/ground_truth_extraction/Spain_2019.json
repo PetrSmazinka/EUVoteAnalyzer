@@ -1,0 +1,111 @@
+{
+  "country": "Spain",
+  "election_year": 2019,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/November_2019_Spanish_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/esp/2019-11-10/ and https://parlgov.fly.dev/data/cabinets/esp/2020-01-07/ (Sánchez III cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Spanish Socialist Workers' Party",
+      "seats": 120,
+      "in_government": true,
+      "wikidata_id": "Q138198",
+      "abbreviation": "PSOE"
+    },
+    {
+      "party_name": "People's Party",
+      "seats": 89,
+      "in_government": false,
+      "wikidata_id": "Q185088",
+      "abbreviation": "PP"
+    },
+    {
+      "party_name": "Vox",
+      "seats": 52,
+      "in_government": false,
+      "wikidata_id": "Q15630787",
+      "abbreviation": "Vox"
+    },
+    {
+      "party_name": "Unidas Podemos",
+      "seats": 35,
+      "in_government": true,
+      "wikidata_id": "Q62426028",
+      "abbreviation": "UP"
+    },
+    {
+      "party_name": "Republican Left of Catalonia",
+      "seats": 13,
+      "in_government": false,
+      "wikidata_id": "Q150068",
+      "abbreviation": "ERC"
+    },
+    {
+      "party_name": "Citizens",
+      "seats": 10,
+      "in_government": false,
+      "wikidata_id": "Q1393123",
+      "abbreviation": "Ciudadanos"
+    },
+    {
+      "party_name": "Together for Catalonia",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q43228047",
+      "abbreviation": "JxCat"
+    },
+    {
+      "party_name": "Basque Nationalist Party",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q43093",
+      "abbreviation": "EAJ/PNV"
+    },
+    {
+      "party_name": "Euskal Herria Bildu",
+      "seats": 5,
+      "in_government": false,
+      "wikidata_id": "Q1029761",
+      "abbreviation": "EH Bildu"
+    },
+    {
+      "party_name": "Compromís",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q927193",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Popular Unity Candidacy",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q130761",
+      "abbreviation": "CUP"
+    },
+    {
+      "party_name": "Canarian Coalition",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q1104327",
+      "abbreviation": "CC"
+    },
+    {
+      "party_name": "Navarre Suma",
+      "seats": 2,
+      "in_government": false,
+      "wikidata_id": "Q62060692",
+      "abbreviation": "NA+"
+    },
+    {
+      "party_name": "Galician Nationalist Bloc",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q885433",
+      "abbreviation": "BNG"
+    }
+  ],
+  "note": "PSOE governed in coalition with Unidas Podemos (confirmed via ParlGov cabinet-parties: PSOE + UP + its ECP/EM|GCE/PCE|IU sub-components); PNV supported Sánchez's investiture vote but was NOT a cabinet member, so in_government=false. Two additional 1-seat 'others' entries reported by ParlGov (totaling 2 of the 350 seats) are not individually identified and are omitted here."
+}

@@ -1,0 +1,117 @@
+{
+  "country": "Slovenia",
+  "parties": [
+    {
+      "party_name": "Alliance of Alenka Bratušek",
+      "wikidata_id": "Q17061458",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Democratic Party of Pensioners of Slovenia",
+      "wikidata_id": "Q1113577",
+      "ep_ids": [
+        "4156",
+        "5341"
+      ],
+      "ep_matched_label": "DeSus",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Freedom Movement",
+      "wikidata_id": "Q106704283",
+      "ep_ids": [
+        "6447",
+        "6909"
+      ],
+      "ep_matched_label": "GS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Hungarian national community",
+      "wikidata_id": null,
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Italian national community",
+      "wikidata_id": null,
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "List of Marjan Šarec",
+      "wikidata_id": "Q53678274",
+      "ep_ids": [
+        "5517",
+        "6867"
+      ],
+      "ep_matched_label": " LMŠ",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Modern Centre Party",
+      "wikidata_id": "Q17118212",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "New Slovenia",
+      "wikidata_id": "Q1258564",
+      "ep_ids": [
+        "1197",
+        "1399"
+      ],
+      "ep_matched_label": "NSi",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Slovenian Democratic Party",
+      "wikidata_id": "Q526294",
+      "ep_ids": [
+        "1198",
+        "1398",
+        "2849",
+        "4152",
+        "5337",
+        "6719"
+      ],
+      "ep_matched_label": "SDS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Slovenian National Party",
+      "wikidata_id": "Q1049922",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Social Democrats",
+      "wikidata_id": "Q917211",
+      "ep_ids": [
+        "1920",
+        "2848",
+        "4154",
+        "5339",
+        "6721"
+      ],
+      "ep_matched_label": "SD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "The Left",
+      "wikidata_id": "Q25553804",
+      "ep_ids": [
+        "6556",
+        "6955"
+      ],
+      "ep_matched_label": "Levica",
+      "match_method": "exact_alias"
+    }
+  ]
+}

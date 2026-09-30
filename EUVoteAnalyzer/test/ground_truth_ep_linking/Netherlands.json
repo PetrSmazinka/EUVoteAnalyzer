@@ -1,0 +1,181 @@
+{
+  "country": "Netherlands",
+  "parties": [
+    {
+      "party_name": "50PLUS",
+      "wikidata_id": "Q59574",
+      "ep_ids": [
+        "5716",
+        "6787"
+      ],
+      "ep_matched_label": "50 PLUS",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Christian Democratic Appeal",
+      "wikidata_id": "Q273749",
+      "ep_ids": [
+        "599",
+        "1391",
+        "2801",
+        "4118",
+        "5303",
+        "6697"
+      ],
+      "ep_matched_label": "CDA",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Christian Union",
+      "wikidata_id": "Q239539",
+      "ep_ids": [
+        "3540",
+        "4120",
+        "5305",
+        "6698"
+      ],
+      "ep_matched_label": "ChristenUnie",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Democrats 66",
+      "wikidata_id": "Q747910",
+      "ep_ids": [
+        "4114",
+        "5299",
+        "6693"
+      ],
+      "ep_matched_label": "D66",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Denk",
+      "wikidata_id": "Q28147283",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Farmer–Citizen Movement",
+      "wikidata_id": "Q101083924",
+      "ep_ids": [
+        "6515",
+        "6851"
+      ],
+      "ep_matched_label": "BBB",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Forum for Democracy",
+      "wikidata_id": "Q28163962",
+      "ep_ids": [
+        "5533",
+        "6780"
+      ],
+      "ep_matched_label": "FVD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "GroenLinks-PvdA",
+      "wikidata_id": "Q110853869",
+      "ep_ids": [
+        "7952"
+      ],
+      "ep_matched_label": "GL-PvdA",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "JA21",
+      "wikidata_id": "Q104244010",
+      "ep_ids": [
+        "6260",
+        "6897"
+      ],
+      "ep_matched_label": "JA21",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "New Social Contract",
+      "wikidata_id": "Q121705847",
+      "ep_ids": [
+        "6514",
+        "6639"
+      ],
+      "ep_matched_label": "NSC",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Party for Freedom",
+      "wikidata_id": "Q332739",
+      "ep_ids": [
+        "2941",
+        "4117",
+        "5302",
+        "6696"
+      ],
+      "ep_matched_label": "PVV",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Party for the Animals",
+      "wikidata_id": "Q663535",
+      "ep_ids": [
+        "4116",
+        "5301",
+        "6695"
+      ],
+      "ep_matched_label": "PvdD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "People's Party for Freedom and Democracy",
+      "wikidata_id": "Q239333",
+      "ep_ids": [
+        "793",
+        "1385",
+        "2809",
+        "4112",
+        "5297",
+        "6691"
+      ],
+      "ep_matched_label": "VVD",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Reformed Political Party",
+      "wikidata_id": "Q60172",
+      "ep_ids": [
+        "1053",
+        "3537",
+        "4121",
+        "5306",
+        "6699"
+      ],
+      "ep_matched_label": "SGP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Socialist Party",
+      "wikidata_id": "Q849580",
+      "ep_ids": [
+        "958",
+        "1386",
+        "2808",
+        "4123",
+        "5308"
+      ],
+      "ep_matched_label": "SP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Volt Netherlands",
+      "wikidata_id": "Q105412880",
+      "ep_ids": [
+        "6524",
+        "6638"
+      ],
+      "ep_matched_label": "Volt",
+      "match_method": "exact_alias"
+    }
+  ]
+}

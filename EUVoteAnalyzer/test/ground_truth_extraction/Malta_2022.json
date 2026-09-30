@@ -1,0 +1,27 @@
+{
+  "country": "Malta",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_Maltese_general_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/mlt/2022-03-26/ and https://parlgov.fly.dev/data/cabinets/mlt/2022-03-30/ (Abela II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Malta Labour Party",
+      "seats": 44,
+      "in_government": true,
+      "wikidata_id": "Q684886",
+      "abbreviation": "PL"
+    },
+    {
+      "party_name": "Nationalist Party",
+      "seats": 35,
+      "in_government": false,
+      "wikidata_id": "Q594056",
+      "abbreviation": "PN"
+    }
+  ],
+  "note": "Democratic Alternative (AD) contested but won 0 seats and is excluded per the 'won at least one seat' rule. The 79-seat total (rather than the baseline 65) reflects Malta's constitutional gender-balance correction mechanism applied after this election."
+}

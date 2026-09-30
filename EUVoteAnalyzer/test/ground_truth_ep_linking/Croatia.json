@@ -1,0 +1,161 @@
+{
+  "country": "Croatia",
+  "parties": [
+    {
+      "party_name": "Bošnjaci zajedno!",
+      "wikidata_id": "Q125784006",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Bridge",
+      "wikidata_id": "Q16116415",
+      "ep_ids": [
+        "6551",
+        "6954"
+      ],
+      "ep_matched_label": "Most",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Croatian Democratic Union",
+      "wikidata_id": "Q738439",
+      "ep_ids": [
+        "3786",
+        "4061",
+        "5247",
+        "6734"
+      ],
+      "ep_matched_label": "HDZ",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Croatian People's Party – Liberal Democrats",
+      "wikidata_id": "Q1255803",
+      "ep_ids": [
+        "3785",
+        "4064",
+        "5250"
+      ],
+      "ep_matched_label": "HNS",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Democratic Union of Hungarians and Others in Croatia",
+      "wikidata_id": "Q1251824",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Focus–Republic",
+      "wikidata_id": "Q107121702",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Homeland Movement",
+      "wikidata_id": "Q86756923",
+      "ep_ids": [
+        "6530",
+        "6644"
+      ],
+      "ep_matched_label": "DP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Independent Democratic Serb Party",
+      "wikidata_id": "Q1261401",
+      "ep_ids": [
+        "3787"
+      ],
+      "ep_matched_label": "SDSS",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "Independent Platform of the North",
+      "wikidata_id": "Q125584906",
+      "ep_ids": [
+        "4886",
+        "5429"
+      ],
+      "ep_matched_label": "Independent",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Istrian Democratic Assembly",
+      "wikidata_id": "Q1261390",
+      "ep_ids": [
+        "4220",
+        "5361",
+        "6796"
+      ],
+      "ep_matched_label": "IDS-DDI",
+      "match_method": "exact_alias_via_wikidata_alias"
+    },
+    {
+      "party_name": "Kali Sara",
+      "wikidata_id": "Q96371811",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Pametno–IP–Fokus coalition",
+      "wikidata_id": "Q30324660",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "People's Party – Reformists",
+      "wikidata_id": "Q18166661",
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "Rivers of Justice",
+      "wikidata_id": "Q96785149",
+      "ep_ids": [
+        "3784",
+        "4063",
+        "5249",
+        "6735"
+      ],
+      "ep_matched_label": "SDP",
+      "match_method": "token_containment"
+    },
+    {
+      "party_name": "Social Democratic Party of Croatia",
+      "wikidata_id": "Q830323",
+      "ep_ids": [
+        "3784",
+        "4063",
+        "5249",
+        "6735"
+      ],
+      "ep_matched_label": "SDP",
+      "match_method": "exact_alias"
+    },
+    {
+      "party_name": "UARH",
+      "wikidata_id": null,
+      "ep_ids": [],
+      "ep_matched_label": null,
+      "match_method": "no_match"
+    },
+    {
+      "party_name": "We Can!",
+      "wikidata_id": "Q96099072",
+      "ep_ids": [
+        "6535",
+        "6647"
+      ],
+      "ep_matched_label": "Možemo!",
+      "match_method": "exact_alias"
+    }
+  ]
+}

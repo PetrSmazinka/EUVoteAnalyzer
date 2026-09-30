@@ -1,0 +1,83 @@
+{
+  "country": "Finland",
+  "election_year": 2023,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Finnish_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/fin/2023-04-02/ and https://parlgov.fly.dev/data/cabinets/fin/2023-06-20/ (Orpo cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "National Coalition Party",
+      "seats": 48,
+      "in_government": true,
+      "wikidata_id": "Q304191",
+      "abbreviation": "NCP"
+    },
+    {
+      "party_name": "Finns Party",
+      "seats": 46,
+      "in_government": true,
+      "wikidata_id": "Q634277",
+      "abbreviation": "PS"
+    },
+    {
+      "party_name": "Social Democratic Party of Finland",
+      "seats": 43,
+      "in_government": false,
+      "wikidata_id": "Q499029",
+      "abbreviation": "SDP"
+    },
+    {
+      "party_name": "Centre Party",
+      "seats": 23,
+      "in_government": false,
+      "wikidata_id": "Q506591",
+      "abbreviation": "KESK"
+    },
+    {
+      "party_name": "Green League",
+      "seats": 13,
+      "in_government": false,
+      "wikidata_id": "Q196695",
+      "abbreviation": "Vihr"
+    },
+    {
+      "party_name": "Left Alliance",
+      "seats": 11,
+      "in_government": false,
+      "wikidata_id": "Q385927",
+      "abbreviation": "VAS"
+    },
+    {
+      "party_name": "Swedish People's Party of Finland",
+      "seats": 9,
+      "in_government": true,
+      "wikidata_id": "Q845537",
+      "abbreviation": "SFP"
+    },
+    {
+      "party_name": "Christian Democrats",
+      "seats": 5,
+      "in_government": true,
+      "wikidata_id": "Q1138982",
+      "abbreviation": "KD"
+    },
+    {
+      "party_name": "Movement Now",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q52157683",
+      "abbreviation": "MN"
+    },
+    {
+      "party_name": "Åland Coalition",
+      "seats": 1,
+      "in_government": false,
+      "wikidata_id": "Q11903314",
+      "abbreviation": "Å"
+    }
+  ],
+  "note": "Orpo government = National Coalition Party + Finns Party + Swedish People's Party + Christian Democrats, confirmed via ParlGov cabinet-parties data."
+}

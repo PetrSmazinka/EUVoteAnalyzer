@@ -1,0 +1,69 @@
+{
+  "country": "Romania",
+  "election_year": 2024,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2024_Romanian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Romania data stops at 2020). Sourced from Wikipedia infobox (Chamber of Deputies results), cross-checked against Romania Insider news coverage of the December 2024 result and coalition formation.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Social Democratic Party",
+      "seats": 86,
+      "in_government": true,
+      "wikidata_id": "Q752435",
+      "abbreviation": "PSD"
+    },
+    {
+      "party_name": "Alliance for the Union of Romanians",
+      "seats": 63,
+      "in_government": false,
+      "wikidata_id": "Q97193048",
+      "abbreviation": "AUR"
+    },
+    {
+      "party_name": "National Liberal Party",
+      "seats": 49,
+      "in_government": true,
+      "wikidata_id": "Q686228",
+      "abbreviation": "PNL"
+    },
+    {
+      "party_name": "Save Romania Union",
+      "seats": 40,
+      "in_government": false,
+      "wikidata_id": "Q27108508",
+      "abbreviation": "USR"
+    },
+    {
+      "party_name": "S.O.S. Romania Party",
+      "seats": 28,
+      "in_government": false,
+      "wikidata_id": "Q113470144",
+      "abbreviation": "S.O.S. Romania"
+    },
+    {
+      "party_name": "Party of Young People",
+      "seats": 24,
+      "in_government": false,
+      "wikidata_id": "Q130612277",
+      "abbreviation": "POT"
+    },
+    {
+      "party_name": "Democratic Alliance of Hungarians in Romania",
+      "seats": 22,
+      "in_government": true,
+      "wikidata_id": "Q266582",
+      "abbreviation": "UDMR"
+    },
+    {
+      "party_name": "National minorities",
+      "seats": 19,
+      "in_government": true,
+      "wikidata_id": "Q1904908",
+      "abbreviation": null
+    }
+  ],
+  "note": "Pro-European grand coalition (PSD + PNL + UDMR, 'with the support of the national minorities') inaugurated 23 December 2024 with 240/465 votes. 'National minorities' is an aggregate of 19 distinct single-seat ethnic-minority organizations rather than one party; wikidata_id (Q1904908) is for the collective 'National Minority parliamentary group' concept, confirmed to exist as its own Wikidata item on a later pass."
+}

@@ -1,0 +1,55 @@
+{
+  "country": "Slovakia",
+  "election_year": 2020,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2020_Slovak_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/svk/2020-02-29/ and https://parlgov.fly.dev/data/cabinets/svk/2020-03-21/ (Matovič cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Ordinary People and Independent Personalities",
+      "seats": 53,
+      "in_government": true,
+      "wikidata_id": "Q372043",
+      "abbreviation": "OĽaNO"
+    },
+    {
+      "party_name": "Direction – Social Democracy",
+      "seats": 38,
+      "in_government": false,
+      "wikidata_id": "Q821929",
+      "abbreviation": "Smer-SD"
+    },
+    {
+      "party_name": "We Are Family",
+      "seats": 17,
+      "in_government": true,
+      "wikidata_id": "Q23025082",
+      "abbreviation": "Sme Rodina"
+    },
+    {
+      "party_name": "People's Party Our Slovakia",
+      "seats": 17,
+      "in_government": false,
+      "wikidata_id": "Q2532168",
+      "abbreviation": "ĽSNS"
+    },
+    {
+      "party_name": "Freedom and Solidarity",
+      "seats": 13,
+      "in_government": true,
+      "wikidata_id": "Q220847",
+      "abbreviation": "SaS"
+    },
+    {
+      "party_name": "For the People",
+      "seats": 12,
+      "in_government": true,
+      "wikidata_id": "Q64729826",
+      "abbreviation": "Za Ľudí"
+    }
+  ],
+  "note": "Matovič cabinet (confirmed via ParlGov cabinet-parties) = OĽaNO + SaS + Sme Rodina + Za Ľudí."
+}

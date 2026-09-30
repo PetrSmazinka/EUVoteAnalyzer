@@ -1,0 +1,56 @@
+{
+  "country": "Cyprus",
+  "election_year": 2026,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Cypriot_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror's Cyprus data stops at 2021). Seats: Wikipedia infobox, cross-checked against Politpro.eu, IPU Parline and Parikiaki news coverage of the 24 May 2026 result. Government support status: https://en.wikipedia.org/wiki/Christodoulides_government and https://whogoverns.eu/cyprus-2026-stability-at-the-top-revolt-at-the-bottom/ (both confirm DIKO as sole remaining formal coalition/support partner after EDEK and DIPA lost their seats).",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Democratic Rally",
+      "seats": 17,
+      "in_government": false,
+      "wikidata_id": "Q644973",
+      "abbreviation": "DISY"
+    },
+    {
+      "party_name": "Progressive Party of Working People",
+      "seats": 15,
+      "in_government": false,
+      "wikidata_id": "Q212158",
+      "abbreviation": "AKEL"
+    },
+    {
+      "party_name": "National People's Front",
+      "seats": 8,
+      "in_government": false,
+      "wikidata_id": "Q2748384",
+      "abbreviation": "ELAM"
+    },
+    {
+      "party_name": "Democratic Party",
+      "seats": 8,
+      "in_government": true,
+      "wikidata_id": "Q816863",
+      "abbreviation": "DIKO"
+    },
+    {
+      "party_name": "ALMA – Citizens for Cyprus",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q139552238",
+      "abbreviation": "ALMA"
+    },
+    {
+      "party_name": "Direct Democracy Cyprus",
+      "seats": 4,
+      "in_government": false,
+      "wikidata_id": "Q138026801",
+      "abbreviation": "ADK"
+    }
+  ],
+  "note": "Held 24 May 2026, well before this dataset's 2026-09-14 cutoff; results certified (66.91% turnout, DISY retained its lead). Cyprus has a presidential system: the President (Christodoulides, elected 2023, term to 2028) appoints the Council of Ministers independently of the legislature's party composition. Corrected vs. prior version: the Wikipedia article 'Christodoulides government' (en.wikipedia.org/wiki/Christodoulides_government), corroborated by Who Governs Europe's post-election analysis (whogoverns.eu, 'Cyprus 2026: stability at the top, revolt at the bottom'), states Christodoulides entered office in 2023 backed by DIKO, EDEK and DIPA; after the May 2026 election EDEK and DIPA both lost all their seats (fell below the ~3.6% effective threshold), leaving DIKO (8 seats) as the sole party formally still supporting/in the coalition - explicitly described as 'a minority government supported solely by DIKO'. DIKO is therefore marked in_government=true, mirroring the same logic used in Cyprus_2021.json (where ParlGov's post-election cabinet record determined which party, if any, held formal government-support status). No other party (including DISY, whose leader is not part of the formal coalition despite some DISY-affiliated figures receiving ministerial posts in an Aug 2026 reshuffle per Cyprus Mail, 2026-08-04, 'President announces partial cabinet reshuffle') is confirmed as formally 'in government'.",
+  "needs_review": false
+}

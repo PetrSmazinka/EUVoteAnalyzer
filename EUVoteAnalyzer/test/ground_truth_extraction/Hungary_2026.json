@@ -1,0 +1,34 @@
+{
+  "country": "Hungary",
+  "election_year": 2026,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "Not yet indexed in ParlGov (fly.dev mirror data currently stops around 2021-2023 for most countries). Sourced from Wikipedia infobox (https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election), cross-checked against news coverage (LSE EUROPP blog, Erste Group research note) of the April 2026 result and May 2026 government formation.",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities API)"
+  },
+  "parties": [
+    {
+      "party_name": "Respect and Freedom Party",
+      "seats": 141,
+      "in_government": true,
+      "wikidata_id": "Q125418097",
+      "abbreviation": "Tisza Party"
+    },
+    {
+      "party_name": "Fidesz–KDNP",
+      "seats": 52,
+      "in_government": false,
+      "wikidata_id": "Q50583624",
+      "abbreviation": null
+    },
+    {
+      "party_name": "Our Homeland Movement",
+      "seats": 6,
+      "in_government": false,
+      "wikidata_id": "Q55443054",
+      "abbreviation": "Mi Hazánk"
+    }
+  ],
+  "note": "Held 12 April 2026, results certified well before this dataset's 2026-09-14 cutoff. Tisza Party (formally registered as 'Tisztelet és Szabadság Párt' / Respect and Freedom Party, wikidata Q125418097) won a two-thirds supermajority and governs alone under PM Péter Magyar (elected by the National Assembly 9 May 2026); no coalition partners. Fidesz and KDNP contested as a joint alliance (wikidata Q50583624) and ParlGov-style individual seat breakdown between the two was not available from the sources checked, so they are reported as one bloc here — needs_review for that combined figure specifically."
+}

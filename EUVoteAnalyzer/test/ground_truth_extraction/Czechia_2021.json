@@ -1,0 +1,62 @@
+{
+  "country": "Czechia",
+  "election_year": 2021,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2021_Czech_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/cze/2021-10-09/ and https://parlgov.fly.dev/data/cabinets/cze/2021-12-17/ (Fiala cabinet); individual seat breakdown within the SPOLU and PirStan joint lists (which ParlGov reports only as combined totals) cross-checked via web search (Statista, Who Governs Europe)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "ANO 2011",
+      "seats": 72,
+      "in_government": false,
+      "wikidata_id": "Q10728124",
+      "abbreviation": "ANO"
+    },
+    {
+      "party_name": "Civic Democratic Party",
+      "seats": 34,
+      "in_government": true,
+      "wikidata_id": "Q828099",
+      "abbreviation": "ODS"
+    },
+    {
+      "party_name": "Mayors and Independents",
+      "seats": 33,
+      "in_government": true,
+      "wikidata_id": "Q1586610",
+      "abbreviation": "STAN"
+    },
+    {
+      "party_name": "Christian and Democratic Union – Czechoslovak People's Party",
+      "seats": 23,
+      "in_government": true,
+      "wikidata_id": "Q1142687",
+      "abbreviation": "KDU-ČSL"
+    },
+    {
+      "party_name": "Freedom and Direct Democracy",
+      "seats": 20,
+      "in_government": false,
+      "wikidata_id": "Q20058756",
+      "abbreviation": "SPD"
+    },
+    {
+      "party_name": "TOP 09",
+      "seats": 14,
+      "in_government": true,
+      "wikidata_id": "Q651129",
+      "abbreviation": "TOP 09"
+    },
+    {
+      "party_name": "Czech Pirate Party",
+      "seats": 4,
+      "in_government": true,
+      "wikidata_id": "Q341085",
+      "abbreviation": "Piráti"
+    }
+  ],
+  "note": "ODS, KDU-ČSL and TOP 09 contested as the joint 'SPOLU' list (71 seats combined, per ParlGov); STAN and the Pirates contested as the joint 'PirStan' list (37 seats combined, per ParlGov). Individual per-party seat counts within each joint list (used here) were not broken out by ParlGov itself and were cross-checked via web search. Fiala government (confirmed via ParlGov cabinet-parties) = all five of these parties (ODS+KDU-ČSL+TOP09+STAN+Piráti); ANO and SPD in opposition."
+}

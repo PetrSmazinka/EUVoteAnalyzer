@@ -1,0 +1,48 @@
+{
+  "country": "France",
+  "election_year": 2022,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/2022_French_legislative_election",
+  "source_verified_at": "2026-09-14",
+  "sources": {
+    "seats_and_government": "https://parlgov.fly.dev/data/elections/fra/2022-06-19/ and https://parlgov.fly.dev/data/cabinets/fra/2022-06-19/ (Borne II cabinet)",
+    "wikidata_ids": "https://www.wikidata.org (searched individually per party via wbsearchentities/full-text search API)"
+  },
+  "parties": [
+    {
+      "party_name": "Ensemble",
+      "seats": 245,
+      "in_government": true,
+      "wikidata_id": "Q109929254",
+      "abbreviation": "Ensemble"
+    },
+    {
+      "party_name": "NUPES",
+      "seats": 131,
+      "in_government": false,
+      "wikidata_id": "Q111799189",
+      "abbreviation": "NUPES"
+    },
+    {
+      "party_name": "National Rally",
+      "seats": 89,
+      "in_government": false,
+      "wikidata_id": "Q205150",
+      "abbreviation": "RN"
+    },
+    {
+      "party_name": "The Republicans",
+      "seats": 61,
+      "in_government": false,
+      "wikidata_id": "Q20012759",
+      "abbreviation": "LR"
+    },
+    {
+      "party_name": "Union of Democrats and Independents",
+      "seats": 3,
+      "in_government": false,
+      "wikidata_id": "Q82892",
+      "abbreviation": "UDI"
+    }
+  ],
+  "note": "ParlGov attributes Ensemble's 245 seats to its lead formation (Renaissance/LREM) without breaking out its allied micro-parties (MoDem, Horizons, Agir individually); similarly NUPES's 131 seats are not broken down into La France Insoumise/PS/EELV/PCF. Borne II government (confirmed via ParlGov cabinet-parties) = Ensemble's constituent parties (Renaissance + MoDem + Agir + Horizons); it never won an absolute majority and governed via repeated use of Article 49.3. 'Other left'(22)/'other right'(10)/'no party affiliation'(10)/'other centre'(4)/misc one-seat categories (2, totaling ~48 further seats) are not individually identifiable parties and are omitted here rather than guessed."
+}
